@@ -123,8 +123,18 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
                 _ModeTile(
                   emoji: '✅',
                   title: 'Tarefa do dia',
-                  subtitle: 'Fatia diária de I9\$',
-                  onTap: () => _openMode(SessionMode.daily, 'Tarefa do Dia'),
+                  subtitle: context.watch<AppState>().dailyDoneToday
+                      ? 'Já feita hoje'
+                      : 'Fatia diária de I9\$',
+                  onTap: context.watch<AppState>().dailyDoneToday
+                      ? () {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(
+                              content: Text('Tarefa do dia já concluída!'),
+                            ),
+                          );
+                        }
+                      : () => _openMode(SessionMode.daily, 'Tarefa do Dia'),
                 ),
                 _ModeTile(
                   emoji: '🎮',

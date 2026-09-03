@@ -83,12 +83,15 @@ class ResultScreen extends StatelessWidget {
               Text('Conquistas novas',
                   style: GoogleFonts.exo2(fontWeight: FontWeight.w700)),
               const SizedBox(height: 8),
-              ...unlockedKeys.map(
-                (k) => ListTile(
-                  leading: const Text('🏅'),
-                  title: Text(k, style: GoogleFonts.exo2()),
-                ),
-              ),
+              ...unlockedKeys.map((k) {
+                final match = app.achievements.where((a) => a.key == k);
+                final title = match.isEmpty ? k : match.first.title;
+                final icon = match.isEmpty ? '🏅' : match.first.icon;
+                return ListTile(
+                  leading: Text(icon, style: const TextStyle(fontSize: 22)),
+                  title: Text(title, style: GoogleFonts.exo2()),
+                );
+              }),
             ],
             if (reviewLogs.isNotEmpty) ...[
               const SizedBox(height: 16),
