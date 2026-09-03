@@ -1,0 +1,173 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 2,
+  "exercises": [
+    {
+      "id": "ef02ma16_001",
+      "bncc": "EF02MA16",
+      "topic": "comprimento",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantos centímetros tem 1 metro?",
+      "options": [
+        "10",
+        "50",
+        "100",
+        "1000"
+      ],
+      "answer": "100",
+      "explain_boy": "1 m = 100 cm. Conversão básica!",
+      "explain_girl": "1 m = 100 cm. Conversão básica!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma18_001",
+      "bncc": "EF02MA18",
+      "topic": "tempo",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Meia hora tem quantos minutos?",
+      "options": [
+        "15",
+        "30",
+        "45",
+        "60"
+      ],
+      "answer": "30",
+      "explain_boy": "Meia hora = 30 minutos. Relógio!",
+      "explain_girl": "Meia hora = 30 minutos. Relógio!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma20_001",
+      "bncc": "EF02MA20",
+      "topic": "sistema_monetario",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Pagou R$ 10 em algo de R$ 7. Qual o troco?",
+      "options": [
+        "R$ 2",
+        "R$ 3",
+        "R$ 4",
+        "R$ 17"
+      ],
+      "answer": "R$ 3",
+      "explain_boy": "10 − 7 = 3. Troco de R$ 3!",
+      "explain_girl": "10 − 7 = 3. Troco de R$ 3!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma16_tf1",
+      "bncc": "EF02MA16",
+      "topic": "comprimento",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Um metro é maior que um centímetro.",
+      "answer": true,
+      "explain_boy": "Sim! 1 m = 100 cm. Muito maior!",
+      "explain_girl": "Sim! 1 m = 100 cm. Muito maior!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma18_002",
+      "bncc": "EF02MA18",
+      "topic": "tempo",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "São 3:00. Daqui a meia hora será:",
+      "options": [
+        "3:15",
+        "3:30",
+        "4:00",
+        "2:30"
+      ],
+      "answer": "3:30",
+      "explain_boy": "3:00 + 30 min = 3:30. Fechou!",
+      "explain_girl": "3:00 + 30 min = 3:30. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma20_002",
+      "bncc": "EF02MA20",
+      "topic": "sistema_monetario",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Duas notas de R$ 5 valem:",
+      "options": [
+        "R$ 5",
+        "R$ 10",
+        "R$ 15",
+        "R$ 25"
+      ],
+      "answer": "R$ 10",
+      "explain_boy": "5 + 5 = 10. Duas notas = R$ 10!",
+      "explain_girl": "5 + 5 = 10. Duas notas = R$ 10!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma20_003",
+      "bncc": "EF02MA20",
+      "topic": "sistema_monetario",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Você tem {a} reais e gasta {b}. Quanto sobra?",
+      "a_min": 10,
+      "a_max": 30,
+      "b_min": 1,
+      "b_max": 9,
+      "op": "sub",
+      "explain_template_boy": "Fechou: {a} − {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} − {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef02ma18_tf1",
+      "bncc": "EF02MA18",
+      "topic": "tempo",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "1 hora tem 60 minutos.",
+      "answer": true,
+      "explain_boy": "Sim! 60 minutos = 1 hora.",
+      "explain_girl": "Sim! 60 minutos = 1 hora.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma16_002",
+      "bncc": "EF02MA16",
+      "topic": "comprimento",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Uma fita de 80 cm e outra de 20 cm juntas medem:",
+      "options": [
+        "60 cm",
+        "90 cm",
+        "100 cm",
+        "1 m"
+      ],
+      "answer": "100 cm",
+      "explain_boy": "80 + 20 = 100 cm = 1 m. Mandou!",
+      "explain_girl": "80 + 20 = 100 cm = 1 m. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma20_tf1",
+      "bncc": "EF02MA20",
+      "topic": "sistema_monetario",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "R$ 2 + R$ 2 = R$ 4.",
+      "answer": true,
+      "explain_boy": "Sim! 2 + 2 = 4 reais.",
+      "explain_girl": "Sim! 2 + 2 = 4 reais.",
+      "xp": 10
+    }
+  ]
+}

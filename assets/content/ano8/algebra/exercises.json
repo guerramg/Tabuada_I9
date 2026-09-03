@@ -1,0 +1,144 @@
+{
+  "unit": "algebra",
+  "grade": 8,
+  "exercises": [
+    {
+      "id": "ef08ma08_001",
+      "bncc": "EF08MA08",
+      "topic": "sistemas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Sistema: x+y=5 e x−y=1. x=?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "3",
+      "explain_boy": "Somando: 2x=6 → x=3!",
+      "explain_girl": "Somando: 2x=6 → x=3!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma06_001",
+      "bncc": "EF08MA06",
+      "topic": "polinomios",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "(2x + 3) + (x − 1) = ?",
+      "options": [
+        "3x+2",
+        "x+2",
+        "3x+4",
+        "2x−1"
+      ],
+      "answer": "3x+2",
+      "explain_boy": "2x+x=3x; 3−1=2 → 3x+2!",
+      "explain_girl": "2x+x=3x; 3−1=2 → 3x+2!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma07_001",
+      "bncc": "EF08MA07",
+      "topic": "produtos_notaveis",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "(a+b)² = ?",
+      "options": [
+        "a²+b²",
+        "a²+2ab+b²",
+        "a²−b²",
+        "2a+2b"
+      ],
+      "answer": "a²+2ab+b²",
+      "explain_boy": "Quadrado da soma clássico!",
+      "explain_girl": "Quadrado da soma clássico!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma07_tf1",
+      "bncc": "EF08MA07",
+      "topic": "produtos_notaveis",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "(a−b)² = a²−2ab+b².",
+      "answer": true,
+      "explain_boy": "Quadrado da diferença!",
+      "explain_girl": "Quadrado da diferença!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma08_002",
+      "bncc": "EF08MA08",
+      "topic": "sistemas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se x+y=5 e x=3, então y=?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "8"
+      ],
+      "answer": "2",
+      "explain_boy": "3+y=5 → y=2!",
+      "explain_girl": "3+y=5 → y=2!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma07_002",
+      "bncc": "EF08MA07",
+      "topic": "produtos_notaveis",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "a²−b² = ?",
+      "options": [
+        "(a+b)²",
+        "(a−b)²",
+        "(a+b)(a−b)",
+        "a−b"
+      ],
+      "answer": "(a+b)(a−b)",
+      "explain_boy": "Diferença de quadrados!",
+      "explain_girl": "Diferença de quadrados!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma06_tf1",
+      "bncc": "EF08MA06",
+      "topic": "polinomios",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Polinômios se somam juntando termos semelhantes.",
+      "answer": true,
+      "explain_boy": "Regra básica!",
+      "explain_girl": "Regra básica!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma06_002",
+      "bncc": "EF08MA06",
+      "topic": "polinomios",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2x · 3x = ?",
+      "options": [
+        "5x",
+        "6x",
+        "6x²",
+        "5x²"
+      ],
+      "answer": "6x²",
+      "explain_boy": "2×3=6 e x·x=x² → 6x²!",
+      "explain_girl": "2×3=6 e x·x=x² → 6x²!",
+      "xp": 10
+    }
+  ]
+}

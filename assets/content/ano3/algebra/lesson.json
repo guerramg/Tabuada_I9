@@ -1,0 +1,39 @@
+{
+  "unit": "algebra",
+  "grade": 3,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Propriedades da adição",
+      "title_girl": "Propriedades da adição",
+      "body_boy": "2 + 5 = 5 + 2. Ordem não muda a soma! Isso é a propriedade comutativa. Mandou a real!",
+      "body_girl": "2 + 5 = 5 + 2. Ordem não muda a soma! Isso é a propriedade comutativa. Arrasou!"
+    },
+    {
+      "title_boy": "Relação × e ÷",
+      "title_girl": "Relação × e ÷",
+      "body_boy": "Se 4 × 5 = 20, então 20 ÷ 5 = 4. Multiplicação e divisão são primas!",
+      "body_girl": "Se 4 × 5 = 20, então 20 ÷ 5 = 4. Multiplicação e divisão são primas!"
+    },
+    {
+      "title_boy": "Descobre o valor",
+      "title_girl": "Descobre o valor",
+      "body_boy": "□ × 3 = 15. Qual o valor de □? Pensou 5? Fechou! Álgebra na veia.",
+      "body_girl": "□ × 3 = 15. Qual o valor de □? Pensou 5? Isso! Álgebra na veia."
+    }
+  ],
+  "topics": [
+    {
+      "id": "propriedades",
+      "name": "Propriedades",
+      "bncc": "EF03MA11"
+    },
+    {
+      "id": "relacoes",
+      "name": "Relações × e ÷",
+      "bncc": "EF03MA12"
+    }
+  ]
+}

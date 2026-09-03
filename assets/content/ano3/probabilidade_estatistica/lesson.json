@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 3,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Eventos aleatórios",
+      "title_girl": "Eventos aleatórios",
+      "body_boy": "Cara ou coroa? Não dá pra ter certeza. Eventos aleatórios têm chance, não certeza!",
+      "body_girl": "Cara ou coroa? Não dá pra ter certeza. Eventos aleatórios têm chance, não certeza!"
+    },
+    {
+      "title_boy": "Ler tabelas",
+      "title_girl": "Ler tabelas",
+      "body_boy": "Qual esporte teve mais votos? Olha a tabela e responde. Interpretação de dados manda!",
+      "body_girl": "Qual esporte teve mais votos? Olha a tabela e responde. Interpretação de dados manda!"
+    },
+    {
+      "title_boy": "Pictogramas",
+      "title_girl": "Pictogramas",
+      "body_boy": "Cada desenho vale uma quantidade. 3 estrelinhas = 6 se cada uma vale 2. Pictograma é gráfico com figuras!",
+      "body_girl": "Cada desenho vale uma quantidade. 3 estrelinhas = 6 se cada uma vale 2. Pictograma é gráfico com figuras!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "eventos",
+      "name": "Eventos aleatórios",
+      "bncc": "EF03MA25"
+    },
+    {
+      "id": "tabelas",
+      "name": "Tabelas",
+      "bncc": "EF03MA26"
+    },
+    {
+      "id": "pictogramas",
+      "name": "Pictogramas",
+      "bncc": "EF03MA27"
+    }
+  ]
+}

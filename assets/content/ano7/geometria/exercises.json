@@ -1,0 +1,144 @@
+{
+  "unit": "geometria",
+  "grade": 7,
+  "exercises": [
+    {
+      "id": "ef07ma22_001",
+      "bncc": "EF07MA22",
+      "topic": "angulos_retas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Ângulos correspondentes em paralelas cortadas por transversal são:",
+      "options": [
+        "opostos",
+        "iguais",
+        "complementares só",
+        "sempre 90°"
+      ],
+      "answer": "iguais",
+      "explain_boy": "Correspondentes = medidas iguais!",
+      "explain_girl": "Correspondentes = medidas iguais!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma24_001",
+      "bncc": "EF07MA24",
+      "topic": "triangulos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Triângulo com 3 lados iguais:",
+      "options": [
+        "escaleno",
+        "isósceles",
+        "equilátero",
+        "retângulo"
+      ],
+      "answer": "equilátero",
+      "explain_boy": "Equilátero: 3 lados iguais!",
+      "explain_girl": "Equilátero: 3 lados iguais!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma27_001",
+      "bncc": "EF07MA27",
+      "topic": "circulo",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Comprimento da circunferência C = ?",
+      "options": [
+        "πr²",
+        "2πr",
+        "πd²",
+        "r²"
+      ],
+      "answer": "2πr",
+      "explain_boy": "C = 2πr (ou πd)!",
+      "explain_girl": "C = 2πr (ou πd)!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma24_tf1",
+      "bncc": "EF07MA24",
+      "topic": "triangulos",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "A soma de dois lados deve ser maior que o terceiro.",
+      "answer": true,
+      "explain_boy": "Condição de existência do triângulo!",
+      "explain_girl": "Condição de existência do triângulo!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma27_002",
+      "bncc": "EF07MA27",
+      "topic": "circulo",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área do círculo A = ?",
+      "options": [
+        "2πr",
+        "πr²",
+        "πd",
+        "2r"
+      ],
+      "answer": "πr²",
+      "explain_boy": "A = πr². Clássico!",
+      "explain_girl": "A = πr². Clássico!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma24_002",
+      "bncc": "EF07MA24",
+      "topic": "triangulos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Triângulo com um ângulo de 90°:",
+      "options": [
+        "acutângulo",
+        "obtusângulo",
+        "retângulo",
+        "equilátero"
+      ],
+      "answer": "retângulo",
+      "explain_boy": "Ângulo reto → triângulo retângulo!",
+      "explain_girl": "Ângulo reto → triângulo retângulo!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma27_tf1",
+      "bncc": "EF07MA27",
+      "topic": "circulo",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "π ≈ 3,14.",
+      "answer": true,
+      "explain_boy": "Aproximação clássica de π!",
+      "explain_girl": "Aproximação clássica de π!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma22_002",
+      "bncc": "EF07MA22",
+      "topic": "angulos_retas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Ângulos opostos pelo vértice são:",
+      "options": [
+        "sempre diferentes",
+        "iguais",
+        "sempre 180°",
+        "complementares"
+      ],
+      "answer": "iguais",
+      "explain_boy": "OPV: medidas iguais!",
+      "explain_girl": "OPV: medidas iguais!",
+      "xp": 10
+    }
+  ]
+}

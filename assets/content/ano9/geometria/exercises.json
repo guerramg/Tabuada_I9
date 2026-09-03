@@ -1,0 +1,144 @@
+{
+  "unit": "geometria",
+  "grade": 9,
+  "exercises": [
+    {
+      "id": "ef09ma12_001",
+      "bncc": "EF09MA12",
+      "topic": "semelhanca",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Triângulos semelhantes têm:",
+      "options": [
+        "lados iguais",
+        "ângulos iguais e lados proporcionais",
+        "áreas iguais",
+        "só um lado igual"
+      ],
+      "answer": "ângulos iguais e lados proporcionais",
+      "explain_boy": "Mesma forma, tamanhos proporcionais!",
+      "explain_girl": "Mesma forma, tamanhos proporcionais!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma13_001",
+      "bncc": "EF09MA13",
+      "topic": "relacoes_metricas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "No retângulo, cateto² = hipotenusa ×:",
+      "options": [
+        "outro cateto",
+        "projeção do cateto",
+        "área",
+        "perímetro"
+      ],
+      "answer": "projeção do cateto",
+      "explain_boy": "Relação métrica clássica!",
+      "explain_girl": "Relação métrica clássica!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma14_001",
+      "bncc": "EF09MA14",
+      "topic": "trigonometria",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "sen θ = ?",
+      "options": [
+        "adjacente/hip",
+        "oposto/hip",
+        "oposto/adjacente",
+        "hip/oposto"
+      ],
+      "answer": "oposto/hip",
+      "explain_boy": "Seno = cateto oposto / hipotenusa!",
+      "explain_girl": "Seno = cateto oposto / hipotenusa!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma14_tf1",
+      "bncc": "EF09MA14",
+      "topic": "trigonometria",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "cos θ = adjacente / hipotenusa.",
+      "answer": true,
+      "explain_boy": "Definição de cosseno!",
+      "explain_girl": "Definição de cosseno!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma14_002",
+      "bncc": "EF09MA14",
+      "topic": "trigonometria",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "tg θ = ?",
+      "options": [
+        "oposto/hip",
+        "adjacente/hip",
+        "oposto/adjacente",
+        "hip/adjacente"
+      ],
+      "answer": "oposto/adjacente",
+      "explain_boy": "Tangente = oposto / adjacente!",
+      "explain_girl": "Tangente = oposto / adjacente!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma12_002",
+      "bncc": "EF09MA12",
+      "topic": "semelhanca",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se lados na razão 1:2, áreas na razão:",
+      "options": [
+        "1:2",
+        "1:4",
+        "2:1",
+        "1:8"
+      ],
+      "answer": "1:4",
+      "explain_boy": "Áreas → razão dos lados ao quadrado!",
+      "explain_girl": "Áreas → razão dos lados ao quadrado!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma12_tf1",
+      "bncc": "EF09MA12",
+      "topic": "semelhanca",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Critério AA basta para semelhança de triângulos.",
+      "answer": true,
+      "explain_boy": "Dois ângulos iguais → semelhantes!",
+      "explain_girl": "Dois ângulos iguais → semelhantes!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma14_003",
+      "bncc": "EF09MA14",
+      "topic": "trigonometria",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Em triângulo 30°-60°-90°, sen 30° = ?",
+      "options": [
+        "1",
+        "1/2",
+        "√3/2",
+        "√2/2"
+      ],
+      "answer": "1/2",
+      "explain_boy": "sen 30° = 1/2. Valor notável!",
+      "explain_girl": "sen 30° = 1/2. Valor notável!",
+      "xp": 10
+    }
+  ]
+}

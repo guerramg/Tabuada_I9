@@ -1,0 +1,39 @@
+{
+  "unit": "algebra",
+  "grade": 2,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Padrões mais longos",
+      "title_girl": "Padrões mais longos",
+      "body_boy": "A, B, B, A, B, B… Qual vem depois? Padrões podem ter 2 ou 3 elementos se repetindo!",
+      "body_girl": "A, B, B, A, B, B… Qual vem depois? Padrões podem ter 2 ou 3 elementos se repetindo!"
+    },
+    {
+      "title_boy": "Contar de 2, 5, 10",
+      "title_girl": "Contar de 2, 5, 10",
+      "body_boy": "5, 10, 15, 20… Contar de 5 em 5 é um padrão numérico. Útil pra dinheiro e tabuada depois!",
+      "body_girl": "5, 10, 15, 20… Contar de 5 em 5 é um padrão numérico. Útil pra dinheiro e tabuada depois!"
+    },
+    {
+      "title_boy": "Equilíbrio na balança",
+      "title_girl": "Equilíbrio na balança",
+      "body_boy": "Se de um lado tem 8 e do outro 3 + □, o □ vale 5. Igualdade é equilíbrio!",
+      "body_girl": "Se de um lado tem 8 e do outro 3 + □, o □ vale 5. Igualdade é equilíbrio!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "padroes",
+      "name": "Padrões",
+      "bncc": "EF02MA09"
+    },
+    {
+      "id": "igualdade",
+      "name": "Igualdade",
+      "bncc": "EF02MA10"
+    }
+  ]
+}

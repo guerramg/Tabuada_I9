@@ -1,0 +1,55 @@
+{
+  "unit": "numeros",
+  "grade": 3,
+  "title": "Números",
+  "title_boy": "Missão Números",
+  "title_girl": "Estrela dos Números",
+  "slides": [
+    {
+      "title_boy": "Milhares e além",
+      "title_girl": "Milhares e além",
+      "body_boy": "4 582: 4 milhares, 5 centenas, 8 dezenas, 2 unidades. Ler e escrever números grandes é missão!",
+      "body_girl": "4 582: 4 milhares, 5 centenas, 8 dezenas, 2 unidades. Ler e escrever números grandes é missão!"
+    },
+    {
+      "title_boy": "Multiplicação chegou!",
+      "title_girl": "Multiplicação chegou!",
+      "body_boy": "Multiplicar é somar várias vezes: 3 × 4 = 4 + 4 + 4 = 12. Tabuada é teu poder secreto!",
+      "body_girl": "Multiplicar é somar várias vezes: 3 × 4 = 4 + 4 + 4 = 12. Tabuada é teu poder secreto!"
+    },
+    {
+      "title_boy": "Divisão: repartir",
+      "title_girl": "Divisão: repartir",
+      "body_boy": "12 ÷ 3 = 4. Dividir é repartir em partes iguais. Se sobrar, tem resto!",
+      "body_girl": "12 ÷ 3 = 4. Dividir é repartir em partes iguais. Se sobrar, tem resto!"
+    },
+    {
+      "title_boy": "Frações no começo",
+      "title_girl": "Frações no começo",
+      "body_boy": "Meia pizza = 1/2. Um quarto = 1/4. Fração mostra partes de um todo!",
+      "body_girl": "Meia pizza = 1/2. Um quarto = 1/4. Fração mostra partes de um todo!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "numeros_naturais",
+      "name": "Números naturais",
+      "bncc": "EF03MA01"
+    },
+    {
+      "id": "multiplicacao",
+      "name": "Multiplicação",
+      "bncc": "EF03MA07"
+    },
+    {
+      "id": "divisao",
+      "name": "Divisão",
+      "bncc": "EF03MA08"
+    },
+    {
+      "id": "fracoes",
+      "name": "Frações",
+      "bncc": "EF03MA09"
+    }
+  ]
+}

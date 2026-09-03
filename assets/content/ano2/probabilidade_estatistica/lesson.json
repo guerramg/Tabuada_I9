@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 2,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Pesquisa na turma",
+      "title_girl": "Pesquisa na turma",
+      "body_boy": "Qual lanche a turma prefere? Conta os votos e monta uma tabela. Dados reais!",
+      "body_girl": "Qual lanche a turma prefere? Conta os votos e monta uma tabela. Dados reais!"
+    },
+    {
+      "title_boy": "Gráfico de barras",
+      "title_girl": "Gráfico de barras",
+      "body_boy": "Barras mais altas = mais votos. Gráfico de barras mostra quem ganhou de um jeito visual!",
+      "body_girl": "Barras mais altas = mais votos. Gráfico de barras mostra quem ganhou de um jeito visual!"
+    },
+    {
+      "title_boy": "Provável ou improvável?",
+      "title_girl": "Provável ou improvável?",
+      "body_boy": "Chover no deserto? Improvável. Acordar amanhã? Provável. Classificar eventos é o começo!",
+      "body_girl": "Chover no deserto? Improvável. Acordar amanhã? Provável. Classificar eventos é o começo!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "pesquisa",
+      "name": "Pesquisa",
+      "bncc": "EF02MA22"
+    },
+    {
+      "id": "graficos",
+      "name": "Gráficos",
+      "bncc": "EF02MA23"
+    },
+    {
+      "id": "chance",
+      "name": "Chance",
+      "bncc": "EF02MA21"
+    }
+  ]
+}

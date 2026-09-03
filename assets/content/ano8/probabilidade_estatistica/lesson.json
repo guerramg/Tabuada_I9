@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 8,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Princípio multiplicativo",
+      "title_girl": "Princípio multiplicativo",
+      "body_boy": "3 camisetas × 2 calças = 6 looks. Contagem de possibilidades: multiplica as escolhas!",
+      "body_girl": "3 camisetas × 2 calças = 6 looks. Contagem de possibilidades: multiplica as escolhas!"
+    },
+    {
+      "title_boy": "Probabilidade composta",
+      "title_girl": "Probabilidade composta",
+      "body_boy": "Dois eventos: multiplica probabilidades se forem independentes. Cara e 6 no dado!",
+      "body_girl": "Dois eventos: multiplica probabilidades se forem independentes. Cara e 6 no dado!"
+    },
+    {
+      "title_boy": "Gráficos e tabelas avançados",
+      "title_girl": "Gráficos e tabelas avançados",
+      "body_boy": "Histograma, boxplot básico, tabelas de dupla entrada. Ler dados complexos!",
+      "body_girl": "Histograma, boxplot básico, tabelas de dupla entrada. Ler dados complexos!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "contagem",
+      "name": "Princípio multiplicativo",
+      "bncc": "EF08MA22"
+    },
+    {
+      "id": "probabilidade",
+      "name": "Probabilidade",
+      "bncc": "EF08MA23"
+    },
+    {
+      "id": "graficos",
+      "name": "Gráficos",
+      "bncc": "EF08MA24"
+    }
+  ]
+}

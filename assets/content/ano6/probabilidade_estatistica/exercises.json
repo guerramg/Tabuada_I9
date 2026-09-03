@@ -1,0 +1,144 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 6,
+  "exercises": [
+    {
+      "id": "ef06ma30_001",
+      "bncc": "EF06MA30",
+      "topic": "probabilidade",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "P(cara) em moeda justa:",
+      "options": [
+        "1/3",
+        "1/2",
+        "1/4",
+        "1"
+      ],
+      "answer": "1/2",
+      "explain_boy": "P = 1/2 = 50%!",
+      "explain_girl": "P = 1/2 = 50%!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma30_002",
+      "bncc": "EF06MA30",
+      "topic": "probabilidade",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "P = casos favoráveis ÷ casos possíveis. P(par no dado):",
+      "options": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3"
+      ],
+      "answer": "1/2",
+      "explain_boy": "3 pares / 6 = 1/2!",
+      "explain_girl": "3 pares / 6 = 1/2!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma32_001",
+      "bncc": "EF06MA32",
+      "topic": "graficos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Gráfico de pizza é bom para:",
+      "options": [
+        "evolução temporal",
+        "partes de um todo",
+        "temperatura",
+        "velocidade"
+      ],
+      "answer": "partes de um todo",
+      "explain_boy": "Pizza mostra proporções do total!",
+      "explain_girl": "Pizza mostra proporções do total!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma30_tf1",
+      "bncc": "EF06MA30",
+      "topic": "probabilidade",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Probabilidade fica entre 0 e 1.",
+      "answer": true,
+      "explain_boy": "0 = impossível, 1 = certo!",
+      "explain_girl": "0 = impossível, 1 = certo!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma34_001",
+      "bncc": "EF06MA34",
+      "topic": "fluxo",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Fluxograma serve para:",
+      "options": [
+        "só desenhar",
+        "mostrar passos de um processo",
+        "medir área",
+        "contar dinheiro"
+      ],
+      "answer": "mostrar passos de um processo",
+      "explain_boy": "Fluxograma = algoritmo visual!",
+      "explain_girl": "Fluxograma = algoritmo visual!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma32_002",
+      "bncc": "EF06MA32",
+      "topic": "graficos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Para comparar categorias, o melhor é:",
+      "options": [
+        "linha só",
+        "barras",
+        "nenhum gráfico",
+        "só texto"
+      ],
+      "answer": "barras",
+      "explain_boy": "Barras comparam categorias bem!",
+      "explain_girl": "Barras comparam categorias bem!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma32_tf1",
+      "bncc": "EF06MA32",
+      "topic": "graficos",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "O tipo de gráfico depende do tipo de dado.",
+      "answer": true,
+      "explain_boy": "Escolha consciente do gráfico!",
+      "explain_girl": "Escolha consciente do gráfico!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma30_003",
+      "bncc": "EF06MA30",
+      "topic": "probabilidade",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "P(sair 1 ou 2 no dado) =",
+      "options": [
+        "1/6",
+        "1/3",
+        "1/2",
+        "2"
+      ],
+      "answer": "1/3",
+      "explain_boy": "2 favoráveis / 6 = 1/3!",
+      "explain_girl": "2 favoráveis / 6 = 1/3!",
+      "xp": 10
+    }
+  ]
+}

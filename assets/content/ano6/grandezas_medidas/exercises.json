@@ -1,0 +1,144 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 6,
+  "exercises": [
+    {
+      "id": "ef06ma24_001",
+      "bncc": "EF06MA24",
+      "topic": "sistema_metrico",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2 km = quantos metros?",
+      "options": [
+        "20",
+        "200",
+        "2000",
+        "20000"
+      ],
+      "answer": "2000",
+      "explain_boy": "1 km = 1000 m → 2 km = 2000 m!",
+      "explain_girl": "1 km = 1000 m → 2 km = 2000 m!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma28_001",
+      "bncc": "EF06MA28",
+      "topic": "area",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quarto 4 m × 3 m. Área:",
+      "options": [
+        "7 m²",
+        "12 m²",
+        "14 m²",
+        "1 m²"
+      ],
+      "answer": "12 m²",
+      "explain_boy": "4×3=12 m²!",
+      "explain_girl": "4×3=12 m²!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma29g_001",
+      "bncc": "EF06MA29",
+      "topic": "volume",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "1 m³ = quantos litros?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "1"
+      ],
+      "answer": "1000",
+      "explain_boy": "1 m³ = 1000 L!",
+      "explain_girl": "1 m³ = 1000 L!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma24_tf1",
+      "bncc": "EF06MA24",
+      "topic": "sistema_metrico",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Cada degrau do sistema métrico multiplica/divide por 10.",
+      "answer": true,
+      "explain_boy": "Base 10 do sistema métrico!",
+      "explain_girl": "Base 10 do sistema métrico!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma24_002",
+      "bncc": "EF06MA24",
+      "topic": "sistema_metrico",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "500 cm = quantos metros?",
+      "options": [
+        "0,5",
+        "5",
+        "50",
+        "5000"
+      ],
+      "answer": "5",
+      "explain_boy": "500÷100=5 m!",
+      "explain_girl": "500÷100=5 m!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma28_002",
+      "bncc": "EF06MA28",
+      "topic": "area",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área de um quadrado de lado 9 m:",
+      "options": [
+        "18 m²",
+        "36 m²",
+        "81 m²",
+        "9 m²"
+      ],
+      "answer": "81 m²",
+      "explain_boy": "9×9=81 m²!",
+      "explain_girl": "9×9=81 m²!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma29g_tf1",
+      "bncc": "EF06MA29",
+      "topic": "volume",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Volume e capacidade estão relacionados (m³ e L).",
+      "answer": true,
+      "explain_boy": "1 m³ = 1000 L. Ligados!",
+      "explain_girl": "1 m³ = 1000 L. Ligados!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma29g_002",
+      "bncc": "EF06MA29",
+      "topic": "volume",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Caixa 2 m × 1 m × 1 m. Volume em litros:",
+      "options": [
+        "2 L",
+        "200 L",
+        "2000 L",
+        "20 L"
+      ],
+      "answer": "2000 L",
+      "explain_boy": "2 m³ = 2000 L!",
+      "explain_girl": "2 m³ = 2000 L!",
+      "xp": 10
+    }
+  ]
+}

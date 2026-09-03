@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 6,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Sistema métrico",
+      "title_girl": "Sistema métrico",
+      "body_boy": "km, hm, dam, m, dm, cm, mm. Cada degrau multiplica ou divide por 10!",
+      "body_girl": "km, hm, dam, m, dm, cm, mm. Cada degrau multiplica ou divide por 10!"
+    },
+    {
+      "title_boy": "Área de superfícies",
+      "title_girl": "Área de superfícies",
+      "body_boy": "m² mede área. Um quarto de 4 m por 3 m tem 12 m². Pintura e piso usam isso!",
+      "body_girl": "m² mede área. Um quarto de 4 m por 3 m tem 12 m². Pintura e piso usam isso!"
+    },
+    {
+      "title_boy": "Volume e capacidade",
+      "title_girl": "Volume e capacidade",
+      "body_boy": "1 m³ = 1000 L. Volume e capacidade estão ligados. Piscina e caixa-d'água!",
+      "body_girl": "1 m³ = 1000 L. Volume e capacidade estão ligados. Piscina e caixa-d'água!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "sistema_metrico",
+      "name": "Sistema métrico",
+      "bncc": "EF06MA24"
+    },
+    {
+      "id": "area",
+      "name": "Área",
+      "bncc": "EF06MA28"
+    },
+    {
+      "id": "volume",
+      "name": "Volume",
+      "bncc": "EF06MA29"
+    }
+  ]
+}

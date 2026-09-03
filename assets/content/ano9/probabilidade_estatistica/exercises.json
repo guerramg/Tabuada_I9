@@ -1,0 +1,144 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 9,
+  "exercises": [
+    {
+      "id": "ef09ma19_001",
+      "bncc": "EF09MA19",
+      "topic": "combinatoria",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Permutação de 3 elementos distintos:",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "1"
+      ],
+      "answer": "6",
+      "explain_boy": "3! = 3×2×1 = 6!",
+      "explain_girl": "3! = 3×2×1 = 6!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma20_001",
+      "bncc": "EF09MA20",
+      "topic": "probabilidade",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Probabilidade condicional P(A|B) significa:",
+      "options": [
+        "P(A)×P(B)",
+        "P(A) sabendo B",
+        "P(B) só",
+        "1−P(A)"
+      ],
+      "answer": "P(A) sabendo B",
+      "explain_boy": "Atualiza a chance dado B!",
+      "explain_girl": "Atualiza a chance dado B!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma21_001",
+      "bncc": "EF09MA21",
+      "topic": "estatistica",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Ao ler gráfico de pesquisa na mídia, é importante:",
+      "options": [
+        "aceitar sem questionar",
+        "olhar escala e amostra",
+        "ignorar os eixos",
+        "só ver as cores"
+      ],
+      "answer": "olhar escala e amostra",
+      "explain_boy": "Leitura crítica de dados!",
+      "explain_girl": "Leitura crítica de dados!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma19_tf1",
+      "bncc": "EF09MA19",
+      "topic": "combinatoria",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Combinação não considera a ordem.",
+      "answer": true,
+      "explain_boy": "Combinação: ordem não importa!",
+      "explain_girl": "Combinação: ordem não importa!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma19_002",
+      "bncc": "EF09MA19",
+      "topic": "combinatoria",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "C(5,2) = ?",
+      "options": [
+        "10",
+        "20",
+        "5",
+        "25"
+      ],
+      "answer": "10",
+      "explain_boy": "5!/(2!3!)=10!",
+      "explain_girl": "5!/(2!3!)=10!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma20_002",
+      "bncc": "EF09MA20",
+      "topic": "probabilidade",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Urna: 2 pretas, 3 brancas. P(preta) =",
+      "options": [
+        "2/3",
+        "2/5",
+        "3/5",
+        "1/2"
+      ],
+      "answer": "2/5",
+      "explain_boy": "2 pretas em 5 bolas = 2/5!",
+      "explain_girl": "2 pretas em 5 bolas = 2/5!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma21_tf1",
+      "bncc": "EF09MA21",
+      "topic": "estatistica",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Gráficos podem induzir a erro se a escala for enganosa.",
+      "answer": true,
+      "explain_boy": "Pensamento crítico com dados!",
+      "explain_girl": "Pensamento crítico com dados!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma19_003",
+      "bncc": "EF09MA19",
+      "topic": "combinatoria",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Arranjo A(5,2) = ?",
+      "options": [
+        "10",
+        "20",
+        "5",
+        "25"
+      ],
+      "answer": "20",
+      "explain_boy": "5×4=20. Ordem importa!",
+      "explain_girl": "5×4=20. Ordem importa!",
+      "xp": 10
+    }
+  ]
+}

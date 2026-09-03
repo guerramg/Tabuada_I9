@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 3,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Metro, litro, quilograma",
+      "title_girl": "Metro, litro, quilograma",
+      "body_boy": "m mede comprimento, L mede capacidade, kg mede massa. Escolher a unidade certa é chave!",
+      "body_girl": "m mede comprimento, L mede capacidade, kg mede massa. Escolher a unidade certa é chave!"
+    },
+    {
+      "title_boy": "Área na malha",
+      "title_girl": "Área na malha",
+      "body_boy": "Quantos quadradinhos cabem dentro da figura? Isso é área! Conta os quadrinhos.",
+      "body_girl": "Quantos quadradinhos cabem dentro da figura? Isso é área! Conta os quadrinhos."
+    },
+    {
+      "title_boy": "Cédulas e moedas",
+      "title_girl": "Cédulas e moedas",
+      "body_boy": "R$ 2 + R$ 5 + R$ 10 = R$ 17. Combinar cédulas e calcular troco: missão diária!",
+      "body_girl": "R$ 2 + R$ 5 + R$ 10 = R$ 17. Combinar cédulas e calcular troco: missão diária!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "unidades",
+      "name": "Unidades de medida",
+      "bncc": "EF03MA17"
+    },
+    {
+      "id": "area",
+      "name": "Área",
+      "bncc": "EF03MA21"
+    },
+    {
+      "id": "sistema_monetario",
+      "name": "Sistema monetário",
+      "bncc": "EF03MA24"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 3,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Malha quadriculada",
+      "title_girl": "Malha quadriculada",
+      "body_boy": "Na malha, deslocar 3 à direita e 2 pra cima descreve um caminho. Coordenadas estão chegando!",
+      "body_girl": "Na malha, deslocar 3 à direita e 2 pra cima descreve um caminho. Coordenadas estão chegando!"
+    },
+    {
+      "title_boy": "Polígonos",
+      "title_girl": "Polígonos",
+      "body_boy": "Polígono = figura fechada com lados retos. Pentágono tem 5 lados, hexágono tem 6!",
+      "body_girl": "Polígono = figura fechada com lados retos. Pentágono tem 5 lados, hexágono tem 6!"
+    },
+    {
+      "title_boy": "Simetria",
+      "title_girl": "Simetria",
+      "body_boy": "Dobra a figura ao meio e as metades batem? Tem eixo de simetria. Borboleta tem!",
+      "body_girl": "Dobra a figura ao meio e as metades batem? Tem eixo de simetria. Borboleta tem!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "malha",
+      "name": "Malha e deslocamentos",
+      "bncc": "EF03MA12"
+    },
+    {
+      "id": "poligonos",
+      "name": "Polígonos",
+      "bncc": "EF03MA15"
+    },
+    {
+      "id": "simetria",
+      "name": "Simetria",
+      "bncc": "EF03MA16"
+    }
+  ]
+}

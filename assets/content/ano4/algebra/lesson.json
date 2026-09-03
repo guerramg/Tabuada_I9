@@ -1,0 +1,44 @@
+{
+  "unit": "algebra",
+  "grade": 4,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Propriedades da ×",
+      "title_girl": "Propriedades da ×",
+      "body_boy": "3 × 4 = 4 × 3. E (2 × 3) × 4 = 2 × (3 × 4). Comutativa e associativa na multiplicação!",
+      "body_girl": "3 × 4 = 4 × 3. E (2 × 3) × 4 = 2 × (3 × 4). Comutativa e associativa na multiplicação!"
+    },
+    {
+      "title_boy": "Sequências numéricas",
+      "title_girl": "Sequências numéricas",
+      "body_boy": "7, 14, 21, 28… Multiplica por 7 (ou soma 7). Descobrir a regra é missão algébrica!",
+      "body_girl": "7, 14, 21, 28… Multiplica por 7 (ou soma 7). Descobrir a regra é missão algébrica!"
+    },
+    {
+      "title_boy": "Expressões",
+      "title_girl": "Expressões",
+      "body_boy": "2 + 3 × 4 = 14, não 20! Multiplicação vem antes da adição. Ordem das operações manda!",
+      "body_girl": "2 + 3 × 4 = 14, não 20! Multiplicação vem antes da adição. Ordem das operações manda!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "propriedades",
+      "name": "Propriedades",
+      "bncc": "EF04MA13"
+    },
+    {
+      "id": "sequencias",
+      "name": "Sequências",
+      "bncc": "EF04MA11"
+    },
+    {
+      "id": "expressoes",
+      "name": "Expressões",
+      "bncc": "EF04MA12"
+    }
+  ]
+}

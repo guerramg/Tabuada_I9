@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 1,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Coletar dados",
+      "title_girl": "Coletar dados",
+      "body_boy": "Perguntar aos amigos a cor favorita e anotar: isso é coletar dados! Matemática também conta histórias.",
+      "body_girl": "Perguntar às amigas a cor favorita e anotar: isso é coletar dados! Matemática também conta histórias."
+    },
+    {
+      "title_boy": "Tabelas simples",
+      "title_girl": "Tabelas simples",
+      "body_boy": "Tabela organiza informação em linhas e colunas. Fácil de ler e comparar. Fechou!",
+      "body_girl": "Tabela organiza informação em linhas e colunas. Fácil de ler e comparar. Arrasou!"
+    },
+    {
+      "title_boy": "Pode acontecer?",
+      "title_girl": "Pode acontecer?",
+      "body_boy": "Algumas coisas são certas (o sol nasce), outras impossíveis (voar sem asas). Isso é probabilidade!",
+      "body_girl": "Algumas coisas são certas (o sol nasce), outras impossíveis (voar sem asas). Isso é probabilidade!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "coleta_dados",
+      "name": "Coleta de dados",
+      "bncc": "EF01MA20"
+    },
+    {
+      "id": "tabelas",
+      "name": "Tabelas",
+      "bncc": "EF01MA21"
+    },
+    {
+      "id": "chance",
+      "name": "Noção de chance",
+      "bncc": "EF01MA20"
+    }
+  ]
+}

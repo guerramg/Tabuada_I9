@@ -1,0 +1,175 @@
+{
+  "unit": "geometria",
+  "grade": 5,
+  "exercises": [
+    {
+      "id": "ef05ma16_001",
+      "bncc": "EF05MA16",
+      "topic": "planificacao",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Planificação de um cubo tem quantos quadrados?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": "6",
+      "explain_boy": "Cubo: 6 faces → 6 quadrados!",
+      "explain_girl": "Cubo: 6 faces → 6 quadrados!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma17_001",
+      "bncc": "EF05MA17",
+      "topic": "ampliacao",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Ampliar por 2 um lado de 3 cm resulta em:",
+      "options": [
+        "3 cm",
+        "5 cm",
+        "6 cm",
+        "1,5 cm"
+      ],
+      "answer": "6 cm",
+      "explain_boy": "3 × 2 = 6 cm. Ampliação!",
+      "explain_girl": "3 × 2 = 6 cm. Ampliação!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma19_001",
+      "bncc": "EF05MA19",
+      "topic": "area",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área do triângulo: (base×altura)÷2. Base=6, altura=4:",
+      "options": [
+        "10",
+        "12",
+        "24",
+        "5"
+      ],
+      "answer": "12",
+      "explain_boy": "(6×4)÷2 = 24÷2 = 12!",
+      "explain_girl": "(6×4)÷2 = 24÷2 = 12!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma16_tf1",
+      "bncc": "EF05MA16",
+      "topic": "planificacao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Planificar é abrir o sólido nas faces planas.",
+      "answer": true,
+      "explain_boy": "Definição de planificação!",
+      "explain_girl": "Definição de planificação!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma19_002",
+      "bncc": "EF05MA19",
+      "topic": "area",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área do retângulo 9 × 4:",
+      "options": [
+        "13",
+        "26",
+        "36",
+        "45"
+      ],
+      "answer": "36",
+      "explain_boy": "9 × 4 = 36!",
+      "explain_girl": "9 × 4 = 36!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma17_002",
+      "bncc": "EF05MA17",
+      "topic": "ampliacao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Reduzir pela metade um lado de 10 cm:",
+      "options": [
+        "20 cm",
+        "5 cm",
+        "10 cm",
+        "2 cm"
+      ],
+      "answer": "5 cm",
+      "explain_boy": "10 ÷ 2 = 5 cm. Redução!",
+      "explain_girl": "10 ÷ 2 = 5 cm. Redução!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma17_tf1",
+      "bncc": "EF05MA17",
+      "topic": "ampliacao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Mapas usam escala (ampliação/redução).",
+      "answer": true,
+      "explain_boy": "Sim! Escala reduz o mundo real.",
+      "explain_girl": "Sim! Escala reduz o mundo real.",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma16_002",
+      "bncc": "EF05MA16",
+      "topic": "planificacao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Cone planificado tem:",
+      "options": [
+        "só triângulos",
+        "círculo e setor circular",
+        "6 quadrados",
+        "só retângulos"
+      ],
+      "answer": "círculo e setor circular",
+      "explain_boy": "Base circular + lateral em setor!",
+      "explain_girl": "Base circular + lateral em setor!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma19_003",
+      "bncc": "EF05MA19",
+      "topic": "area",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área do quadrado de lado 7:",
+      "options": [
+        "14",
+        "28",
+        "49",
+        "21"
+      ],
+      "answer": "49",
+      "explain_boy": "7 × 7 = 49!",
+      "explain_girl": "7 × 7 = 49!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma19_tf1",
+      "bncc": "EF05MA19",
+      "topic": "area",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Área do retângulo = base × altura.",
+      "answer": true,
+      "explain_boy": "Fórmula clássica!",
+      "explain_girl": "Fórmula clássica!",
+      "xp": 10
+    }
+  ]
+}

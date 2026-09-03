@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 5,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Planificação de sólidos",
+      "title_girl": "Planificação de sólidos",
+      "body_boy": "Cubo planificado = 6 quadrados. Cone = círculo + setor. Imagina dobrar e montar!",
+      "body_girl": "Cubo planificado = 6 quadrados. Cone = círculo + setor. Imagina dobrar e montar!"
+    },
+    {
+      "title_boy": "Ampliação e redução",
+      "title_girl": "Ampliação e redução",
+      "body_boy": "Dobrar todos os lados = ampliar por 2. Metade = reduzir. Escala aparece em mapas!",
+      "body_girl": "Dobrar todos os lados = ampliar por 2. Metade = reduzir. Escala aparece em mapas!"
+    },
+    {
+      "title_boy": "Área de polígonos",
+      "title_girl": "Área de polígonos",
+      "body_boy": "Área do retângulo = base × altura. Triângulo = (base × altura) ÷ 2. Fórmulas no arsenal!",
+      "body_girl": "Área do retângulo = base × altura. Triângulo = (base × altura) ÷ 2. Fórmulas no arsenal!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "planificacao",
+      "name": "Planificação",
+      "bncc": "EF05MA16"
+    },
+    {
+      "id": "ampliacao",
+      "name": "Ampliação e redução",
+      "bncc": "EF05MA17"
+    },
+    {
+      "id": "area",
+      "name": "Área",
+      "bncc": "EF05MA19"
+    }
+  ]
+}

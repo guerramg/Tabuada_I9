@@ -1,0 +1,180 @@
+{
+  "unit": "numeros",
+  "grade": 6,
+  "exercises": [
+    {
+      "id": "ef06ma03_001",
+      "bncc": "EF06MA03",
+      "topic": "inteiros",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é o oposto de −7?",
+      "options": [
+        "−7",
+        "7",
+        "0",
+        "−1"
+      ],
+      "answer": "7",
+      "explain_boy": "Oposto de −7 é +7. Mandou!",
+      "explain_girl": "Oposto de −7 é +7. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma03_002",
+      "bncc": "EF06MA03",
+      "topic": "inteiros",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "(−3) + 5 = ?",
+      "options": [
+        "−8",
+        "2",
+        "8",
+        "−2"
+      ],
+      "answer": "2",
+      "explain_boy": "−3 + 5 = 2. Inteiros!",
+      "explain_girl": "−3 + 5 = 2. Inteiros!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma07_001",
+      "bncc": "EF06MA07",
+      "topic": "fracoes_decimais",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3/4 em decimal é:",
+      "options": [
+        "0,25",
+        "0,5",
+        "0,75",
+        "1,34"
+      ],
+      "answer": "0,75",
+      "explain_boy": "3÷4 = 0,75!",
+      "explain_girl": "3÷4 = 0,75!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma14_001",
+      "bncc": "EF06MA14",
+      "topic": "razao",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "A razão 2:3 significa:",
+      "options": [
+        "2+3",
+        "2 pra cada 3",
+        "2×3",
+        "3−2"
+      ],
+      "answer": "2 pra cada 3",
+      "explain_boy": "Razão 2:3 = 2 partes para 3 partes!",
+      "explain_girl": "Razão 2:3 = 2 partes para 3 partes!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma03_tf1",
+      "bncc": "EF06MA03",
+      "topic": "inteiros",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "−5 é menor que −2.",
+      "answer": true,
+      "explain_boy": "Na reta: −5 fica à esquerda de −2!",
+      "explain_girl": "Na reta: −5 fica à esquerda de −2!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma07_002",
+      "bncc": "EF06MA07",
+      "topic": "fracoes_decimais",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "0,2 = ?",
+      "options": [
+        "1/2",
+        "1/5",
+        "2/5",
+        "1/10"
+      ],
+      "answer": "1/5",
+      "explain_boy": "0,2 = 2/10 = 1/5!",
+      "explain_girl": "0,2 = 2/10 = 1/5!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma14_002",
+      "bncc": "EF06MA14",
+      "topic": "razao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se 2/3 = x/6, x = ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "9"
+      ],
+      "answer": "4",
+      "explain_boy": "Proporção: 2×2=4, 3×2=6. x=4!",
+      "explain_girl": "Proporção: 2×2=4, 3×2=6. x=4!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma07_tf1",
+      "bncc": "EF06MA07",
+      "topic": "fracoes_decimais",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "1/2 = 0,5.",
+      "answer": true,
+      "explain_boy": "Conversão clássica!",
+      "explain_girl": "Conversão clássica!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma03_003",
+      "bncc": "EF06MA03",
+      "topic": "inteiros",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Calcule {a} − {b} (números positivos aqui).",
+      "a_min": 10,
+      "a_max": 40,
+      "b_min": 1,
+      "b_max": 9,
+      "op": "sub",
+      "explain_template_boy": "Fechou: {a} − {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} − {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef06ma03_004",
+      "bncc": "EF06MA03",
+      "topic": "inteiros",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "(−4) × 3 = ?",
+      "options": [
+        "12",
+        "−12",
+        "−7",
+        "1"
+      ],
+      "answer": "−12",
+      "explain_boy": "Negativo × positivo = negativo: −12!",
+      "explain_girl": "Negativo × positivo = negativo: −12!",
+      "xp": 10
+    }
+  ]
+}

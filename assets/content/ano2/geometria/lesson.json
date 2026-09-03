@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 2,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Mapas e caminhos",
+      "title_girl": "Mapas e caminhos",
+      "body_boy": "Em um mapa simples, dá pra descrever o caminho: 2 passos à frente, 1 à direita. Geometria em movimento!",
+      "body_girl": "Em um mapa simples, dá pra descrever o caminho: 2 passos à frente, 1 à direita. Geometria em movimento!"
+    },
+    {
+      "title_boy": "Lados e vértices",
+      "title_girl": "Lados e vértices",
+      "body_boy": "Triângulo tem 3 lados e 3 vértices. Quadrado tem 4. Contar lados ajuda a reconhecer a figura!",
+      "body_girl": "Triângulo tem 3 lados e 3 vértices. Quadrado tem 4. Contar lados ajuda a reconhecer a figura!"
+    },
+    {
+      "title_boy": "Planificação",
+      "title_girl": "Planificação",
+      "body_boy": "Abrir uma caixinha de papelão mostra as faces planas. Isso é planificar um sólido!",
+      "body_girl": "Abrir uma caixinha de papelão mostra as faces planas. Isso é planificar um sólido!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "localizacao",
+      "name": "Localização e mapas",
+      "bncc": "EF02MA12"
+    },
+    {
+      "id": "figuras_planas",
+      "name": "Figuras planas",
+      "bncc": "EF02MA15"
+    },
+    {
+      "id": "solidos",
+      "name": "Sólidos",
+      "bncc": "EF02MA14"
+    }
+  ]
+}

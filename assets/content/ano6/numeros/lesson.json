@@ -1,0 +1,44 @@
+{
+  "unit": "numeros",
+  "grade": 6,
+  "title": "Números",
+  "title_boy": "Missão Números",
+  "title_girl": "Estrela dos Números",
+  "slides": [
+    {
+      "title_boy": "Números inteiros",
+      "title_girl": "Números inteiros",
+      "body_boy": "Temperatura −3°C, saldo negativo, elevador no subsolo. Inteiros incluem negativos!",
+      "body_girl": "Temperatura −3°C, saldo negativo, elevador no subsolo. Inteiros incluem negativos!"
+    },
+    {
+      "title_boy": "Frações e decimais",
+      "title_girl": "Frações e decimais",
+      "body_boy": "3/4 = 0,75. Converter entre fração e decimal é habilidade de ouro no 6º ano!",
+      "body_girl": "3/4 = 0,75. Converter entre fração e decimal é habilidade de ouro no 6º ano!"
+    },
+    {
+      "title_boy": "Razão e proporção",
+      "title_girl": "Razão e proporção",
+      "body_boy": "2 pra 3 é a razão 2:3. Se dobra um, dobra o outro: proporção. Receitas e mapas usam!",
+      "body_girl": "2 pra 3 é a razão 2:3. Se dobra um, dobra o outro: proporção. Receitas e mapas usam!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "inteiros",
+      "name": "Números inteiros",
+      "bncc": "EF06MA03"
+    },
+    {
+      "id": "fracoes_decimais",
+      "name": "Frações e decimais",
+      "bncc": "EF06MA07"
+    },
+    {
+      "id": "razao",
+      "name": "Razão e proporção",
+      "bncc": "EF06MA14"
+    }
+  ]
+}

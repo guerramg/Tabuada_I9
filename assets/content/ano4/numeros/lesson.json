@@ -1,0 +1,55 @@
+{
+  "unit": "numeros",
+  "grade": 4,
+  "title": "Números",
+  "title_boy": "Missão Números",
+  "title_girl": "Estrela dos Números",
+  "slides": [
+    {
+      "title_boy": "Números até milhões",
+      "title_girl": "Números até milhões",
+      "body_boy": "1 000 000 é um milhão. Ler, comparar e arredondar números grandes: nível expert!",
+      "body_girl": "1 000 000 é um milhão. Ler, comparar e arredondar números grandes: nível expert!"
+    },
+    {
+      "title_boy": "Multiplicação multi-dígito",
+      "title_girl": "Multiplicação multi-dígito",
+      "body_boy": "23 × 4 = 92. Algoritmo da multiplicação: casa por casa. Treina e fica rápido!",
+      "body_girl": "23 × 4 = 92. Algoritmo da multiplicação: casa por casa. Treina e fica rápida!"
+    },
+    {
+      "title_boy": "Frações equivalentes",
+      "title_girl": "Frações equivalentes",
+      "body_boy": "1/2 = 2/4 = 3/6. Mesma quantidade, escritas diferentes. Equivalência é o segredo!",
+      "body_girl": "1/2 = 2/4 = 3/6. Mesma quantidade, escritas diferentes. Equivalência é o segredo!"
+    },
+    {
+      "title_boy": "Números decimais",
+      "title_girl": "Números decimais",
+      "body_boy": "R$ 3,50. O ponto (vírgula no BR) separa reais de centavos. Decimais estão no dinheiro!",
+      "body_girl": "R$ 3,50. A vírgula separa reais de centavos. Decimais estão no dinheiro!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "numeros_grandes",
+      "name": "Números grandes",
+      "bncc": "EF04MA01"
+    },
+    {
+      "id": "multiplicacao",
+      "name": "Multiplicação",
+      "bncc": "EF04MA05"
+    },
+    {
+      "id": "fracoes",
+      "name": "Frações",
+      "bncc": "EF04MA09"
+    },
+    {
+      "id": "decimais",
+      "name": "Decimais",
+      "bncc": "EF04MA10"
+    }
+  ]
+}

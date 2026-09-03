@@ -1,0 +1,180 @@
+{
+  "unit": "numeros",
+  "grade": 9,
+  "exercises": [
+    {
+      "id": "ef09ma01_001",
+      "bncc": "EF09MA01",
+      "topic": "reais",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é irracional?",
+      "options": [
+        "1/2",
+        "0,75",
+        "√2",
+        "−3"
+      ],
+      "answer": "√2",
+      "explain_boy": "√2 não é fração exata → irracional!",
+      "explain_girl": "√2 não é fração exata → irracional!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma03_001",
+      "bncc": "EF09MA03",
+      "topic": "potencias",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2⁻³ = ?",
+      "options": [
+        "−6",
+        "−8",
+        "1/8",
+        "8"
+      ],
+      "answer": "1/8",
+      "explain_boy": "2⁻³ = 1/2³ = 1/8!",
+      "explain_girl": "2⁻³ = 1/2³ = 1/8!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma05_001",
+      "bncc": "EF09MA05",
+      "topic": "financeira",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Aumento de 10% sobre R$ 200:",
+      "options": [
+        "R$ 10",
+        "R$ 20",
+        "R$ 210",
+        "R$ 220"
+      ],
+      "answer": "R$ 20",
+      "explain_boy": "10% de 200 = 20. O aumento é R$ 20!",
+      "explain_girl": "10% de 200 = 20. O aumento é R$ 20!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma01_tf1",
+      "bncc": "EF09MA01",
+      "topic": "reais",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "π é um número irracional.",
+      "answer": true,
+      "explain_boy": "π não é fração exata!",
+      "explain_girl": "π não é fração exata!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma05_002",
+      "bncc": "EF09MA05",
+      "topic": "financeira",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "R$ 200 com aumento de 10%. Novo preço:",
+      "options": [
+        "R$ 210",
+        "R$ 220",
+        "R$ 200",
+        "R$ 180"
+      ],
+      "answer": "R$ 220",
+      "explain_boy": "200 + 20 = 220!",
+      "explain_girl": "200 + 20 = 220!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma03_002",
+      "bncc": "EF09MA03",
+      "topic": "potencias",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "10⁰ = ?",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "100"
+      ],
+      "answer": "1",
+      "explain_boy": "Qualquer nº ≠0 elevado a 0 = 1!",
+      "explain_girl": "Qualquer nº ≠0 elevado a 0 = 1!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma03_tf1",
+      "bncc": "EF09MA03",
+      "topic": "potencias",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "a⁻n = 1/aⁿ (a≠0).",
+      "answer": true,
+      "explain_boy": "Regra do expoente negativo!",
+      "explain_girl": "Regra do expoente negativo!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma05_003",
+      "bncc": "EF09MA05",
+      "topic": "financeira",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Desconto de 10% e depois mais 10% sobre R$ 100. Preço final:",
+      "options": [
+        "R$ 80",
+        "R$ 81",
+        "R$ 90",
+        "R$ 79"
+      ],
+      "answer": "R$ 81",
+      "explain_boy": "100→90→81. Descontos sucessivos!",
+      "explain_girl": "100→90→81. Descontos sucessivos!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma01_002",
+      "bncc": "EF09MA01",
+      "topic": "reais",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Conjunto dos reais inclui:",
+      "options": [
+        "só naturais",
+        "só inteiros",
+        "racionais e irracionais",
+        "só positivos"
+      ],
+      "answer": "racionais e irracionais",
+      "explain_boy": "ℝ = ℚ ∪ irracionais!",
+      "explain_girl": "ℝ = ℚ ∪ irracionais!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma03_003",
+      "bncc": "EF09MA03",
+      "topic": "potencias",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Calcule {a} × {b}.",
+      "a_min": 10,
+      "a_max": 40,
+      "b_min": 2,
+      "b_max": 10,
+      "op": "mul",
+      "explain_template_boy": "Fechou: {a} × {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} × {b} = {answer}. Arrasou!",
+      "xp": 15
+    }
+  ]
+}

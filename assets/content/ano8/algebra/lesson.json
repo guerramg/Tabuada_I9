@@ -1,0 +1,44 @@
+{
+  "unit": "algebra",
+  "grade": 8,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Sistemas de equações",
+      "title_girl": "Sistemas de equações",
+      "body_boy": "Duas equações, duas incógnitas. Substituição ou adição: achar x e y juntos!",
+      "body_girl": "Duas equações, duas incógnitas. Substituição ou adição: achar x e y juntos!"
+    },
+    {
+      "title_boy": "Polinômios",
+      "title_girl": "Polinômios",
+      "body_boy": "3x² + 2x − 5. Somar e multiplicar polinômios. Álgebra em expansão!",
+      "body_girl": "3x² + 2x − 5. Somar e multiplicar polinômios. Álgebra em expansão!"
+    },
+    {
+      "title_boy": "Produtos notáveis",
+      "title_girl": "Produtos notáveis",
+      "body_boy": "(a+b)² = a² + 2ab + b². Produtos notáveis aceleram contas. Memorize os clássicos!",
+      "body_girl": "(a+b)² = a² + 2ab + b². Produtos notáveis aceleram contas. Memorize os clássicos!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "sistemas",
+      "name": "Sistemas",
+      "bncc": "EF08MA08"
+    },
+    {
+      "id": "polinomios",
+      "name": "Polinômios",
+      "bncc": "EF08MA06"
+    },
+    {
+      "id": "produtos_notaveis",
+      "name": "Produtos notáveis",
+      "bncc": "EF08MA07"
+    }
+  ]
+}

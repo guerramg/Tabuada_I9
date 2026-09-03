@@ -1,0 +1,39 @@
+{
+  "unit": "algebra",
+  "grade": 1,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Ache o padrão!",
+      "title_girl": "Ache o padrão!",
+      "body_boy": "Padrão é quando algo se repete: vermelho, azul, vermelho, azul… Qual vem depois? Manda a real!",
+      "body_girl": "Padrão é quando algo se repete: vermelho, azul, vermelho, azul… Qual vem depois? Arrasa!"
+    },
+    {
+      "title_boy": "Sequências de números",
+      "title_girl": "Sequências de números",
+      "body_boy": "2, 4, 6, 8… Está pulando de 2 em 2! Sequências são padrões com números. Bora descobrir a regra!",
+      "body_girl": "2, 4, 6, 8… Está pulando de 2 em 2! Sequências são padrões com números. Vamos achar a regra!"
+    },
+    {
+      "title_boy": "Completa a lacuna",
+      "title_girl": "Completa a lacuna",
+      "body_boy": "Se 3 + □ = 7, o que falta? Pensou 4? Fechou! Completar lacunas é o começo da álgebra.",
+      "body_girl": "Se 3 + □ = 7, o que falta? Pensou 4? Isso! Completar lacunas é o começo da álgebra."
+    }
+  ],
+  "topics": [
+    {
+      "id": "padroes",
+      "name": "Padrões",
+      "bncc": "EF01MA09"
+    },
+    {
+      "id": "sequencias",
+      "name": "Sequências",
+      "bncc": "EF01MA10"
+    }
+  ]
+}

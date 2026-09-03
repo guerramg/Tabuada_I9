@@ -1,0 +1,175 @@
+{
+  "unit": "geometria",
+  "grade": 4,
+  "exercises": [
+    {
+      "id": "ef04ma18_001",
+      "bncc": "EF04MA18",
+      "topic": "angulos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Ângulo reto mede:",
+      "options": [
+        "45°",
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "answer": "90°",
+      "explain_boy": "Ângulo reto = 90°. Canto do caderno!",
+      "explain_girl": "Ângulo reto = 90°. Canto do caderno!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma19_001",
+      "bncc": "EF04MA19",
+      "topic": "paralelismo",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Retas que nunca se encontram são:",
+      "options": [
+        "perpendiculares",
+        "paralelas",
+        "secantes",
+        "curvas"
+      ],
+      "answer": "paralelas",
+      "explain_boy": "Paralelas nunca se encontram!",
+      "explain_girl": "Paralelas nunca se encontram!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma20_001",
+      "bncc": "EF04MA20",
+      "topic": "perimetro_area",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Perímetro de um quadrado de lado 5:",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "15"
+      ],
+      "answer": "20",
+      "explain_boy": "P = 4 × 5 = 20. Mandou!",
+      "explain_girl": "P = 4 × 5 = 20. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma18_tf1",
+      "bncc": "EF04MA18",
+      "topic": "angulos",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Ângulo agudo é menor que 90°.",
+      "answer": true,
+      "explain_boy": "Sim! Agudo < 90°.",
+      "explain_girl": "Sim! Agudo < 90°.",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma20_002",
+      "bncc": "EF04MA20",
+      "topic": "perimetro_area",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área de retângulo 3 × 4:",
+      "options": [
+        "7",
+        "12",
+        "14",
+        "34"
+      ],
+      "answer": "12",
+      "explain_boy": "Área = 3 × 4 = 12!",
+      "explain_girl": "Área = 3 × 4 = 12!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma19_002",
+      "bncc": "EF04MA19",
+      "topic": "paralelismo",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Retas perpendiculares formam ângulo:",
+      "options": [
+        "agudo",
+        "obtuso",
+        "reto",
+        "raso"
+      ],
+      "answer": "reto",
+      "explain_boy": "Perpendiculares → 90°!",
+      "explain_girl": "Perpendiculares → 90°!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma19_tf1",
+      "bncc": "EF04MA19",
+      "topic": "paralelismo",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Trilhos de trem são paralelos.",
+      "answer": true,
+      "explain_boy": "Sim! Trilhos não se encontram.",
+      "explain_girl": "Sim! Trilhos não se encontram.",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma18_002",
+      "bncc": "EF04MA18",
+      "topic": "angulos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Ângulo maior que 90° e menor que 180° é:",
+      "options": [
+        "agudo",
+        "reto",
+        "obtuso",
+        "raso"
+      ],
+      "answer": "obtuso",
+      "explain_boy": "Obtuso: entre 90° e 180°!",
+      "explain_girl": "Obtuso: entre 90° e 180°!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma20_003",
+      "bncc": "EF04MA20",
+      "topic": "perimetro_area",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Perímetro de retângulo 6 por 4:",
+      "options": [
+        "10",
+        "20",
+        "24",
+        "12"
+      ],
+      "answer": "20",
+      "explain_boy": "2×(6+4)=20. Perímetro!",
+      "explain_girl": "2×(6+4)=20. Perímetro!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma20_tf1",
+      "bncc": "EF04MA20",
+      "topic": "perimetro_area",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Perímetro é a medida do contorno.",
+      "answer": true,
+      "explain_boy": "Sim! Contorno = perímetro.",
+      "explain_girl": "Sim! Contorno = perímetro.",
+      "xp": 10
+    }
+  ]
+}

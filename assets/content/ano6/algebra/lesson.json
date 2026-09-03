@@ -1,0 +1,44 @@
+{
+  "unit": "algebra",
+  "grade": 6,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Linguagem algébrica",
+      "title_girl": "Linguagem algébrica",
+      "body_boy": "O dobro de um número: 2x. Um número mais 5: x+5. Traduzir frases em expressões!",
+      "body_girl": "O dobro de um número: 2x. Um número mais 5: x+5. Traduzir frases em expressões!"
+    },
+    {
+      "title_boy": "Equações do 1º grau",
+      "title_girl": "Equações do 1º grau",
+      "body_boy": "2x + 3 = 11 → 2x = 8 → x = 4. Isolar x passo a passo. Mandou bem!",
+      "body_girl": "2x + 3 = 11 → 2x = 8 → x = 4. Isolar x passo a passo. Arrasou!"
+    },
+    {
+      "title_boy": "Sequências e termo geral",
+      "title_girl": "Sequências e termo geral",
+      "body_boy": "2, 5, 8, 11… Regra: 3n − 1. Termo geral descreve qualquer posição!",
+      "body_girl": "2, 5, 8, 11… Regra: 3n − 1. Termo geral descreve qualquer posição!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "expressoes",
+      "name": "Expressões algébricas",
+      "bncc": "EF06MA13"
+    },
+    {
+      "id": "equacoes",
+      "name": "Equações",
+      "bncc": "EF06MA14"
+    },
+    {
+      "id": "sequencias",
+      "name": "Sequências",
+      "bncc": "EF06MA15"
+    }
+  ]
+}

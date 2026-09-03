@@ -1,0 +1,180 @@
+{
+  "unit": "numeros",
+  "grade": 7,
+  "exercises": [
+    {
+      "id": "ef07ma05_001",
+      "bncc": "EF07MA05",
+      "topic": "racionais",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é racional?",
+      "options": [
+        "√2",
+        "π",
+        "−3/5",
+        "√3"
+      ],
+      "answer": "−3/5",
+      "explain_boy": "−3/5 é fração → racional!",
+      "explain_girl": "−3/5 é fração → racional!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma08_001",
+      "bncc": "EF07MA08",
+      "topic": "operacoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "1/2 + 1/4 = ?",
+      "options": [
+        "2/6",
+        "3/4",
+        "1/6",
+        "1/8"
+      ],
+      "answer": "3/4",
+      "explain_boy": "1/2=2/4; 2/4+1/4=3/4!",
+      "explain_girl": "1/2=2/4; 2/4+1/4=3/4!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma10_001",
+      "bncc": "EF07MA10",
+      "topic": "porcentagem",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Desconto de 20% em R$ 50:",
+      "options": [
+        "R$ 5",
+        "R$ 10",
+        "R$ 20",
+        "R$ 40"
+      ],
+      "answer": "R$ 10",
+      "explain_boy": "20% de 50 = 10. Desconto R$ 10!",
+      "explain_girl": "20% de 50 = 10. Desconto R$ 10!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma05_tf1",
+      "bncc": "EF07MA05",
+      "topic": "racionais",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Todo número inteiro é racional.",
+      "answer": true,
+      "explain_boy": "Inteiro = fração com denom. 1!",
+      "explain_girl": "Inteiro = fração com denom. 1!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma10_002",
+      "bncc": "EF07MA10",
+      "topic": "porcentagem",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Preço R$ 50 com 20% off. Preço final:",
+      "options": [
+        "R$ 10",
+        "R$ 30",
+        "R$ 40",
+        "R$ 45"
+      ],
+      "answer": "R$ 40",
+      "explain_boy": "50 − 10 = 40. Preço final!",
+      "explain_girl": "50 − 10 = 40. Preço final!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma08_002",
+      "bncc": "EF07MA08",
+      "topic": "operacoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "(−2/3) × (3/4) = ?",
+      "options": [
+        "−1/2",
+        "1/2",
+        "−6/12",
+        "2/3"
+      ],
+      "answer": "−1/2",
+      "explain_boy": "−2/3 × 3/4 = −6/12 = −1/2!",
+      "explain_girl": "−2/3 × 3/4 = −6/12 = −1/2!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma10_tf1",
+      "bncc": "EF07MA10",
+      "topic": "porcentagem",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Juros simples: J = C × i × t.",
+      "answer": true,
+      "explain_boy": "Fórmula clássica de juros simples!",
+      "explain_girl": "Fórmula clássica de juros simples!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma05_002",
+      "bncc": "EF07MA05",
+      "topic": "racionais",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "0,25 escrito como fração irredutível:",
+      "options": [
+        "25/100",
+        "1/4",
+        "2/5",
+        "1/25"
+      ],
+      "answer": "1/4",
+      "explain_boy": "0,25=25/100=1/4!",
+      "explain_girl": "0,25=25/100=1/4!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma08_003",
+      "bncc": "EF07MA08",
+      "topic": "operacoes",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Calcule {a} × {b}.",
+      "a_min": 5,
+      "a_max": 20,
+      "b_min": 2,
+      "b_max": 12,
+      "op": "mul",
+      "explain_template_boy": "Fechou: {a} × {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} × {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef07ma10_003",
+      "bncc": "EF07MA10",
+      "topic": "porcentagem",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Capital R$ 1000, taxa 2% ao mês, 3 meses. Juros simples:",
+      "options": [
+        "R$ 20",
+        "R$ 40",
+        "R$ 60",
+        "R$ 600"
+      ],
+      "answer": "R$ 60",
+      "explain_boy": "J=1000×0,02×3=60!",
+      "explain_girl": "J=1000×0,02×3=60!",
+      "xp": 10
+    }
+  ]
+}

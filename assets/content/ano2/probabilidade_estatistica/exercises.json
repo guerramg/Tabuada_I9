@@ -1,0 +1,168 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 2,
+  "exercises": [
+    {
+      "id": "ef02ma22_001",
+      "bncc": "EF02MA22",
+      "topic": "pesquisa",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Na turma, 8 preferem futebol e 5 basquete. Qual esporte ganhou?",
+      "options": [
+        "basquete",
+        "futebol",
+        "empate",
+        "vôlei"
+      ],
+      "answer": "futebol",
+      "explain_boy": "8 > 5. Futebol ganhou a pesquisa!",
+      "explain_girl": "8 > 5. Futebol ganhou a pesquisa!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma23_001",
+      "bncc": "EF02MA23",
+      "topic": "graficos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "No gráfico de barras, a barra mais alta significa:",
+      "options": [
+        "menos votos",
+        "mais votos",
+        "empate",
+        "erro"
+      ],
+      "answer": "mais votos",
+      "explain_boy": "Barra mais alta = maior quantidade!",
+      "explain_girl": "Barra mais alta = maior quantidade!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma21_tf1",
+      "bncc": "EF02MA21",
+      "topic": "chance",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Acordar amanhã é um evento provável.",
+      "answer": true,
+      "explain_boy": "Sim! É bem provável acordar amanhã.",
+      "explain_girl": "Sim! É bem provável acordar amanhã.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma21_tf2",
+      "bncc": "EF02MA21",
+      "topic": "chance",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Nevar no deserto do Saara é muito provável.",
+      "answer": false,
+      "explain_boy": "Improvável! Deserto é quente e seco.",
+      "explain_girl": "Improvável! Deserto é quente e seco.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma22_002",
+      "bncc": "EF02MA22",
+      "topic": "pesquisa",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Somando os votos: 3 + 4 + 5 = ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": "12",
+      "explain_boy": "3+4+5=12. Total de votos!",
+      "explain_girl": "3+4+5=12. Total de votos!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma23_002",
+      "bncc": "EF02MA23",
+      "topic": "graficos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se cada ★ no pictograma vale 2, então ★★★ vale:",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "9"
+      ],
+      "answer": "6",
+      "explain_boy": "3 estrelas × 2 = 6. Pictograma!",
+      "explain_girl": "3 estrelas × 2 = 6. Pictograma!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma23_tf1",
+      "bncc": "EF02MA23",
+      "topic": "graficos",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Gráficos ajudam a comparar quantidades visualmente.",
+      "answer": true,
+      "explain_boy": "Sim! Visual fica mais fácil de comparar.",
+      "explain_girl": "Sim! Visual fica mais fácil de comparar.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma21_001",
+      "bncc": "EF02MA21",
+      "topic": "chance",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Sair sol num dia sem nuvens é:",
+      "options": [
+        "impossível",
+        "improvável",
+        "provável",
+        "mágica"
+      ],
+      "answer": "provável",
+      "explain_boy": "Sem nuvens → sol é bem provável!",
+      "explain_girl": "Sem nuvens → sol é bem provável!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma22_003",
+      "bncc": "EF02MA22",
+      "topic": "pesquisa",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Para saber a cor favorita da turma, o melhor é:",
+      "options": [
+        "adivinhar",
+        "perguntar a todos",
+        "ignorar",
+        "sortear só 1"
+      ],
+      "answer": "perguntar a todos",
+      "explain_boy": "Perguntar = coletar dados da pesquisa!",
+      "explain_girl": "Perguntar = coletar dados da pesquisa!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma22_tf1",
+      "bncc": "EF02MA22",
+      "topic": "pesquisa",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "Em uma pesquisa, todo mundo precisa responder a mesma pergunta.",
+      "answer": true,
+      "explain_boy": "Sim! Pergunta igual pra comparar respostas.",
+      "explain_girl": "Sim! Pergunta igual pra comparar respostas.",
+      "xp": 10
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "unit": "numeros",
+  "grade": 2,
+  "exercises": [
+    {
+      "id": "ef02ma05_001",
+      "bncc": "EF02MA05",
+      "topic": "adicao_subtracao",
+      "difficulty": 1,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Quanto é {a} + {b}?",
+      "a_min": 10,
+      "a_max": 40,
+      "b_min": 5,
+      "b_max": 30,
+      "op": "add",
+      "explain_template_boy": "Fechou: {a} + {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} + {b} = {answer}. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma05_002",
+      "bncc": "EF02MA05",
+      "topic": "adicao_subtracao",
+      "difficulty": 1,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Calcule {a} − {b}.",
+      "a_min": 20,
+      "a_max": 50,
+      "b_min": 5,
+      "b_max": 19,
+      "op": "sub",
+      "explain_template_boy": "Fechou: {a} − {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} − {b} = {answer}. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma01_001",
+      "bncc": "EF02MA01",
+      "topic": "composicao",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Em 234, quantas centenas há?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "23"
+      ],
+      "answer": "2",
+      "explain_boy": "234 = 2 centenas + 3 dezenas + 4 unidades. Mandou!",
+      "explain_girl": "234 = 2 centenas + 3 dezenas + 4 unidades. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma08_001",
+      "bncc": "EF02MA08",
+      "topic": "dobro_metade",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é o dobro de 8?",
+      "options": [
+        "4",
+        "12",
+        "16",
+        "18"
+      ],
+      "answer": "16",
+      "explain_boy": "Dobro de 8 = 8 + 8 = 16. Fechou!",
+      "explain_girl": "Dobro de 8 = 8 + 8 = 16. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma08_002",
+      "bncc": "EF02MA08",
+      "topic": "dobro_metade",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é a metade de 20?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "40"
+      ],
+      "answer": "10",
+      "explain_boy": "Metade de 20 = 20 ÷ 2 = 10!",
+      "explain_girl": "Metade de 20 = 20 ÷ 2 = 10!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma01_tf1",
+      "bncc": "EF02MA01",
+      "topic": "composicao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Em 50, há 5 dezenas.",
+      "answer": true,
+      "explain_boy": "Sim! 50 = 5 dezenas. Mandou bem!",
+      "explain_girl": "Sim! 50 = 5 dezenas. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma05_003",
+      "bncc": "EF02MA05",
+      "topic": "adicao_subtracao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Tinha 35 figurinhas e ganhou 12. Quantas tem agora?",
+      "options": [
+        "23",
+        "47",
+        "37",
+        "45"
+      ],
+      "answer": "47",
+      "explain_boy": "35 + 12 = 47. Problema resolvido!",
+      "explain_girl": "35 + 12 = 47. Problema resolvido!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma05_004",
+      "bncc": "EF02MA05",
+      "topic": "adicao_subtracao",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Quanto é {a} + {b}?",
+      "a_min": 15,
+      "a_max": 60,
+      "b_min": 10,
+      "b_max": 40,
+      "op": "add",
+      "explain_template_boy": "Fechou: {a} + {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} + {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef02ma08_tf1",
+      "bncc": "EF02MA08",
+      "topic": "dobro_metade",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "O dobro de 5 é 10.",
+      "answer": true,
+      "explain_boy": "Sim! 5 + 5 = 10.",
+      "explain_girl": "Sim! 5 + 5 = 10.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma01_002",
+      "bncc": "EF02MA01",
+      "topic": "composicao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual número tem 3 centenas, 0 dezenas e 7 unidades?",
+      "options": [
+        "37",
+        "307",
+        "370",
+        "703"
+      ],
+      "answer": "307",
+      "explain_boy": "3 centenas + 0 dezenas + 7 = 307!",
+      "explain_girl": "3 centenas + 0 dezenas + 7 = 307!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma05_005",
+      "bncc": "EF02MA05",
+      "topic": "adicao_subtracao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "45 − 18 = ?",
+      "options": [
+        "27",
+        "33",
+        "37",
+        "23"
+      ],
+      "answer": "27",
+      "explain_boy": "45 − 18 = 27. Subtração com recurso!",
+      "explain_girl": "45 − 18 = 27. Subtração com recurso!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma05_tf1",
+      "bncc": "EF02MA05",
+      "topic": "adicao_subtracao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "20 + 30 = 50.",
+      "answer": true,
+      "explain_boy": "Sim! 20 + 30 = 50. Dezenas!",
+      "explain_girl": "Sim! 20 + 30 = 50. Dezenas!",
+      "xp": 10
+    }
+  ]
+}

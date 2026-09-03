@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 8,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Congruência",
+      "title_girl": "Congruência",
+      "body_boy": "Figuras congruentes: mesmo tamanho e forma. Critérios LLL, LAL, ALA nos triângulos!",
+      "body_girl": "Figuras congruentes: mesmo tamanho e forma. Critérios LLL, LAL, ALA nos triângulos!"
+    },
+    {
+      "title_boy": "Teorema de Pitágoras",
+      "title_girl": "Teorema de Pitágoras",
+      "body_boy": "a² + b² = c² no triângulo retângulo. Hipotenusa é o lado maior. Lendário!",
+      "body_girl": "a² + b² = c² no triângulo retângulo. Hipotenusa é o lado maior. Lendário!"
+    },
+    {
+      "title_boy": "Área de polígonos regulares",
+      "title_girl": "Área de polígonos regulares",
+      "body_boy": "Polígono regular: lados e ângulos iguais. Área com apótema: (P × ap)/2!",
+      "body_girl": "Polígono regular: lados e ângulos iguais. Área com apótema: (P × ap)/2!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "congruencia",
+      "name": "Congruência",
+      "bncc": "EF08MA14"
+    },
+    {
+      "id": "pitagoras",
+      "name": "Pitágoras",
+      "bncc": "EF08MA15"
+    },
+    {
+      "id": "poligonos",
+      "name": "Polígonos regulares",
+      "bncc": "EF08MA16"
+    }
+  ]
+}

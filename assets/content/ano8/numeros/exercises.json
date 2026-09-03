@@ -1,0 +1,180 @@
+{
+  "unit": "numeros",
+  "grade": 8,
+  "exercises": [
+    {
+      "id": "ef08ma01_001",
+      "bncc": "EF08MA01",
+      "topic": "potencias",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2³ = ?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "answer": "8",
+      "explain_boy": "2×2×2=8!",
+      "explain_girl": "2×2×2=8!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma01_002",
+      "bncc": "EF08MA01",
+      "topic": "potencias",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "√9 = ?",
+      "options": [
+        "3",
+        "4,5",
+        "81",
+        "18"
+      ],
+      "answer": "3",
+      "explain_boy": "3×3=9 → √9=3!",
+      "explain_girl": "3×3=9 → √9=3!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma02_001",
+      "bncc": "EF08MA02",
+      "topic": "notacao_cientifica",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3 000 000 em notação científica:",
+      "options": [
+        "3×10⁵",
+        "3×10⁶",
+        "30×10⁵",
+        "3×10³"
+      ],
+      "answer": "3×10⁶",
+      "explain_boy": "3×10⁶ = 3 000 000!",
+      "explain_girl": "3×10⁶ = 3 000 000!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma01_tf1",
+      "bncc": "EF08MA01",
+      "topic": "potencias",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "5² = 25.",
+      "answer": true,
+      "explain_boy": "5×5=25. Correto!",
+      "explain_girl": "5×5=25. Correto!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma05_001",
+      "bncc": "EF08MA05",
+      "topic": "dizimas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "1/3 como decimal é:",
+      "options": [
+        "0,3 exato sem repetir",
+        "0,333…",
+        "0,13",
+        "3,1"
+      ],
+      "answer": "0,333…",
+      "explain_boy": "Dízima periódica 0,333…!",
+      "explain_girl": "Dízima periódica 0,333…!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma02_002",
+      "bncc": "EF08MA02",
+      "topic": "notacao_cientifica",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "4,5×10³ = ?",
+      "options": [
+        "45",
+        "450",
+        "4500",
+        "45000"
+      ],
+      "answer": "4500",
+      "explain_boy": "4,5×1000=4500!",
+      "explain_girl": "4,5×1000=4500!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma05_tf1",
+      "bncc": "EF08MA05",
+      "topic": "dizimas",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Toda dízima periódica pode virar fração.",
+      "answer": true,
+      "explain_boy": "Racionais ↔ dízimas periódicas!",
+      "explain_girl": "Racionais ↔ dízimas periódicas!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma01_003",
+      "bncc": "EF08MA01",
+      "topic": "potencias",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "√64 = ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "32"
+      ],
+      "answer": "8",
+      "explain_boy": "8×8=64!",
+      "explain_girl": "8×8=64!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma01_004",
+      "bncc": "EF08MA01",
+      "topic": "potencias",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Calcule {a} × {b}.",
+      "a_min": 8,
+      "a_max": 25,
+      "b_min": 2,
+      "b_max": 9,
+      "op": "mul",
+      "explain_template_boy": "Fechou: {a} × {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} × {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef08ma05_002",
+      "bncc": "EF08MA05",
+      "topic": "dizimas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "0,5 = fração:",
+      "options": [
+        "1/5",
+        "1/2",
+        "5/10 irredutível",
+        "2/5"
+      ],
+      "answer": "1/2",
+      "explain_boy": "0,5=1/2!",
+      "explain_girl": "0,5=1/2!",
+      "xp": 10
+    }
+  ]
+}

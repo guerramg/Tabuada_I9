@@ -1,0 +1,44 @@
+{
+  "unit": "numeros",
+  "grade": 7,
+  "title": "Números",
+  "title_boy": "Missão Números",
+  "title_girl": "Estrela dos Números",
+  "slides": [
+    {
+      "title_boy": "Números racionais",
+      "title_girl": "Números racionais",
+      "body_boy": "Todo número que vira fração é racional: −3/5, 0,25, 7. Racionais dominam o 7º ano!",
+      "body_girl": "Todo número que vira fração é racional: −3/5, 0,25, 7. Racionais dominam o 7º ano!"
+    },
+    {
+      "title_boy": "Operações com racionais",
+      "title_girl": "Operações com racionais",
+      "body_boy": "Somar, subtrair, multiplicar e dividir frações e decimais (positivos e negativos). Nível up!",
+      "body_girl": "Somar, subtrair, multiplicar e dividir frações e decimais (positivos e negativos). Nível up!"
+    },
+    {
+      "title_boy": "Porcentagem e juros",
+      "title_girl": "Porcentagem e juros",
+      "body_boy": "Desconto de 20% em R$ 50 = R$ 10 off. Juros simples: J = C × i × t. Vida real!",
+      "body_girl": "Desconto de 20% em R$ 50 = R$ 10 off. Juros simples: J = C × i × t. Vida real!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "racionais",
+      "name": "Números racionais",
+      "bncc": "EF07MA05"
+    },
+    {
+      "id": "operacoes",
+      "name": "Operações",
+      "bncc": "EF07MA08"
+    },
+    {
+      "id": "porcentagem",
+      "name": "Porcentagem e juros",
+      "bncc": "EF07MA10"
+    }
+  ]
+}

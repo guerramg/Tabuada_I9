@@ -1,0 +1,44 @@
+{
+  "unit": "numeros",
+  "grade": 9,
+  "title": "Números",
+  "title_boy": "Missão Números",
+  "title_girl": "Estrela dos Números",
+  "slides": [
+    {
+      "title_boy": "Números reais",
+      "title_girl": "Números reais",
+      "body_boy": "Racionais + irracionais (√2, π) = reais. Reta numérica completa. Último nível!",
+      "body_girl": "Racionais + irracionais (√2, π) = reais. Reta numérica completa. Último nível!"
+    },
+    {
+      "title_boy": "Potências de expoente inteiro",
+      "title_girl": "Potências de expoente inteiro",
+      "body_boy": "2⁻³ = 1/8. Expoente negativo = inverso. Regras de potência mandam!",
+      "body_girl": "2⁻³ = 1/8. Expoente negativo = inverso. Regras de potência mandam!"
+    },
+    {
+      "title_boy": "Porcentagem avançada",
+      "title_girl": "Porcentagem avançada",
+      "body_boy": "Aumento sucessivo, desconto sobre desconto, juros compostos. Matemática financeira!",
+      "body_girl": "Aumento sucessivo, desconto sobre desconto, juros compostos. Matemática financeira!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "reais",
+      "name": "Números reais",
+      "bncc": "EF09MA01"
+    },
+    {
+      "id": "potencias",
+      "name": "Potências",
+      "bncc": "EF09MA03"
+    },
+    {
+      "id": "financeira",
+      "name": "Matemática financeira",
+      "bncc": "EF09MA05"
+    }
+  ]
+}

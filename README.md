@@ -1,24 +1,36 @@
+# Mathi9 Kids
 
-# Tabuada I9
+Plataforma de matemática infanto-juvenil (Ensino Fundamental 1 e 2) alinhada à BNCC.
 
-Projeto realizado em dart/flutter de tabuada matemática para auxilio de estudos para crianças e jovens com ou sem dificuldades de fixação.
+**Um app i9** — i9 Soluções Inteligentes.
 
+## Slogan
 
+> Cérebro no 9. Matemática que dá play.
 
-## Criado por
+## Plataformas
 
-- [Raphael Guerra](https://github.com/guerramg)
+- Android
+- Desktop (Windows e Linux)
 
+## Recursos
+
+- Lições + tarefas + quiz + desafio + prova por unidade BNCC
+- Moeda I9$ (1 I9$ = R$ 0,01) com teto mensal do responsável
+- Área do responsável protegida por PIN
+- Temas Kit Aventura / Kit Estrela
+- Modo Foco contra saída do app durante provas
+- Conta 100% local (SQLite)
 
 ## Build
 
-Para realizar o build para a plataforma desejada basta abrir o terminal do vscode ou power shell e digitar o seguinte código 
-
 ```bash
-  flutter build [plataforma desejada]
+flutter pub get
+flutter run -d linux
+# ou
+flutter run -d android
 ```
-    
+
 ## Licença
 
-[MIT](https://choosealicense.com/licenses/mit/)
-
+MIT

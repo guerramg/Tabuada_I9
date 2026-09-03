@@ -1,0 +1,144 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 7,
+  "exercises": [
+    {
+      "id": "ef07ma29_001",
+      "bncc": "EF07MA29",
+      "topic": "area_composta",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Dois retângulos 3×4 lado a lado. Área total:",
+      "options": [
+        "12",
+        "24",
+        "14",
+        "7"
+      ],
+      "answer": "24",
+      "explain_boy": "12+12=24. Áreas somadas!",
+      "explain_girl": "12+12=24. Áreas somadas!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma30_001",
+      "bncc": "EF07MA30",
+      "topic": "volume",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Volume do prisma = área da base × altura. Base=10, h=5:",
+      "options": [
+        "15",
+        "50",
+        "2",
+        "25"
+      ],
+      "answer": "50",
+      "explain_boy": "10×5=50!",
+      "explain_girl": "10×5=50!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma28_001",
+      "bncc": "EF07MA28",
+      "topic": "comprimento",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3,5 km = quantos metros?",
+      "options": [
+        "35",
+        "350",
+        "3500",
+        "35000"
+      ],
+      "answer": "3500",
+      "explain_boy": "3,5×1000=3500 m!",
+      "explain_girl": "3,5×1000=3500 m!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma30_tf1",
+      "bncc": "EF07MA30",
+      "topic": "volume",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "V = Ab × h vale para prismas.",
+      "answer": true,
+      "explain_boy": "Fórmula geral de prisma!",
+      "explain_girl": "Fórmula geral de prisma!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma29_002",
+      "bncc": "EF07MA29",
+      "topic": "area_composta",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Retângulo 8×6 menos quadrado 2×2. Área restante:",
+      "options": [
+        "44",
+        "48",
+        "46",
+        "40"
+      ],
+      "answer": "44",
+      "explain_boy": "48 − 4 = 44!",
+      "explain_girl": "48 − 4 = 44!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma28_002",
+      "bncc": "EF07MA28",
+      "topic": "comprimento",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2500 m = quantos km?",
+      "options": [
+        "0,25",
+        "2,5",
+        "25",
+        "250"
+      ],
+      "answer": "2,5",
+      "explain_boy": "2500÷1000=2,5 km!",
+      "explain_girl": "2500÷1000=2,5 km!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma29_tf1",
+      "bncc": "EF07MA29",
+      "topic": "area_composta",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Figuras compostas: soma ou subtrai áreas.",
+      "answer": true,
+      "explain_boy": "Estratégia clássica!",
+      "explain_girl": "Estratégia clássica!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma30_002",
+      "bncc": "EF07MA30",
+      "topic": "volume",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Prisma triangular: área da base=12, altura=4. Volume:",
+      "options": [
+        "16",
+        "48",
+        "3",
+        "8"
+      ],
+      "answer": "48",
+      "explain_boy": "12×4=48!",
+      "explain_girl": "12×4=48!",
+      "xp": 10
+    }
+  ]
+}

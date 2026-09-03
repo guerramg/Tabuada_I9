@@ -1,0 +1,144 @@
+{
+  "unit": "algebra",
+  "grade": 9,
+  "exercises": [
+    {
+      "id": "ef09ma09_001",
+      "bncc": "EF09MA09",
+      "topic": "equacao_2grau",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Para ax²+bx+c=0, Δ = ?",
+      "options": [
+        "b²+4ac",
+        "b²−4ac",
+        "2ab",
+        "−b/2a"
+      ],
+      "answer": "b²−4ac",
+      "explain_boy": "Discriminante Δ = b²−4ac!",
+      "explain_girl": "Discriminante Δ = b²−4ac!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma09_002",
+      "bncc": "EF09MA09",
+      "topic": "equacao_2grau",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "x² − 5x + 6 = 0. Raízes:",
+      "options": [
+        "1 e 6",
+        "2 e 3",
+        "−2 e −3",
+        "5 e 6"
+      ],
+      "answer": "2 e 3",
+      "explain_boy": "(x−2)(x−3)=0 → x=2 ou 3!",
+      "explain_girl": "(x−2)(x−3)=0 → x=2 ou 3!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma06_001",
+      "bncc": "EF09MA06",
+      "topic": "funcoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "f(x)=2x+1. f(3)=?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "7",
+      "explain_boy": "2×3+1=7!",
+      "explain_girl": "2×3+1=7!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma06_tf1",
+      "bncc": "EF09MA06",
+      "topic": "funcoes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Função afim tem gráfico em reta.",
+      "answer": true,
+      "explain_boy": "f(x)=ax+b → reta!",
+      "explain_girl": "f(x)=ax+b → reta!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma07_001",
+      "bncc": "EF09MA07",
+      "topic": "quadratica",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Gráfico de f(x)=x² é:",
+      "options": [
+        "reta",
+        "parábola",
+        "círculo",
+        "triângulo"
+      ],
+      "answer": "parábola",
+      "explain_boy": "Função quadrática → parábola!",
+      "explain_girl": "Função quadrática → parábola!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma09_003",
+      "bncc": "EF09MA09",
+      "topic": "equacao_2grau",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se Δ > 0, a equação do 2º grau tem:",
+      "options": [
+        "0 raízes reais",
+        "1 raiz real",
+        "2 raízes reais",
+        "infinitas"
+      ],
+      "answer": "2 raízes reais",
+      "explain_boy": "Δ positivo → duas raízes reais!",
+      "explain_girl": "Δ positivo → duas raízes reais!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma09_tf1",
+      "bncc": "EF09MA09",
+      "topic": "equacao_2grau",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Bhaskara: x = (−b ± √Δ)/(2a).",
+      "answer": true,
+      "explain_boy": "Fórmula de Bhaskara!",
+      "explain_girl": "Fórmula de Bhaskara!",
+      "xp": 10
+    },
+    {
+      "id": "ef09ma07_002",
+      "bncc": "EF09MA07",
+      "topic": "quadratica",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "f(x)=x²−4x+3. Raízes (f=0):",
+      "options": [
+        "1 e 3",
+        "2 e 4",
+        "−1 e −3",
+        "0 e 3"
+      ],
+      "answer": "1 e 3",
+      "explain_boy": "(x−1)(x−3)=0!",
+      "explain_girl": "(x−1)(x−3)=0!",
+      "xp": 10
+    }
+  ]
+}

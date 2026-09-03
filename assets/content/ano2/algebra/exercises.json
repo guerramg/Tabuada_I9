@@ -1,0 +1,175 @@
+{
+  "unit": "algebra",
+  "grade": 2,
+  "exercises": [
+    {
+      "id": "ef02ma09_001",
+      "bncc": "EF02MA09",
+      "topic": "padroes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Complete: 10, 20, 30, ___",
+      "options": [
+        "35",
+        "40",
+        "50",
+        "25"
+      ],
+      "answer": "40",
+      "explain_boy": "De 10 em 10: 10, 20, 30, 40!",
+      "explain_girl": "De 10 em 10: 10, 20, 30, 40!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma09_002",
+      "bncc": "EF02MA09",
+      "topic": "padroes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Complete: ★ ★ ○ ★ ★ ○ ★ ★ ___",
+      "options": [
+        "★",
+        "○",
+        "●",
+        "◆"
+      ],
+      "answer": "○",
+      "explain_boy": "Padrão ★ ★ ○ se repete. Próximo é ○!",
+      "explain_girl": "Padrão ★ ★ ○ se repete. Próximo é ○!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma10_001",
+      "bncc": "EF02MA10",
+      "topic": "igualdade",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se 6 + □ = 10, □ vale:",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "4",
+      "explain_boy": "6 + 4 = 10. Equilíbrio!",
+      "explain_girl": "6 + 4 = 10. Equilíbrio!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma10_002",
+      "bncc": "EF02MA10",
+      "topic": "igualdade",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual deixa a balança equilibrada: 8 = 5 + □?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "13"
+      ],
+      "answer": "3",
+      "explain_boy": "5 + 3 = 8. □ = 3. Fechou!",
+      "explain_girl": "5 + 3 = 8. □ = 3. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma09_tf1",
+      "bncc": "EF02MA09",
+      "topic": "padroes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Contar de 2 em 2: 2, 4, 6, 8… é um padrão.",
+      "answer": true,
+      "explain_boy": "Sim! Padrão numérico de 2 em 2.",
+      "explain_girl": "Sim! Padrão numérico de 2 em 2.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma09_003",
+      "bncc": "EF02MA09",
+      "topic": "padroes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "5, 10, 15, 20, ___",
+      "options": [
+        "21",
+        "25",
+        "30",
+        "22"
+      ],
+      "answer": "25",
+      "explain_boy": "De 5 em 5: próximo é 25!",
+      "explain_girl": "De 5 em 5: próximo é 25!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma10_tf1",
+      "bncc": "EF02MA10",
+      "topic": "igualdade",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "7 = 7 é uma igualdade verdadeira.",
+      "answer": true,
+      "explain_boy": "Sim! Mesmo valor dos dois lados.",
+      "explain_girl": "Sim! Mesmo valor dos dois lados.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma10_003",
+      "bncc": "EF02MA10",
+      "topic": "igualdade",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "12 − □ = 7. Quanto é □?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "19"
+      ],
+      "answer": "5",
+      "explain_boy": "12 − 5 = 7. Mandou a real!",
+      "explain_girl": "12 − 5 = 7. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma09_004",
+      "bncc": "EF02MA09",
+      "topic": "padroes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "A B C A B C A B ___",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "C",
+      "explain_boy": "Padrão ABC se repete. Próximo é C!",
+      "explain_girl": "Padrão ABC se repete. Próximo é C!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma10_tf2",
+      "bncc": "EF02MA10",
+      "topic": "igualdade",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "3 + 5 = 9 − 1.",
+      "answer": true,
+      "explain_boy": "3+5=8 e 9−1=8. Iguais! Fechou!",
+      "explain_girl": "3+5=8 e 9−1=8. Iguais! Arrasou!",
+      "xp": 10
+    }
+  ]
+}

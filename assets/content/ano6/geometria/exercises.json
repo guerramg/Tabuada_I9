@@ -1,0 +1,144 @@
+{
+  "unit": "geometria",
+  "grade": 6,
+  "exercises": [
+    {
+      "id": "ef06ma16_001",
+      "bncc": "EF06MA16",
+      "topic": "plano_cartesiano",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "No ponto (3, 5), o 3 é a coordenada:",
+      "options": [
+        "y",
+        "x",
+        "z",
+        "origem"
+      ],
+      "answer": "x",
+      "explain_boy": "Par (x, y): primeiro é x!",
+      "explain_girl": "Par (x, y): primeiro é x!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma18_001",
+      "bncc": "EF06MA18",
+      "topic": "angulos_poligonos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Soma dos ângulos internos de um triângulo:",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "answer": "180°",
+      "explain_boy": "Sempre 180° no triângulo!",
+      "explain_girl": "Sempre 180° no triângulo!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma29_001",
+      "bncc": "EF06MA29",
+      "topic": "area",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área do paralelogramo: base×altura. Base=8, altura=3:",
+      "options": [
+        "11",
+        "24",
+        "16",
+        "5"
+      ],
+      "answer": "24",
+      "explain_boy": "8×3=24!",
+      "explain_girl": "8×3=24!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma16_tf1",
+      "bncc": "EF06MA16",
+      "topic": "plano_cartesiano",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Eixo x é horizontal e y é vertical.",
+      "answer": true,
+      "explain_boy": "Orientação padrão do plano!",
+      "explain_girl": "Orientação padrão do plano!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma18_002",
+      "bncc": "EF06MA18",
+      "topic": "angulos_poligonos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Soma dos ângulos de um quadrilátero:",
+      "options": [
+        "180°",
+        "270°",
+        "360°",
+        "90°"
+      ],
+      "answer": "360°",
+      "explain_boy": "Quadrilátero = 360°!",
+      "explain_girl": "Quadrilátero = 360°!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma16_002",
+      "bncc": "EF06MA16",
+      "topic": "plano_cartesiano",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "O ponto (0, 0) é chamado de:",
+      "options": [
+        "eixo",
+        "origem",
+        "quadrante",
+        "reta"
+      ],
+      "answer": "origem",
+      "explain_boy": "Origem = interseção dos eixos!",
+      "explain_girl": "Origem = interseção dos eixos!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma18_tf1",
+      "bncc": "EF06MA18",
+      "topic": "angulos_poligonos",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Todo triângulo tem soma angular 180°.",
+      "answer": true,
+      "explain_boy": "Teorema clássico!",
+      "explain_girl": "Teorema clássico!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma29_002",
+      "bncc": "EF06MA29",
+      "topic": "area",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área do trapézio: [(B+b)×h]/2. B=10, b=6, h=4:",
+      "options": [
+        "32",
+        "64",
+        "20",
+        "16"
+      ],
+      "answer": "32",
+      "explain_boy": "(10+6)×4÷2 = 64÷2 = 32!",
+      "explain_girl": "(10+6)×4÷2 = 64÷2 = 32!",
+      "xp": 10
+    }
+  ]
+}

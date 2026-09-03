@@ -1,0 +1,207 @@
+{
+  "unit": "numeros",
+  "grade": 1,
+  "exercises": [
+    {
+      "id": "ef01ma01_001",
+      "bncc": "EF01MA01",
+      "topic": "contagem",
+      "difficulty": 1,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Quanto é {a} + {b}?",
+      "a_min": 1,
+      "a_max": 9,
+      "b_min": 1,
+      "b_max": 9,
+      "op": "add",
+      "explain_template_boy": "Fechou: {a} + {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} + {b} = {answer}. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma06_001",
+      "bncc": "EF01MA06",
+      "topic": "adicao_subtracao",
+      "difficulty": 1,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Calcule {a} − {b}.",
+      "a_min": 5,
+      "a_max": 15,
+      "b_min": 1,
+      "b_max": 5,
+      "op": "sub",
+      "explain_template_boy": "Fechou: {a} − {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} − {b} = {answer}. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma01_002",
+      "bncc": "EF01MA01",
+      "topic": "contagem",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual número vem depois do 5?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "3"
+      ],
+      "answer": "6",
+      "explain_boy": "Depois do 5 vem o 6. Sequência: 5, 6, 7… Mandou bem!",
+      "explain_girl": "Depois do 5 vem o 6. Sequência: 5, 6, 7… Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma02_001",
+      "bncc": "EF01MA02",
+      "topic": "escrita_numerica",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Como se escreve o número quinze?",
+      "options": [
+        "51",
+        "15",
+        "105",
+        "50"
+      ],
+      "answer": "15",
+      "explain_boy": "Quinze = 15. Um e cinco. Fechou!",
+      "explain_girl": "Quinze = 15. Um e cinco. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma03_001",
+      "bncc": "EF01MA03",
+      "topic": "comparacao",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é o maior: 7 ou 4?",
+      "options": [
+        "4",
+        "7",
+        "iguais",
+        "0"
+      ],
+      "answer": "7",
+      "explain_boy": "7 é maior que 4. 7 > 4. Mandou a real!",
+      "explain_girl": "7 é maior que 4. 7 > 4. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma_tf_001",
+      "bncc": "EF01MA01",
+      "topic": "contagem",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "O número 10 vem depois do 9.",
+      "answer": true,
+      "explain_boy": "Sim! 8, 9, 10. Mandou bem!",
+      "explain_girl": "Isso mesmo! 8, 9, 10. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma_tf_002",
+      "bncc": "EF01MA03",
+      "topic": "comparacao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "O número 3 é maior que o 8.",
+      "answer": false,
+      "explain_boy": "Não! 3 < 8. 8 é maior. Continua!",
+      "explain_girl": "Não! 3 < 8. 8 é maior. Continua!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma01_003",
+      "bncc": "EF01MA01",
+      "topic": "contagem",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantos dedos tem uma mão?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "answer": "5",
+      "explain_boy": "Uma mão tem 5 dedos. Conta aí!",
+      "explain_girl": "Uma mão tem 5 dedos. Conta aí!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma06_002",
+      "bncc": "EF01MA06",
+      "topic": "adicao_subtracao",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Quanto é {a} + {b}?",
+      "a_min": 2,
+      "a_max": 12,
+      "b_min": 2,
+      "b_max": 8,
+      "op": "add",
+      "explain_template_boy": "Fechou: {a} + {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} + {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef01ma02_002",
+      "bncc": "EF01MA02",
+      "topic": "escrita_numerica",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual número está entre 6 e 8?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "4"
+      ],
+      "answer": "7",
+      "explain_boy": "Entre 6 e 8 está o 7. Sequência: 6, 7, 8!",
+      "explain_girl": "Entre 6 e 8 está o 7. Sequência: 6, 7, 8!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma03_002",
+      "bncc": "EF01MA03",
+      "topic": "comparacao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Complete: 9 ___ 5",
+      "options": [
+        ">",
+        "<",
+        "=",
+        "≠"
+      ],
+      "answer": ">",
+      "explain_boy": "9 é maior que 5, então 9 > 5. Fechou!",
+      "explain_girl": "9 é maior que 5, então 9 > 5. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma_tf_003",
+      "bncc": "EF01MA06",
+      "topic": "adicao_subtracao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "2 + 2 = 4.",
+      "answer": true,
+      "explain_boy": "Sim! 2 + 2 = 4. Clássico!",
+      "explain_girl": "Sim! 2 + 2 = 4. Clássico!",
+      "xp": 10
+    }
+  ]
+}

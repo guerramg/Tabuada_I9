@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 1,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Maior, menor, mais longo",
+      "title_girl": "Maior, menor, mais longo",
+      "body_boy": "Comparar tamanhos sem régua: qual lápis é mais comprido? Qual mochila é mais pesada? Usa os olhos!",
+      "body_girl": "Comparar tamanhos sem régua: qual lápis é mais comprido? Qual mochila é mais pesada? Observa bem!"
+    },
+    {
+      "title_boy": "Tempo e calendário",
+      "title_girl": "Tempo e calendário",
+      "body_boy": "Dia, semana, mês, ano. Segunda vem depois de domingo. Relógio e calendário são teus aliados!",
+      "body_girl": "Dia, semana, mês, ano. Segunda vem depois de domingo. Relógio e calendário são tuas aliadas!"
+    },
+    {
+      "title_boy": "Dinheiro de verdade",
+      "title_girl": "Dinheiro de verdade",
+      "body_boy": "Centavos e reais. 100 centavos = 1 real. Saber contar dinheiro é missão importante no dia a dia!",
+      "body_girl": "Centavos e reais. 100 centavos = 1 real. Saber contar dinheiro é missão importante no dia a dia!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "comparacao_medidas",
+      "name": "Comparação de medidas",
+      "bncc": "EF01MA15"
+    },
+    {
+      "id": "tempo",
+      "name": "Tempo",
+      "bncc": "EF01MA16"
+    },
+    {
+      "id": "sistema_monetario",
+      "name": "Sistema monetário",
+      "bncc": "EF01MA19"
+    }
+  ]
+}

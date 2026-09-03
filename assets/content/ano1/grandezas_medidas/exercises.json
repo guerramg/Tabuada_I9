@@ -1,0 +1,175 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 1,
+  "exercises": [
+    {
+      "id": "ef01ma15_001",
+      "bncc": "EF01MA15",
+      "topic": "comparacao_medidas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é mais comprido: uma régua de 30 cm ou um lápis de 15 cm?",
+      "options": [
+        "lápis",
+        "régua",
+        "iguais",
+        "não dá pra saber"
+      ],
+      "answer": "régua",
+      "explain_boy": "30 cm > 15 cm. A régua é mais comprida!",
+      "explain_girl": "30 cm > 15 cm. A régua é mais comprida!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma16_001",
+      "bncc": "EF01MA16",
+      "topic": "tempo",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantos dias tem uma semana?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "10"
+      ],
+      "answer": "7",
+      "explain_boy": "Semana = 7 dias. Dom, seg, ter, qua, qui, sex, sáb!",
+      "explain_girl": "Semana = 7 dias. Dom, seg, ter, qua, qui, sex, sáb!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma19_001",
+      "bncc": "EF01MA19",
+      "topic": "sistema_monetario",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantos centavos fazem 1 real?",
+      "options": [
+        "10",
+        "50",
+        "100",
+        "1000"
+      ],
+      "answer": "100",
+      "explain_boy": "100 centavos = 1 real. Dinheiro no bolso!",
+      "explain_girl": "100 centavos = 1 real. Dinheiro no bolso!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma16_tf1",
+      "bncc": "EF01MA16",
+      "topic": "tempo",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Segunda-feira vem depois de domingo.",
+      "answer": true,
+      "explain_boy": "Sim! Domingo → segunda. Calendário ok!",
+      "explain_girl": "Sim! Domingo → segunda. Calendário ok!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma15_002",
+      "bncc": "EF01MA15",
+      "topic": "comparacao_medidas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é mais pesado: um elefante ou uma mochila?",
+      "options": [
+        "mochila",
+        "elefante",
+        "iguais",
+        "gato"
+      ],
+      "answer": "elefante",
+      "explain_boy": "Elefante é bem mais pesado! Comparação de massa.",
+      "explain_girl": "Elefante é bem mais pesado! Comparação de massa.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma19_002",
+      "bncc": "EF01MA19",
+      "topic": "sistema_monetario",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Você tem R$ 5 e ganha R$ 3. Quanto tem agora?",
+      "options": [
+        "R$ 2",
+        "R$ 7",
+        "R$ 8",
+        "R$ 15"
+      ],
+      "answer": "R$ 7",
+      "explain_boy": "5 + 3 = 7. Agora tem R$ 7. Mandou!",
+      "explain_girl": "5 + 3 = 7. Agora tem R$ 7. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma15_tf1",
+      "bncc": "EF01MA15",
+      "topic": "comparacao_medidas",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Um prédio é mais alto que uma pessoa.",
+      "answer": true,
+      "explain_boy": "Claro! Prédio é bem mais alto.",
+      "explain_girl": "Claro! Prédio é bem mais alto.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma16_002",
+      "bncc": "EF01MA16",
+      "topic": "tempo",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantos meses tem um ano?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "24"
+      ],
+      "answer": "12",
+      "explain_boy": "Ano tem 12 meses. Jan até dez!",
+      "explain_girl": "Ano tem 12 meses. Jan até dez!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma19_003",
+      "bncc": "EF01MA19",
+      "topic": "sistema_monetario",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Uma moeda de R$ 1 e outra de 50 centavos somam:",
+      "options": [
+        "R$ 1,00",
+        "R$ 1,50",
+        "R$ 2,00",
+        "R$ 0,50"
+      ],
+      "answer": "R$ 1,50",
+      "explain_boy": "1 + 0,50 = 1,50. Fechou!",
+      "explain_girl": "1 + 0,50 = 1,50. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma16_tf2",
+      "bncc": "EF01MA16",
+      "topic": "tempo",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "O mês de fevereiro sempre tem 31 dias.",
+      "answer": false,
+      "explain_boy": "Não! Fevereiro tem 28 ou 29 dias.",
+      "explain_girl": "Não! Fevereiro tem 28 ou 29 dias.",
+      "xp": 10
+    }
+  ]
+}

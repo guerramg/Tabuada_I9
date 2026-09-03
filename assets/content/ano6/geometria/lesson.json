@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 6,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Plano cartesiano",
+      "title_girl": "Plano cartesiano",
+      "body_boy": "Par ordenado (x, y). Eixo x horizontal, y vertical. Localizar pontos no plano!",
+      "body_girl": "Par ordenado (x, y). Eixo x horizontal, y vertical. Localizar pontos no plano!"
+    },
+    {
+      "title_boy": "Polígonos e ângulos",
+      "title_girl": "Polígonos e ângulos",
+      "body_boy": "Soma dos ângulos internos do triângulo = 180°. Quadrilátero = 360°. Fato!",
+      "body_girl": "Soma dos ângulos internos do triângulo = 180°. Quadrilátero = 360°. Fato!"
+    },
+    {
+      "title_boy": "Área e perímetro avançados",
+      "title_girl": "Área e perímetro avançados",
+      "body_boy": "Compor e decompor figuras pra achar área. Trapézio, paralelogramo: fórmulas novas!",
+      "body_girl": "Compor e decompor figuras pra achar área. Trapézio, paralelogramo: fórmulas novas!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "plano_cartesiano",
+      "name": "Plano cartesiano",
+      "bncc": "EF06MA16"
+    },
+    {
+      "id": "angulos_poligonos",
+      "name": "Ângulos e polígonos",
+      "bncc": "EF06MA18"
+    },
+    {
+      "id": "area",
+      "name": "Área",
+      "bncc": "EF06MA29"
+    }
+  ]
+}
