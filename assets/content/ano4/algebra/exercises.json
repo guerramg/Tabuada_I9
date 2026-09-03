@@ -1,0 +1,175 @@
+{
+  "unit": "algebra",
+  "grade": 4,
+  "exercises": [
+    {
+      "id": "ef04ma13_001",
+      "bncc": "EF04MA13",
+      "topic": "propriedades",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3 × 4 = 4 × 3. Propriedade:",
+      "options": [
+        "associativa",
+        "comutativa",
+        "distributiva",
+        "nula"
+      ],
+      "answer": "comutativa",
+      "explain_boy": "Ordem não muda o produto!",
+      "explain_girl": "Ordem não muda o produto!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma11_001",
+      "bncc": "EF04MA11",
+      "topic": "sequencias",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "7, 14, 21, 28, ___",
+      "options": [
+        "29",
+        "35",
+        "32",
+        "42"
+      ],
+      "answer": "35",
+      "explain_boy": "Soma 7 (ou ×7): próximo 35!",
+      "explain_girl": "Soma 7 (ou ×7): próximo 35!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma12_001",
+      "bncc": "EF04MA12",
+      "topic": "expressoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2 + 3 × 4 = ?",
+      "options": [
+        "20",
+        "14",
+        "24",
+        "9"
+      ],
+      "answer": "14",
+      "explain_boy": "Primeiro ×: 3×4=12, depois 2+12=14!",
+      "explain_girl": "Primeiro ×: 3×4=12, depois 2+12=14!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma12_tf1",
+      "bncc": "EF04MA12",
+      "topic": "expressoes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Multiplicação vem antes da adição.",
+      "answer": true,
+      "explain_boy": "Ordem das operações: × antes de +!",
+      "explain_girl": "Ordem das operações: × antes de +!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma13_002",
+      "bncc": "EF04MA13",
+      "topic": "propriedades",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "(2 × 3) × 4 = 2 × (3 × 4). Isso é:",
+      "options": [
+        "comutativa",
+        "associativa",
+        "errada",
+        "distributiva"
+      ],
+      "answer": "associativa",
+      "explain_boy": "Associativa na multiplicação!",
+      "explain_girl": "Associativa na multiplicação!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma11_002",
+      "bncc": "EF04MA11",
+      "topic": "sequencias",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3, 6, 12, 24, ___",
+      "options": [
+        "36",
+        "48",
+        "30",
+        "42"
+      ],
+      "answer": "48",
+      "explain_boy": "Cada termo ×2: 24×2=48!",
+      "explain_girl": "Cada termo ×2: 24×2=48!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma12_002",
+      "bncc": "EF04MA12",
+      "topic": "expressoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "10 − 2 × 3 = ?",
+      "options": [
+        "24",
+        "4",
+        "8",
+        "6"
+      ],
+      "answer": "4",
+      "explain_boy": "2×3=6, depois 10−6=4!",
+      "explain_girl": "2×3=6, depois 10−6=4!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma11_tf1",
+      "bncc": "EF04MA11",
+      "topic": "sequencias",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Em 2, 4, 6, 8 a regra é somar 2.",
+      "answer": true,
+      "explain_boy": "Sim! Progressão de 2 em 2.",
+      "explain_girl": "Sim! Progressão de 2 em 2.",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma13_003",
+      "bncc": "EF04MA13",
+      "topic": "propriedades",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "5 × (2 + 3) = 5×2 + 5×3. Isso é:",
+      "options": [
+        "comutativa",
+        "associativa",
+        "distributiva",
+        "errada"
+      ],
+      "answer": "distributiva",
+      "explain_boy": "Distributiva: espalha o 5!",
+      "explain_girl": "Distributiva: espalha o 5!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma12_tf2",
+      "bncc": "EF04MA12",
+      "topic": "expressoes",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "5 + 5 × 0 = 0.",
+      "answer": false,
+      "explain_boy": "5 + 0 = 5, não 0! × primeiro.",
+      "explain_girl": "5 + 0 = 5, não 0! × primeiro.",
+      "xp": 10
+    }
+  ]
+}

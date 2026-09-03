@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 5,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Espaço amostral",
+      "title_girl": "Espaço amostral",
+      "body_boy": "Dado de 6 faces: espaço amostral = {1,2,3,4,5,6}. Probabilidade de 3 = 1/6!",
+      "body_girl": "Dado de 6 faces: espaço amostral = {1,2,3,4,5,6}. Probabilidade de 3 = 1/6!"
+    },
+    {
+      "title_boy": "Média, moda e mediana",
+      "title_girl": "Média, moda e mediana",
+      "body_boy": "Média = soma ÷ quantidade. Moda = o que mais aparece. Mediana = valor do meio!",
+      "body_girl": "Média = soma ÷ quantidade. Moda = o que mais aparece. Mediana = valor do meio!"
+    },
+    {
+      "title_boy": "Gráfico de linha",
+      "title_girl": "Gráfico de linha",
+      "body_boy": "Linha mostra evolução no tempo: temperatura da semana, gols do campeonato…",
+      "body_girl": "Linha mostra evolução no tempo: temperatura da semana, gols do campeonato…"
+    }
+  ],
+  "topics": [
+    {
+      "id": "espaco_amostral",
+      "name": "Espaço amostral",
+      "bncc": "EF05MA22"
+    },
+    {
+      "id": "medidas_tendencia",
+      "name": "Média, moda, mediana",
+      "bncc": "EF05MA24"
+    },
+    {
+      "id": "graficos",
+      "name": "Gráficos",
+      "bncc": "EF05MA25"
+    }
+  ]
+}

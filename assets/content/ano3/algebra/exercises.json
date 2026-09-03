@@ -1,0 +1,175 @@
+{
+  "unit": "algebra",
+  "grade": 3,
+  "exercises": [
+    {
+      "id": "ef03ma11_001",
+      "bncc": "EF03MA11",
+      "topic": "propriedades",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2 + 5 = 5 + 2. Isso mostra a propriedade:",
+      "options": [
+        "distributiva",
+        "comutativa",
+        "identidade",
+        "nula"
+      ],
+      "answer": "comutativa",
+      "explain_boy": "Ordem não muda a soma = comutativa!",
+      "explain_girl": "Ordem não muda a soma = comutativa!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma12_001",
+      "bncc": "EF03MA12",
+      "topic": "relacoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se 4 × 5 = 20, então 20 ÷ 5 = ?",
+      "options": [
+        "4",
+        "5",
+        "15",
+        "25"
+      ],
+      "answer": "4",
+      "explain_boy": "Multiplicação e divisão são inversas!",
+      "explain_girl": "Multiplicação e divisão são inversas!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma12_002",
+      "bncc": "EF03MA12",
+      "topic": "relacoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "□ × 3 = 15. Quanto vale □?",
+      "options": [
+        "3",
+        "5",
+        "12",
+        "18"
+      ],
+      "answer": "5",
+      "explain_boy": "5 × 3 = 15. □ = 5. Fechou!",
+      "explain_girl": "5 × 3 = 15. □ = 5. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma11_tf1",
+      "bncc": "EF03MA11",
+      "topic": "propriedades",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "7 × 1 = 7.",
+      "answer": true,
+      "explain_boy": "Sim! Multiplicar por 1 não muda.",
+      "explain_girl": "Sim! Multiplicar por 1 não muda.",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma11_002",
+      "bncc": "EF03MA11",
+      "topic": "propriedades",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "(2 + 3) + 4 = 2 + (3 + 4). Isso é:",
+      "options": [
+        "comutativa",
+        "associativa",
+        "distributiva",
+        "errada"
+      ],
+      "answer": "associativa",
+      "explain_boy": "Associativa: agrupar de formas diferentes!",
+      "explain_girl": "Associativa: agrupar de formas diferentes!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma12_003",
+      "bncc": "EF03MA12",
+      "topic": "relacoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se 6 × 7 = 42, então 42 ÷ 6 = ?",
+      "options": [
+        "6",
+        "7",
+        "36",
+        "48"
+      ],
+      "answer": "7",
+      "explain_boy": "42 ÷ 6 = 7. Relação inversa!",
+      "explain_girl": "42 ÷ 6 = 7. Relação inversa!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma12_tf1",
+      "bncc": "EF03MA12",
+      "topic": "relacoes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Se a × b = c, então c ÷ b = a.",
+      "answer": true,
+      "explain_boy": "Sim! Operações inversas.",
+      "explain_girl": "Sim! Operações inversas.",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma11_003",
+      "bncc": "EF03MA11",
+      "topic": "propriedades",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual é o elemento neutro da adição?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "10"
+      ],
+      "answer": "0",
+      "explain_boy": "Somar 0 não muda o número!",
+      "explain_girl": "Somar 0 não muda o número!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma12_004",
+      "bncc": "EF03MA12",
+      "topic": "relacoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "□ ÷ 4 = 6. Quanto é □?",
+      "options": [
+        "10",
+        "24",
+        "2",
+        "4"
+      ],
+      "answer": "24",
+      "explain_boy": "24 ÷ 4 = 6. □ = 24!",
+      "explain_girl": "24 ÷ 4 = 6. □ = 24!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma11_tf2",
+      "bncc": "EF03MA11",
+      "topic": "propriedades",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "3 × 0 = 0.",
+      "answer": true,
+      "explain_boy": "Sim! Qualquer número × 0 = 0.",
+      "explain_girl": "Sim! Qualquer número × 0 = 0.",
+      "xp": 10
+    }
+  ]
+}

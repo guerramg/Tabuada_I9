@@ -1,0 +1,168 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 1,
+  "exercises": [
+    {
+      "id": "ef01ma20_001",
+      "bncc": "EF01MA20",
+      "topic": "coleta_dados",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Em uma pesquisa, 4 gostam de azul e 2 de vermelho. Qual cor ganhou?",
+      "options": [
+        "vermelho",
+        "azul",
+        "empate",
+        "verde"
+      ],
+      "answer": "azul",
+      "explain_boy": "4 > 2. Azul ganhou! Dados falam.",
+      "explain_girl": "4 > 2. Azul ganhou! Dados falam.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma21_001",
+      "bncc": "EF01MA21",
+      "topic": "tabelas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Na tabela: gatos=3, cães=5. Qual animal aparece mais?",
+      "options": [
+        "gatos",
+        "cães",
+        "iguais",
+        "pássaros"
+      ],
+      "answer": "cães",
+      "explain_boy": "5 cães > 3 gatos. Cães em primeiro!",
+      "explain_girl": "5 cães > 3 gatos. Cães em primeiro!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma20_tf1",
+      "bncc": "EF01MA20",
+      "topic": "chance",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "É certo que o sol vai nascer amanhã.",
+      "answer": true,
+      "explain_boy": "Sim! Nascer do sol é evento certo.",
+      "explain_girl": "Sim! Nascer do sol é evento certo.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma20_tf2",
+      "bncc": "EF01MA20",
+      "topic": "chance",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "É possível um peixe voar sozinho como um pássaro.",
+      "answer": false,
+      "explain_boy": "Impossível! Peixes não voam assim.",
+      "explain_girl": "Impossível! Peixes não voam assim.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma21_002",
+      "bncc": "EF01MA21",
+      "topic": "tabelas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se 3 amigos preferem pizza e 1 prefere sushi, quantos preferem pizza?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3",
+      "explain_boy": "São 3 votos pra pizza. Contagem simples!",
+      "explain_girl": "São 3 votos pra pizza. Contagem simples!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma20_002",
+      "bncc": "EF01MA20",
+      "topic": "coleta_dados",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Você perguntou a 10 pessoas a fruta favorita. Isso é:",
+      "options": [
+        "adivinhar",
+        "coletar dados",
+        "desenhar",
+        "cantar"
+      ],
+      "answer": "coletar dados",
+      "explain_boy": "Perguntar e anotar = coletar dados. Mandou!",
+      "explain_girl": "Perguntar e anotar = coletar dados. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma21_tf1",
+      "bncc": "EF01MA21",
+      "topic": "tabelas",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Tabelas ajudam a organizar informações.",
+      "answer": true,
+      "explain_boy": "Sim! Linhas e colunas organizam tudo.",
+      "explain_girl": "Sim! Linhas e colunas organizam tudo.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma20_003",
+      "bncc": "EF01MA20",
+      "topic": "chance",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Tirar cara em uma moeda justa é:",
+      "options": [
+        "certo",
+        "impossível",
+        "possível",
+        "mágica"
+      ],
+      "answer": "possível",
+      "explain_boy": "Pode sair cara ou coroa. É possível!",
+      "explain_girl": "Pode sair cara ou coroa. É possível!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma21_003",
+      "bncc": "EF01MA21",
+      "topic": "tabelas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Em uma tabela, banana=6 e maçã=6. Qual teve mais votos?",
+      "options": [
+        "banana",
+        "maçã",
+        "empate",
+        "nenhuma"
+      ],
+      "answer": "empate",
+      "explain_boy": "6 = 6. Empate! Dados empatados.",
+      "explain_girl": "6 = 6. Empate! Dados empatados.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma20_tf3",
+      "bncc": "EF01MA20",
+      "topic": "chance",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "Chover e não chover ao mesmo tempo no mesmo lugar é possível.",
+      "answer": false,
+      "explain_boy": "Impossível! Ou chove ou não chove.",
+      "explain_girl": "Impossível! Ou chove ou não chove.",
+      "xp": 10
+    }
+  ]
+}

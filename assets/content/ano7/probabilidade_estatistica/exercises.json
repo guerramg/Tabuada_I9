@@ -1,0 +1,144 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 7,
+  "exercises": [
+    {
+      "id": "ef07ma30p_001",
+      "bncc": "EF07MA30",
+      "topic": "experimentos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Frequência relativa = ocorrências ÷ total. 15 caras em 30: ",
+      "options": [
+        "0,15",
+        "0,5",
+        "15",
+        "2"
+      ],
+      "answer": "0,5",
+      "explain_boy": "15/30=0,5. Frequência relativa!",
+      "explain_girl": "15/30=0,5. Frequência relativa!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma32_001",
+      "bncc": "EF07MA32",
+      "topic": "estatistica",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Amplitude de 3, 7, 10, 15:",
+      "options": [
+        "3",
+        "12",
+        "15",
+        "7"
+      ],
+      "answer": "12",
+      "explain_boy": "15−3=12. Amplitude!",
+      "explain_girl": "15−3=12. Amplitude!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma33_001",
+      "bncc": "EF07MA33",
+      "topic": "amostra",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Amostra é:",
+      "options": [
+        "toda a população",
+        "parte da população",
+        "só a média",
+        "um gráfico"
+      ],
+      "answer": "parte da população",
+      "explain_boy": "Amostra representa o todo!",
+      "explain_girl": "Amostra representa o todo!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma33_tf1",
+      "bncc": "EF07MA33",
+      "topic": "amostra",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Amostra enviesada pode distorcer conclusões.",
+      "answer": true,
+      "explain_boy": "Cuidado com viés na pesquisa!",
+      "explain_girl": "Cuidado com viés na pesquisa!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma32_002",
+      "bncc": "EF07MA32",
+      "topic": "estatistica",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Dados: 2, 4, 4, 6, 9. Mediana:",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "9"
+      ],
+      "answer": "4",
+      "explain_boy": "Valor do meio = 4!",
+      "explain_girl": "Valor do meio = 4!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma30p_002",
+      "bncc": "EF07MA30",
+      "topic": "experimentos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quanto mais repetições, a frequência relativa tende a:",
+      "options": [
+        "aleatoriedade pura",
+        "a probabilidade teórica",
+        "zero sempre",
+        "infinito"
+      ],
+      "answer": "a probabilidade teórica",
+      "explain_boy": "Lei dos grandes números!",
+      "explain_girl": "Lei dos grandes números!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma32_tf1",
+      "bncc": "EF07MA32",
+      "topic": "estatistica",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Média, moda e mediana resumem dados.",
+      "answer": true,
+      "explain_boy": "Medidas de tendência central!",
+      "explain_girl": "Medidas de tendência central!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma33_002",
+      "bncc": "EF07MA33",
+      "topic": "amostra",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Pesquisar só amigos do time pode gerar:",
+      "options": [
+        "amostra aleatória perfeita",
+        "viés",
+        "censo",
+        "moda"
+      ],
+      "answer": "viés",
+      "explain_boy": "Grupo restrito → viés!",
+      "explain_girl": "Grupo restrito → viés!",
+      "xp": 10
+    }
+  ]
+}

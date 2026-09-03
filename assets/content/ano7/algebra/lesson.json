@@ -1,0 +1,44 @@
+{
+  "unit": "algebra",
+  "grade": 7,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Equações e inequações",
+      "title_girl": "Equações e inequações",
+      "body_boy": "x > 3 não é um valor só: é um conjunto! Inequações usam >, <, ≥, ≤.",
+      "body_girl": "x > 3 não é um valor só: é um conjunto! Inequações usam >, <, ≥, ≤."
+    },
+    {
+      "title_boy": "Proporcionalidade",
+      "title_girl": "Proporcionalidade",
+      "body_boy": "Diretamente proporcional: sobe junto. Inversamente: um sobe, outro desce. Regra de três!",
+      "body_girl": "Diretamente proporcional: sobe junto. Inversamente: um sobe, outro desce. Regra de três!"
+    },
+    {
+      "title_boy": "Transformações geométricas",
+      "title_girl": "Transformações geométricas",
+      "body_boy": "Translação, reflexão, rotação. Mover figuras no plano sem mudar o tamanho (isometrias)!",
+      "body_girl": "Translação, reflexão, rotação. Mover figuras no plano sem mudar o tamanho (isometrias)!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "equacoes",
+      "name": "Equações e inequações",
+      "bncc": "EF07MA13"
+    },
+    {
+      "id": "proporcionalidade",
+      "name": "Proporcionalidade",
+      "bncc": "EF07MA15"
+    },
+    {
+      "id": "transformacoes",
+      "name": "Transformações",
+      "bncc": "EF07MA19"
+    }
+  ]
+}

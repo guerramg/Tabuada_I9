@@ -1,0 +1,175 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 3,
+  "exercises": [
+    {
+      "id": "ef03ma25_001",
+      "bncc": "EF03MA25",
+      "topic": "eventos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Cara ou coroa em uma moeda justa é um evento:",
+      "options": [
+        "certo",
+        "impossível",
+        "aleatório",
+        "fixado"
+      ],
+      "answer": "aleatório",
+      "explain_boy": "Não dá pra ter certeza = aleatório!",
+      "explain_girl": "Não dá pra ter certeza = aleatório!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma26_001",
+      "bncc": "EF03MA26",
+      "topic": "tabelas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Tabela: futebol=12, vôlei=8, basquete=5. Qual teve mais votos?",
+      "options": [
+        "vôlei",
+        "basquete",
+        "futebol",
+        "empate"
+      ],
+      "answer": "futebol",
+      "explain_boy": "12 é o maior. Futebol!",
+      "explain_girl": "12 é o maior. Futebol!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma27_001",
+      "bncc": "EF03MA27",
+      "topic": "pictogramas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se cada ★ vale 2, ★★★★ vale:",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "16"
+      ],
+      "answer": "8",
+      "explain_boy": "4 × 2 = 8. Pictograma!",
+      "explain_girl": "4 × 2 = 8. Pictograma!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma25_tf1",
+      "bncc": "EF03MA25",
+      "topic": "eventos",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Resultado de um dado é aleatório.",
+      "answer": true,
+      "explain_boy": "Sim! Não controlamos o resultado.",
+      "explain_girl": "Sim! Não controlamos o resultado.",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma26_002",
+      "bncc": "EF03MA26",
+      "topic": "tabelas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Total de votos: 12+8+5 = ?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "15"
+      ],
+      "answer": "25",
+      "explain_boy": "12+8+5=25. Total da pesquisa!",
+      "explain_girl": "12+8+5=25. Total da pesquisa!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma27_tf1",
+      "bncc": "EF03MA27",
+      "topic": "pictogramas",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Pictograma usa figuras pra representar dados.",
+      "answer": true,
+      "explain_boy": "Sim! Figuras = quantidades.",
+      "explain_girl": "Sim! Figuras = quantidades.",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma25_002",
+      "bncc": "EF03MA25",
+      "topic": "eventos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Em um dado de 6 faces, sair 7 é:",
+      "options": [
+        "certo",
+        "possível",
+        "impossível",
+        "provável"
+      ],
+      "answer": "impossível",
+      "explain_boy": "Dado só vai de 1 a 6. 7 é impossível!",
+      "explain_girl": "Dado só vai de 1 a 6. 7 é impossível!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma26_003",
+      "bncc": "EF03MA26",
+      "topic": "tabelas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se vôlei tem 8 e basquete 5, a diferença é:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "13"
+      ],
+      "answer": "3",
+      "explain_boy": "8 − 5 = 3. Diferença de votos!",
+      "explain_girl": "8 − 5 = 3. Diferença de votos!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma25_tf2",
+      "bncc": "EF03MA25",
+      "topic": "eventos",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Evento certo sempre acontece.",
+      "answer": true,
+      "explain_boy": "Definição de evento certo!",
+      "explain_girl": "Definição de evento certo!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma27_002",
+      "bncc": "EF03MA27",
+      "topic": "pictogramas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se cada ☺ vale 5 e há 3 ☺, o total é:",
+      "options": [
+        "3",
+        "8",
+        "15",
+        "5"
+      ],
+      "answer": "15",
+      "explain_boy": "3 × 5 = 15. Fechou!",
+      "explain_girl": "3 × 5 = 15. Arrasou!",
+      "xp": 10
+    }
+  ]
+}

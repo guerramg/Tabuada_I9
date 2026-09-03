@@ -1,0 +1,144 @@
+{
+  "unit": "geometria",
+  "grade": 8,
+  "exercises": [
+    {
+      "id": "ef08ma14_001",
+      "bncc": "EF08MA14",
+      "topic": "congruencia",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Figuras congruentes têm:",
+      "options": [
+        "só mesma cor",
+        "mesmo tamanho e forma",
+        "só mesma área",
+        "ângulos diferentes"
+      ],
+      "answer": "mesmo tamanho e forma",
+      "explain_boy": "Congruência = iguais em tamanho e forma!",
+      "explain_girl": "Congruência = iguais em tamanho e forma!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma15_001",
+      "bncc": "EF08MA15",
+      "topic": "pitagoras",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Triângulo retângulo: catetos 3 e 4. Hipotenusa:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "12"
+      ],
+      "answer": "5",
+      "explain_boy": "3²+4²=9+16=25 → √25=5!",
+      "explain_girl": "3²+4²=9+16=25 → √25=5!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma15_002",
+      "bncc": "EF08MA15",
+      "topic": "pitagoras",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Teorema de Pitágoras: a² + b² = ?",
+      "options": [
+        "c",
+        "c²",
+        "2c",
+        "ab"
+      ],
+      "answer": "c²",
+      "explain_boy": "a²+b²=c². Hipotenusa ao quadrado!",
+      "explain_girl": "a²+b²=c². Hipotenusa ao quadrado!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma15_tf1",
+      "bncc": "EF08MA15",
+      "topic": "pitagoras",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Pitágoras vale em triângulo retângulo.",
+      "answer": true,
+      "explain_boy": "Condição: ângulo de 90°!",
+      "explain_girl": "Condição: ângulo de 90°!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma14_002",
+      "bncc": "EF08MA14",
+      "topic": "congruencia",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Critério LAL de congruência usa:",
+      "options": [
+        "3 ângulos",
+        "lado-ângulo-lado",
+        "só lados",
+        "área"
+      ],
+      "answer": "lado-ângulo-lado",
+      "explain_boy": "LAL = lado, ângulo entre eles, lado!",
+      "explain_girl": "LAL = lado, ângulo entre eles, lado!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma16_001",
+      "bncc": "EF08MA16",
+      "topic": "poligonos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Polígono regular tem:",
+      "options": [
+        "lados diferentes",
+        "lados e ângulos iguais",
+        "só ângulos iguais",
+        "lados curvados"
+      ],
+      "answer": "lados e ângulos iguais",
+      "explain_boy": "Regular = tudo igual!",
+      "explain_girl": "Regular = tudo igual!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma14_tf1",
+      "bncc": "EF08MA14",
+      "topic": "congruencia",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "LLL é um critério de congruência de triângulos.",
+      "answer": true,
+      "explain_boy": "Três lados iguais → congruentes!",
+      "explain_girl": "Três lados iguais → congruentes!",
+      "xp": 10
+    },
+    {
+      "id": "ef08ma15_003",
+      "bncc": "EF08MA15",
+      "topic": "pitagoras",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Catetos 5 e 12. Hipotenusa:",
+      "options": [
+        "13",
+        "17",
+        "10",
+        "60"
+      ],
+      "answer": "13",
+      "explain_boy": "25+144=169 → √169=13!",
+      "explain_girl": "25+144=169 → √169=13!",
+      "xp": 10
+    }
+  ]
+}

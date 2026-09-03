@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 4,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Transformar unidades",
+      "title_girl": "Transformar unidades",
+      "body_boy": "1 m = 100 cm. 1 kg = 1000 g. 1 L = 1000 mL. Converter unidades é poder!",
+      "body_girl": "1 m = 100 cm. 1 kg = 1000 g. 1 L = 1000 mL. Converter unidades é poder!"
+    },
+    {
+      "title_boy": "Perímetro no mundo real",
+      "title_girl": "Perímetro no mundo real",
+      "body_boy": "Cerca em volta do jardim = perímetro. Mede os lados e soma. Prático!",
+      "body_girl": "Cerca em volta do jardim = perímetro. Mede os lados e soma. Prático!"
+    },
+    {
+      "title_boy": "Temperatura",
+      "title_girl": "Temperatura",
+      "body_boy": "Termômetro em °C. 0°C água congela, 100°C ferve. Comparar temperaturas faz parte!",
+      "body_girl": "Termômetro em °C. 0°C água congela, 100°C ferve. Comparar temperaturas faz parte!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "conversao",
+      "name": "Conversão de unidades",
+      "bncc": "EF04MA20"
+    },
+    {
+      "id": "perimetro",
+      "name": "Perímetro",
+      "bncc": "EF04MA21"
+    },
+    {
+      "id": "temperatura",
+      "name": "Temperatura",
+      "bncc": "EF04MA23"
+    }
+  ]
+}

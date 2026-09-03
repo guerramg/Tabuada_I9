@@ -1,0 +1,50 @@
+{
+  "unit": "numeros",
+  "grade": 2,
+  "title": "Números",
+  "title_boy": "Missão Números",
+  "title_girl": "Estrela dos Números",
+  "slides": [
+    {
+      "title_boy": "Até 1000!",
+      "title_girl": "Até 1000!",
+      "body_boy": "Agora vamos longe: centenas, dezenas e unidades. 234 = 2 centenas + 3 dezenas + 4 unidades. Mandou bem!",
+      "body_girl": "Agora vamos longe: centenas, dezenas e unidades. 234 = 2 centenas + 3 dezenas + 4 unidades. Arrasou!"
+    },
+    {
+      "title_boy": "Adição com vai um",
+      "title_girl": "Adição com vai um",
+      "body_boy": "Quando a soma passa de 9, 'vai 1' pra casa da esquerda. 27 + 15 = 42. Treina e vira craque!",
+      "body_girl": "Quando a soma passa de 9, 'vai 1' pra casa da esquerda. 27 + 15 = 42. Treina e brilha!"
+    },
+    {
+      "title_boy": "Dobro e metade",
+      "title_girl": "Dobro e metade",
+      "body_boy": "Dobro de 6 é 12. Metade de 10 é 5. Esses conceitos aparecem o tempo todo!",
+      "body_girl": "Dobro de 6 é 12. Metade de 10 é 5. Esses conceitos aparecem o tempo todo!"
+    },
+    {
+      "title_boy": "Problemas do dia a dia",
+      "title_girl": "Problemas do dia a dia",
+      "body_boy": "Tinha 20 figurinhas e ganhei 8. Quantas agora? Lê o problema, escolhe a operação e resolve!",
+      "body_girl": "Tinha 20 figurinhas e ganhei 8. Quantas agora? Lê o problema, escolhe a operação e resolve!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "composicao",
+      "name": "Composição numérica",
+      "bncc": "EF02MA01"
+    },
+    {
+      "id": "adicao_subtracao",
+      "name": "Adição e subtração",
+      "bncc": "EF02MA05"
+    },
+    {
+      "id": "dobro_metade",
+      "name": "Dobro e metade",
+      "bncc": "EF02MA08"
+    }
+  ]
+}

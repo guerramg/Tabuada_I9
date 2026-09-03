@@ -1,0 +1,144 @@
+{
+  "unit": "algebra",
+  "grade": 7,
+  "exercises": [
+    {
+      "id": "ef07ma13_001",
+      "bncc": "EF07MA13",
+      "topic": "equacoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "A solução de x > 3 inclui:",
+      "options": [
+        "só 3",
+        "números maiores que 3",
+        "só 0",
+        "números menores que 3"
+      ],
+      "answer": "números maiores que 3",
+      "explain_boy": "Inequação: conjunto de valores!",
+      "explain_girl": "Inequação: conjunto de valores!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma15_001",
+      "bncc": "EF07MA15",
+      "topic": "proporcionalidade",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se y dobra quando x dobra, são:",
+      "options": [
+        "inversamente proporcionais",
+        "diretamente proporcionais",
+        "iguais",
+        "primos"
+      ],
+      "answer": "diretamente proporcionais",
+      "explain_boy": "Sobe junto = diretamente proporcional!",
+      "explain_girl": "Sobe junto = diretamente proporcional!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma15_002",
+      "bncc": "EF07MA15",
+      "topic": "proporcionalidade",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Regra de três: 2 cakes → 6 ovos; 5 cakes → ?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "30"
+      ],
+      "answer": "15",
+      "explain_boy": "2/6 = 5/x → x=15!",
+      "explain_girl": "2/6 = 5/x → x=15!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma13_tf1",
+      "bncc": "EF07MA13",
+      "topic": "equacoes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Inequações usam símbolos >, <, ≥, ≤.",
+      "answer": true,
+      "explain_boy": "Diferença em relação às equações!",
+      "explain_girl": "Diferença em relação às equações!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma19_001",
+      "bncc": "EF07MA19",
+      "topic": "transformacoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Reflexão em geometria é:",
+      "options": [
+        "aumentar tamanho",
+        "espelhamento",
+        "só girar 360°",
+        "apagar"
+      ],
+      "answer": "espelhamento",
+      "explain_boy": "Reflexão = espelho / simetria!",
+      "explain_girl": "Reflexão = espelho / simetria!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma13_002",
+      "bncc": "EF07MA13",
+      "topic": "equacoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2x − 5 = 9. x = ?",
+      "options": [
+        "2",
+        "7",
+        "14",
+        "4"
+      ],
+      "answer": "7",
+      "explain_boy": "2x=14 → x=7!",
+      "explain_girl": "2x=14 → x=7!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma15_tf1",
+      "bncc": "EF07MA15",
+      "topic": "proporcionalidade",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Na proporcionalidade inversa, um sobe e o outro desce.",
+      "answer": true,
+      "explain_boy": "Definição de inversa!",
+      "explain_girl": "Definição de inversa!",
+      "xp": 10
+    },
+    {
+      "id": "ef07ma19_002",
+      "bncc": "EF07MA19",
+      "topic": "transformacoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Translação significa:",
+      "options": [
+        "espelhar",
+        "deslizar sem girar",
+        "aumentar",
+        "encolher"
+      ],
+      "answer": "deslizar sem girar",
+      "explain_boy": "Translação = deslizar a figura!",
+      "explain_girl": "Translação = deslizar a figura!",
+      "xp": 10
+    }
+  ]
+}

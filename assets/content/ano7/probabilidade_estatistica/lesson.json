@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 7,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Experimentos aleatórios",
+      "title_girl": "Experimentos aleatórios",
+      "body_boy": "Simular experimentos e comparar frequência observada com probabilidade teórica!",
+      "body_girl": "Simular experimentos e comparar frequência observada com probabilidade teórica!"
+    },
+    {
+      "title_boy": "Estatística descritiva",
+      "title_girl": "Estatística descritiva",
+      "body_boy": "Média, moda, mediana e amplitude. Resumir um conjunto de dados em poucos números!",
+      "body_girl": "Média, moda, mediana e amplitude. Resumir um conjunto de dados em poucos números!"
+    },
+    {
+      "title_boy": "Pesquisa amostral",
+      "title_girl": "Pesquisa amostral",
+      "body_boy": "Amostra vs população. Pesquisa bem feita representa o todo. Cuidado com viés!",
+      "body_girl": "Amostra vs população. Pesquisa bem feita representa o todo. Cuidado com viés!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "experimentos",
+      "name": "Experimentos",
+      "bncc": "EF07MA30"
+    },
+    {
+      "id": "estatistica",
+      "name": "Estatística",
+      "bncc": "EF07MA32"
+    },
+    {
+      "id": "amostra",
+      "name": "Amostra",
+      "bncc": "EF07MA33"
+    }
+  ]
+}

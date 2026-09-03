@@ -1,0 +1,175 @@
+{
+  "unit": "algebra",
+  "grade": 5,
+  "exercises": [
+    {
+      "id": "ef05ma10_001",
+      "bncc": "EF05MA10",
+      "topic": "distributiva",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3 × (4 + 5) = ?",
+      "options": [
+        "12",
+        "27",
+        "15",
+        "20"
+      ],
+      "answer": "27",
+      "explain_boy": "3×4+3×5=12+15=27. Distributiva!",
+      "explain_girl": "3×4+3×5=12+15=27. Distributiva!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma11_001",
+      "bncc": "EF05MA11",
+      "topic": "equacoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "x + 7 = 15. x = ?",
+      "options": [
+        "7",
+        "8",
+        "15",
+        "22"
+      ],
+      "answer": "8",
+      "explain_boy": "x = 15 − 7 = 8. Isolou!",
+      "explain_girl": "x = 15 − 7 = 8. Isolou!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma12_001",
+      "bncc": "EF05MA12",
+      "topic": "formulas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Perímetro do quadrado: P = 4 × lado. Se lado=6, P=?",
+      "options": [
+        "10",
+        "12",
+        "24",
+        "36"
+      ],
+      "answer": "24",
+      "explain_boy": "4 × 6 = 24. Fórmula aplicada!",
+      "explain_girl": "4 × 6 = 24. Fórmula aplicada!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma11_tf1",
+      "bncc": "EF05MA11",
+      "topic": "equacoes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Se x − 3 = 10, então x = 13.",
+      "answer": true,
+      "explain_boy": "x = 10 + 3 = 13. Correto!",
+      "explain_girl": "x = 10 + 3 = 13. Correto!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma10_002",
+      "bncc": "EF05MA10",
+      "topic": "distributiva",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "5 × (10 − 2) = ?",
+      "options": [
+        "40",
+        "50",
+        "8",
+        "60"
+      ],
+      "answer": "40",
+      "explain_boy": "5×10 − 5×2 = 50−10=40!",
+      "explain_girl": "5×10 − 5×2 = 50−10=40!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma11_002",
+      "bncc": "EF05MA11",
+      "topic": "equacoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2x = 18. x = ?",
+      "options": [
+        "8",
+        "9",
+        "16",
+        "36"
+      ],
+      "answer": "9",
+      "explain_boy": "x = 18 ÷ 2 = 9. Mandou!",
+      "explain_girl": "x = 18 ÷ 2 = 9. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma12_002",
+      "bncc": "EF05MA12",
+      "topic": "formulas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Área do retângulo A=b×h. Se b=8 e h=5, A=?",
+      "options": [
+        "13",
+        "26",
+        "40",
+        "45"
+      ],
+      "answer": "40",
+      "explain_boy": "8 × 5 = 40. Área!",
+      "explain_girl": "8 × 5 = 40. Área!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma10_tf1",
+      "bncc": "EF05MA10",
+      "topic": "distributiva",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "a×(b+c) = a×b + a×c.",
+      "answer": true,
+      "explain_boy": "Definição da distributiva!",
+      "explain_girl": "Definição da distributiva!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma11_003",
+      "bncc": "EF05MA11",
+      "topic": "equacoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "x/4 = 5. x = ?",
+      "options": [
+        "1",
+        "9",
+        "20",
+        "4"
+      ],
+      "answer": "20",
+      "explain_boy": "x = 5 × 4 = 20!",
+      "explain_girl": "x = 5 × 4 = 20!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma12_tf1",
+      "bncc": "EF05MA12",
+      "topic": "formulas",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "Fórmulas usam letras para representar medidas.",
+      "answer": true,
+      "explain_boy": "Sim! Letras generalizam padrões.",
+      "explain_girl": "Sim! Letras generalizam padrões.",
+      "xp": 10
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 4,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Ângulos",
+      "title_girl": "Ângulos",
+      "body_boy": "Ângulo reto = canto de caderno (90°). Agudo é menor, obtuso é maior. Abre o olho nos cantos!",
+      "body_girl": "Ângulo reto = canto de caderno (90°). Agudo é menor, obtuso é maior. Observa os cantos!"
+    },
+    {
+      "title_boy": "Paralelismo",
+      "title_girl": "Paralelismo",
+      "body_boy": "Retas paralelas nunca se encontram. Perpendiculares formam ângulo reto. Trilhos de trem são paralelos!",
+      "body_girl": "Retas paralelas nunca se encontram. Perpendiculares formam ângulo reto. Trilhos de trem são paralelos!"
+    },
+    {
+      "title_boy": "Figuras e medidas",
+      "title_girl": "Figuras e medidas",
+      "body_boy": "Perímetro = soma dos lados. Área = espaço dentro. Retângulo 3×4: perímetro 14, área 12!",
+      "body_girl": "Perímetro = soma dos lados. Área = espaço dentro. Retângulo 3×4: perímetro 14, área 12!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "angulos",
+      "name": "Ângulos",
+      "bncc": "EF04MA18"
+    },
+    {
+      "id": "paralelismo",
+      "name": "Paralelismo",
+      "bncc": "EF04MA19"
+    },
+    {
+      "id": "perimetro_area",
+      "name": "Perímetro e área",
+      "bncc": "EF04MA20"
+    }
+  ]
+}

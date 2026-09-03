@@ -1,0 +1,55 @@
+{
+  "unit": "numeros",
+  "grade": 1,
+  "title": "Números",
+  "title_boy": "Missão Números",
+  "title_girl": "Estrela dos Números",
+  "slides": [
+    {
+      "title_boy": "Bora contar!",
+      "title_girl": "Vamos contar!",
+      "body_boy": "Contar é o superpoder número 1. Olha à tua volta: quantos lápis? Quantas cadeiras? Cada coisa ganha um número!",
+      "body_girl": "Contar é um superpoder incrível. Olha ao teu redor: quantos lápis? Quantas cadeiras? Cada coisa ganha o seu número!"
+    },
+    {
+      "title_boy": "Do 0 ao 100",
+      "title_girl": "Do 0 ao 100",
+      "body_boy": "Os números vão de 0 até 100 (e bem mais longe!). O 0 é o 'nada', o 1 é o primeiro passo. Manda ver na sequência!",
+      "body_girl": "Os números vão de 0 até 100 (e muito além!). O 0 é o 'nada', o 1 é o primeiro passo. Arrasa na sequência!"
+    },
+    {
+      "title_boy": "Somar e tirar",
+      "title_girl": "Somar e tirar",
+      "body_boy": "Somar é juntar: 2 + 3 = 5. Tirar é separar: 5 − 2 = 3. Treina esses dois e vira lendário!",
+      "body_girl": "Somar é juntar: 2 + 3 = 5. Tirar é separar: 5 − 2 = 3. Treina os dois e brilha!"
+    },
+    {
+      "title_boy": "Quem é maior?",
+      "title_girl": "Quem é maior?",
+      "body_boy": "Comparar números é fácil: 8 é maior que 5. Usa >, < e = pra mostrar quem manda!",
+      "body_girl": "Comparar números é suave: 8 é maior que 5. Usa >, < e = pra mostrar quem é maior!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "contagem",
+      "name": "Contagem",
+      "bncc": "EF01MA01"
+    },
+    {
+      "id": "escrita_numerica",
+      "name": "Escrita numérica",
+      "bncc": "EF01MA02"
+    },
+    {
+      "id": "comparacao",
+      "name": "Comparação",
+      "bncc": "EF01MA03"
+    },
+    {
+      "id": "adicao_subtracao",
+      "name": "Adição e subtração",
+      "bncc": "EF01MA06"
+    }
+  ]
+}

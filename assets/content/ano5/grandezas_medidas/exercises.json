@@ -1,0 +1,175 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 5,
+  "exercises": [
+    {
+      "id": "ef05ma21_001",
+      "bncc": "EF05MA21",
+      "topic": "volume",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Volume do paralelepípedo 2×3×4:",
+      "options": [
+        "9",
+        "24",
+        "12",
+        "14"
+      ],
+      "answer": "24",
+      "explain_boy": "2×3×4=24. Volume!",
+      "explain_girl": "2×3×4=24. Volume!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma22_001",
+      "bncc": "EF05MA22",
+      "topic": "escala",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Escala 1:100 significa 1 cm no mapa =",
+      "options": [
+        "1 cm real",
+        "100 cm real",
+        "10 cm real",
+        "1000 cm real"
+      ],
+      "answer": "100 cm real",
+      "explain_boy": "1:100 → 1 cm representa 100 cm!",
+      "explain_girl": "1:100 → 1 cm representa 100 cm!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma23_001",
+      "bncc": "EF05MA23",
+      "topic": "tempo",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Das 14:20 às 15:05 passaram:",
+      "options": [
+        "35 min",
+        "45 min",
+        "55 min",
+        "1 h"
+      ],
+      "answer": "45 min",
+      "explain_boy": "14:20→15:00=40 min +5=45 min!",
+      "explain_girl": "14:20→15:00=40 min +5=45 min!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma21_tf1",
+      "bncc": "EF05MA21",
+      "topic": "volume",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Volume = comprimento × largura × altura (paralelepípedo).",
+      "answer": true,
+      "explain_boy": "Fórmula correta!",
+      "explain_girl": "Fórmula correta!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma22_002",
+      "bncc": "EF05MA22",
+      "topic": "escala",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "No mapa 1:100, 3 cm representam:",
+      "options": [
+        "3 cm",
+        "30 cm",
+        "300 cm",
+        "3 m exatamente só"
+      ],
+      "answer": "300 cm",
+      "explain_boy": "3 × 100 = 300 cm (= 3 m)!",
+      "explain_girl": "3 × 100 = 300 cm (= 3 m)!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma21_002",
+      "bncc": "EF05MA21",
+      "topic": "volume",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Caixa 5×2×2. Volume:",
+      "options": [
+        "9",
+        "20",
+        "10",
+        "25"
+      ],
+      "answer": "20",
+      "explain_boy": "5×2×2=20!",
+      "explain_girl": "5×2×2=20!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma23_tf1",
+      "bncc": "EF05MA23",
+      "topic": "tempo",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "1 hora = 60 minutos.",
+      "answer": true,
+      "explain_boy": "Sempre! 60 min = 1 h.",
+      "explain_girl": "Sempre! 60 min = 1 h.",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma23_002",
+      "bncc": "EF05MA23",
+      "topic": "tempo",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Das 10:15 às 11:00:",
+      "options": [
+        "30 min",
+        "45 min",
+        "60 min",
+        "15 min"
+      ],
+      "answer": "45 min",
+      "explain_boy": "10:15→11:00 = 45 minutos!",
+      "explain_girl": "10:15→11:00 = 45 minutos!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma22_003",
+      "bncc": "EF05MA22",
+      "topic": "escala",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Escala maior (1:10 vs 1:1000) mostra o objeto:",
+      "options": [
+        "menor",
+        "maior / mais detalhado",
+        "igual",
+        "invisível"
+      ],
+      "answer": "maior / mais detalhado",
+      "explain_boy": "1:10 é escala maior → mais detalhe!",
+      "explain_girl": "1:10 é escala maior → mais detalhe!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma21_tf2",
+      "bncc": "EF05MA21",
+      "topic": "volume",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "Volume mede o espaço ocupado no espaço 3D.",
+      "answer": true,
+      "explain_boy": "Definição de volume!",
+      "explain_girl": "Definição de volume!",
+      "xp": 10
+    }
+  ]
+}

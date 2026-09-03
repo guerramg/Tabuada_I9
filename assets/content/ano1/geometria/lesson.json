@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 1,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Onde estou?",
+      "title_girl": "Onde estou?",
+      "body_boy": "Em cima, embaixo, na frente, atrás, à esquerda, à direita. Localizar é saber onde as coisas estão!",
+      "body_girl": "Em cima, embaixo, na frente, atrás, à esquerda, à direita. Localizar é saber onde tudo está!"
+    },
+    {
+      "title_boy": "Formas planas",
+      "title_girl": "Formas planas",
+      "body_boy": "Círculo, quadrado, triângulo, retângulo. Olha a sala: a mesa é retângulo, o relógio é círculo!",
+      "body_girl": "Círculo, quadrado, triângulo, retângulo. Olha a sala: a mesa é retângulo, o relógio é círculo!"
+    },
+    {
+      "title_boy": "Sólidos no rolê",
+      "title_girl": "Sólidos no mundo",
+      "body_boy": "Cubo, esfera, cilindro, cone. Uma bola é esfera, uma caixa é cubo ou paralelepípedo. Mandou a real!",
+      "body_girl": "Cubo, esfera, cilindro, cone. Uma bola é esfera, uma caixa é cubo ou paralelepípedo. Arrasou!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "localizacao",
+      "name": "Localização",
+      "bncc": "EF01MA11"
+    },
+    {
+      "id": "figuras_planas",
+      "name": "Figuras planas",
+      "bncc": "EF01MA13"
+    },
+    {
+      "id": "solidos",
+      "name": "Sólidos geométricos",
+      "bncc": "EF01MA14"
+    }
+  ]
+}

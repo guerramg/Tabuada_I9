@@ -67,6 +67,7 @@ flutter:
     - assets/images/lampada_inove.png
     - assets/images/logo_inove.png
     - assets/images/einstein.png
+    - assets/content/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

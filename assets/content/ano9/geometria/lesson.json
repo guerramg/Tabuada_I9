@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 9,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Semelhança de triângulos",
+      "title_girl": "Semelhança de triângulos",
+      "body_boy": "Mesma forma, tamanhos diferentes. Lados proporcionais. AA, LAL, LLL de semelhança!",
+      "body_girl": "Mesma forma, tamanhos diferentes. Lados proporcionais. AA, LAL, LLL de semelhança!"
+    },
+    {
+      "title_boy": "Relações métricas",
+      "title_girl": "Relações métricas",
+      "body_boy": "No triângulo retângulo: cateto² = hipotenusa × projeção. Relações métricas!",
+      "body_girl": "No triângulo retângulo: cateto² = hipotenusa × projeção. Relações métricas!"
+    },
+    {
+      "title_boy": "Trigonometria no retângulo",
+      "title_girl": "Trigonometria no retângulo",
+      "body_boy": "sen = oposto/hipotenusa, cos = adjacente/hip, tg = oposto/adjacente. Trio clássico!",
+      "body_girl": "sen = oposto/hipotenusa, cos = adjacente/hip, tg = oposto/adjacente. Trio clássico!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "semelhanca",
+      "name": "Semelhança",
+      "bncc": "EF09MA12"
+    },
+    {
+      "id": "relacoes_metricas",
+      "name": "Relações métricas",
+      "bncc": "EF09MA13"
+    },
+    {
+      "id": "trigonometria",
+      "name": "Trigonometria",
+      "bncc": "EF09MA14"
+    }
+  ]
+}

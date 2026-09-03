@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 2,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Centímetro e metro",
+      "title_girl": "Centímetro e metro",
+      "body_boy": "Régua mede em cm. Metro é maior: 100 cm = 1 m. Medir a mesa, a porta, o caderno…",
+      "body_girl": "Régua mede em cm. Metro é maior: 100 cm = 1 m. Medir a mesa, a porta, o caderno…"
+    },
+    {
+      "title_boy": "Horas e meias horas",
+      "title_girl": "Horas e meias horas",
+      "body_boy": "Ponteiro grande nos minutos, pequeno nas horas. 3 horas e meia = 3:30. Relógio no bolso!",
+      "body_girl": "Ponteiro grande nos minutos, pequeno nas horas. 3 horas e meia = 3:30. Relógio na mão!"
+    },
+    {
+      "title_boy": "Troco e compras",
+      "title_girl": "Troco e compras",
+      "body_boy": "Comprou algo de R$ 7 e pagou R$ 10. Troco = R$ 3. Matemática no mercado!",
+      "body_girl": "Comprou algo de R$ 7 e pagou R$ 10. Troco = R$ 3. Matemática no mercado!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "comprimento",
+      "name": "Comprimento",
+      "bncc": "EF02MA16"
+    },
+    {
+      "id": "tempo",
+      "name": "Tempo",
+      "bncc": "EF02MA18"
+    },
+    {
+      "id": "sistema_monetario",
+      "name": "Sistema monetário",
+      "bncc": "EF02MA20"
+    }
+  ]
+}

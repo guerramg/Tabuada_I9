@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 6,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Probabilidade clássica",
+      "title_girl": "Probabilidade clássica",
+      "body_boy": "P = casos favoráveis ÷ casos possíveis. Moeda: P(cara) = 1/2 = 50%.",
+      "body_girl": "P = casos favoráveis ÷ casos possíveis. Moeda: P(cara) = 1/2 = 50%."
+    },
+    {
+      "title_boy": "Tipos de gráficos",
+      "title_girl": "Tipos de gráficos",
+      "body_boy": "Barras, pizza, linhas… Escolher o gráfico certo depende do tipo de dado!",
+      "body_girl": "Barras, pizza, linhas… Escolher o gráfico certo depende do tipo de dado!"
+    },
+    {
+      "title_boy": "Fluxogramas",
+      "title_girl": "Fluxogramas",
+      "body_boy": "Fluxograma mostra passos de um processo. Algoritmos e organização de ideias!",
+      "body_girl": "Fluxograma mostra passos de um processo. Algoritmos e organização de ideias!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "probabilidade",
+      "name": "Probabilidade",
+      "bncc": "EF06MA30"
+    },
+    {
+      "id": "graficos",
+      "name": "Gráficos",
+      "bncc": "EF06MA32"
+    },
+    {
+      "id": "fluxo",
+      "name": "Fluxogramas",
+      "bncc": "EF06MA34"
+    }
+  ]
+}

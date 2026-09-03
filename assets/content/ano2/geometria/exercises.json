@@ -1,0 +1,175 @@
+{
+  "unit": "geometria",
+  "grade": 2,
+  "exercises": [
+    {
+      "id": "ef02ma15_001",
+      "bncc": "EF02MA15",
+      "topic": "figuras_planas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantos vértices tem um quadrado?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "4",
+      "explain_boy": "Quadrado: 4 lados e 4 vértices!",
+      "explain_girl": "Quadrado: 4 lados e 4 vértices!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma12_001",
+      "bncc": "EF02MA12",
+      "topic": "localizacao",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "No mapa, ir 2 passos à frente e 1 à direita descreve um:",
+      "options": [
+        "número",
+        "caminho",
+        "cor",
+        "som"
+      ],
+      "answer": "caminho",
+      "explain_boy": "Descrever deslocamentos = caminho no mapa!",
+      "explain_girl": "Descrever deslocamentos = caminho no mapa!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma14_001",
+      "bncc": "EF02MA14",
+      "topic": "solidos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantas faces tem um cubo?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": "6",
+      "explain_boy": "Cubo tem 6 faces quadradas. Como um dado!",
+      "explain_girl": "Cubo tem 6 faces quadradas. Como um dado!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma15_tf1",
+      "bncc": "EF02MA15",
+      "topic": "figuras_planas",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Pentágono tem 5 lados.",
+      "answer": true,
+      "explain_boy": "Penta = 5. Pentágono tem 5 lados!",
+      "explain_girl": "Penta = 5. Pentágono tem 5 lados!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma15_002",
+      "bncc": "EF02MA15",
+      "topic": "figuras_planas",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual figura tem todos os lados iguais e 4 ângulos retos?",
+      "options": [
+        "retângulo",
+        "quadrado",
+        "losango",
+        "triângulo"
+      ],
+      "answer": "quadrado",
+      "explain_boy": "Quadrado: lados iguais + ângulos retos!",
+      "explain_girl": "Quadrado: lados iguais + ângulos retos!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma14_002",
+      "bncc": "EF02MA14",
+      "topic": "solidos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Uma caixa de sapato parece mais um:",
+      "options": [
+        "esfera",
+        "cone",
+        "paralelepípedo",
+        "pirâmide"
+      ],
+      "answer": "paralelepípedo",
+      "explain_boy": "Caixa = paralelepípedo. Faces retangulares!",
+      "explain_girl": "Caixa = paralelepípedo. Faces retangulares!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma12_tf1",
+      "bncc": "EF02MA12",
+      "topic": "localizacao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Direita e esquerda dependem da orientação de quem olha.",
+      "answer": true,
+      "explain_boy": "Sim! Depende do ponto de vista.",
+      "explain_girl": "Sim! Depende do ponto de vista.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma15_003",
+      "bncc": "EF02MA15",
+      "topic": "figuras_planas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Hexágono tem quantos lados?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": "6",
+      "explain_boy": "Hexa = 6. Hexágono tem 6 lados!",
+      "explain_girl": "Hexa = 6. Hexágono tem 6 lados!",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma14_tf1",
+      "bncc": "EF02MA14",
+      "topic": "solidos",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "Uma esfera tem faces planas.",
+      "answer": false,
+      "explain_boy": "Não! Esfera é toda curva, sem faces planas.",
+      "explain_girl": "Não! Esfera é toda curva, sem faces planas.",
+      "xp": 10
+    },
+    {
+      "id": "ef02ma12_002",
+      "bncc": "EF02MA12",
+      "topic": "localizacao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se você está de frente para o norte, sua direita aponta para:",
+      "options": [
+        "sul",
+        "oeste",
+        "leste",
+        "norte"
+      ],
+      "answer": "leste",
+      "explain_boy": "Frente norte → direita = leste. Orientação!",
+      "explain_girl": "Frente norte → direita = leste. Orientação!",
+      "xp": 10
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "unit": "geometria",
+  "grade": 3,
+  "exercises": [
+    {
+      "id": "ef03ma15_001",
+      "bncc": "EF03MA15",
+      "topic": "poligonos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantos lados tem um pentágono?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "5",
+      "explain_boy": "Penta = 5. Pentágono tem 5 lados!",
+      "explain_girl": "Penta = 5. Pentágono tem 5 lados!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma16_001",
+      "bncc": "EF03MA16",
+      "topic": "simetria",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Uma figura com eixo de simetria, ao dobrar:",
+      "options": [
+        "não bate",
+        "as metades coincidem",
+        "some",
+        "gira"
+      ],
+      "answer": "as metades coincidem",
+      "explain_boy": "Simetria: metades iguais ao dobrar!",
+      "explain_girl": "Simetria: metades iguais ao dobrar!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma12g_001",
+      "bncc": "EF03MA12",
+      "topic": "malha",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Na malha, andar 3 casas à direita e 2 pra cima é um:",
+      "options": [
+        "ângulo",
+        "deslocamento",
+        "volume",
+        "peso"
+      ],
+      "answer": "deslocamento",
+      "explain_boy": "Mover na malha = deslocamento!",
+      "explain_girl": "Mover na malha = deslocamento!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma15_tf1",
+      "bncc": "EF03MA15",
+      "topic": "poligonos",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Polígono é figura fechada com lados retos.",
+      "answer": true,
+      "explain_boy": "Definição correta de polígono!",
+      "explain_girl": "Definição correta de polígono!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma15_002",
+      "bncc": "EF03MA15",
+      "topic": "poligonos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Um octógono tem quantos lados?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "answer": "8",
+      "explain_boy": "Octo = 8. Octógono tem 8 lados!",
+      "explain_girl": "Octo = 8. Octógono tem 8 lados!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma16_002",
+      "bncc": "EF03MA16",
+      "topic": "simetria",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "A letra M maiúscula tem eixo de simetria:",
+      "options": [
+        "horizontal",
+        "vertical",
+        "nenhum",
+        "diagonal só"
+      ],
+      "answer": "vertical",
+      "explain_boy": "M tem eixo vertical no meio!",
+      "explain_girl": "M tem eixo vertical no meio!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma16_tf1",
+      "bncc": "EF03MA16",
+      "topic": "simetria",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Uma borboleta costuma ter simetria.",
+      "answer": true,
+      "explain_boy": "Sim! Asas esquerda e direita iguais!",
+      "explain_girl": "Sim! Asas esquerda e direita iguais!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma15_003",
+      "bncc": "EF03MA15",
+      "topic": "poligonos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Triângulo é um polígono com:",
+      "options": [
+        "2 lados",
+        "3 lados",
+        "4 lados",
+        "0 lados"
+      ],
+      "answer": "3 lados",
+      "explain_boy": "Triângulo = 3 lados. Sempre!",
+      "explain_girl": "Triângulo = 3 lados. Sempre!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma12g_tf1",
+      "bncc": "EF03MA12",
+      "topic": "malha",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "Na malha quadriculada, cada passo pode ser contado em quadradinhos.",
+      "answer": true,
+      "explain_boy": "Sim! Quadradinhos medem o caminho.",
+      "explain_girl": "Sim! Quadradinhos medem o caminho.",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma16_003",
+      "bncc": "EF03MA16",
+      "topic": "simetria",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Um círculo tem:",
+      "options": [
+        "nenhum eixo",
+        "só 1 eixo",
+        "infinitos eixos de simetria",
+        "só 2 eixos"
+      ],
+      "answer": "infinitos eixos de simetria",
+      "explain_boy": "Círculo: qualquer diâmetro é eixo!",
+      "explain_girl": "Círculo: qualquer diâmetro é eixo!",
+      "xp": 10
+    }
+  ]
+}

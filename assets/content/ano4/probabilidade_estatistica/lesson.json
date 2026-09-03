@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 4,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Mais provável",
+      "title_girl": "Mais provável",
+      "body_boy": "Saco com 3 vermelhas e 1 azul. Tirar vermelha é mais provável. Conta as possibilidades!",
+      "body_girl": "Saco com 3 vermelhas e 1 azul. Tirar vermelha é mais provável. Conta as possibilidades!"
+    },
+    {
+      "title_boy": "Média simples",
+      "title_girl": "Média simples",
+      "body_boy": "Notas 6, 8 e 10. Soma = 24, divide por 3 = 8. Média aritmética!",
+      "body_girl": "Notas 6, 8 e 10. Soma = 24, divide por 3 = 8. Média aritmética!"
+    },
+    {
+      "title_boy": "Gráfico de colunas",
+      "title_girl": "Gráfico de colunas",
+      "body_boy": "Colunas mostram quantidades. Compara alturas e tira conclusões. Dados falam!",
+      "body_girl": "Colunas mostram quantidades. Compara alturas e tira conclusões. Dados falam!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "probabilidade",
+      "name": "Probabilidade",
+      "bncc": "EF04MA26"
+    },
+    {
+      "id": "media",
+      "name": "Média",
+      "bncc": "EF04MA27"
+    },
+    {
+      "id": "graficos",
+      "name": "Gráficos",
+      "bncc": "EF04MA28"
+    }
+  ]
+}

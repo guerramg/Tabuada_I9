@@ -1,0 +1,173 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 3,
+  "exercises": [
+    {
+      "id": "ef03ma17_001",
+      "bncc": "EF03MA17",
+      "topic": "unidades",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Para medir a capacidade de uma garrafa usamos:",
+      "options": [
+        "metros",
+        "litros",
+        "quilos",
+        "graus"
+      ],
+      "answer": "litros",
+      "explain_boy": "Capacidade → litros (L)!",
+      "explain_girl": "Capacidade → litros (L)!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma21_001",
+      "bncc": "EF03MA21",
+      "topic": "area",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Uma figura cobre 6 quadradinhos. Sua área é:",
+      "options": [
+        "6",
+        "12",
+        "3",
+        "1"
+      ],
+      "answer": "6",
+      "explain_boy": "Área = número de quadradinhos = 6!",
+      "explain_girl": "Área = número de quadradinhos = 6!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma24_001",
+      "bncc": "EF03MA24",
+      "topic": "sistema_monetario",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "R$ 2 + R$ 5 + R$ 10 = ?",
+      "options": [
+        "R$ 15",
+        "R$ 17",
+        "R$ 12",
+        "R$ 20"
+      ],
+      "answer": "R$ 17",
+      "explain_boy": "2+5+10=17. Mandou a real!",
+      "explain_girl": "2+5+10=17. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma17_tf1",
+      "bncc": "EF03MA17",
+      "topic": "unidades",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Quilograma (kg) mede massa.",
+      "answer": true,
+      "explain_boy": "Sim! kg mede massa/peso.",
+      "explain_girl": "Sim! kg mede massa/peso.",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma17_002",
+      "bncc": "EF03MA17",
+      "topic": "unidades",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2 metros = quantos centímetros?",
+      "options": [
+        "20",
+        "200",
+        "2000",
+        "2"
+      ],
+      "answer": "200",
+      "explain_boy": "2 × 100 = 200 cm!",
+      "explain_girl": "2 × 100 = 200 cm!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma21_002",
+      "bncc": "EF03MA21",
+      "topic": "area",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Retângulo de 3 por 4 quadradinhos tem área:",
+      "options": [
+        "7",
+        "12",
+        "14",
+        "34"
+      ],
+      "answer": "12",
+      "explain_boy": "3 × 4 = 12 quadradinhos!",
+      "explain_girl": "3 × 4 = 12 quadradinhos!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma24_002",
+      "bncc": "EF03MA24",
+      "topic": "sistema_monetario",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Você tinha {a} reais e gastou {b}. Quanto sobrou?",
+      "a_min": 20,
+      "a_max": 50,
+      "b_min": 5,
+      "b_max": 19,
+      "op": "sub",
+      "explain_template_boy": "Fechou: {a} − {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} − {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef03ma21_tf1",
+      "bncc": "EF03MA21",
+      "topic": "area",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Área mede o espaço dentro de uma figura.",
+      "answer": true,
+      "explain_boy": "Definição correta de área!",
+      "explain_girl": "Definição correta de área!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma17_003",
+      "bncc": "EF03MA17",
+      "topic": "unidades",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Para medir a altura de uma pessoa usamos:",
+      "options": [
+        "litros",
+        "metros ou cm",
+        "kg",
+        "m²"
+      ],
+      "answer": "metros ou cm",
+      "explain_boy": "Altura = comprimento → m ou cm!",
+      "explain_girl": "Altura = comprimento → m ou cm!",
+      "xp": 10
+    },
+    {
+      "id": "ef03ma24_tf1",
+      "bncc": "EF03MA24",
+      "topic": "sistema_monetario",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "R$ 50 − R$ 20 = R$ 30.",
+      "answer": true,
+      "explain_boy": "Sim! 50 − 20 = 30 reais.",
+      "explain_girl": "Sim! 50 − 20 = 30 reais.",
+      "xp": 10
+    }
+  ]
+}

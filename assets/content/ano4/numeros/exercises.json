@@ -1,0 +1,207 @@
+{
+  "unit": "numeros",
+  "grade": 4,
+  "exercises": [
+    {
+      "id": "ef04ma05_001",
+      "bncc": "EF04MA05",
+      "topic": "multiplicacao",
+      "difficulty": 1,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Quanto é {a} × {b}?",
+      "a_min": 10,
+      "a_max": 30,
+      "b_min": 2,
+      "b_max": 9,
+      "op": "mul",
+      "explain_template_boy": "Fechou: {a} × {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} × {b} = {answer}. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma06_001",
+      "bncc": "EF04MA06",
+      "topic": "multiplicacao",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Calcule {a} ÷ {b}.",
+      "a_min": 20,
+      "a_max": 100,
+      "b_min": 2,
+      "b_max": 10,
+      "op": "div",
+      "explain_template_boy": "Fechou: {a} ÷ {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} ÷ {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef04ma01_001",
+      "bncc": "EF04MA01",
+      "topic": "numeros_grandes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "1 milhão = ?",
+      "options": [
+        "10 000",
+        "100 000",
+        "1 000 000",
+        "10 000 000"
+      ],
+      "answer": "1 000 000",
+      "explain_boy": "1 milhão = 1 000 000. Seis zeros!",
+      "explain_girl": "1 milhão = 1 000 000. Seis zeros!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma09_001",
+      "bncc": "EF04MA09",
+      "topic": "fracoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual fração é equivalente a 1/2?",
+      "options": [
+        "1/3",
+        "2/4",
+        "2/3",
+        "3/5"
+      ],
+      "answer": "2/4",
+      "explain_boy": "1/2 = 2/4. Equivalentes!",
+      "explain_girl": "1/2 = 2/4. Equivalentes!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma10_001",
+      "bncc": "EF04MA10",
+      "topic": "decimais",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "R$ 3,50 tem quantos centavos além dos 3 reais?",
+      "options": [
+        "3",
+        "5",
+        "50",
+        "350"
+      ],
+      "answer": "50",
+      "explain_boy": "3,50 = 3 reais e 50 centavos!",
+      "explain_girl": "3,50 = 3 reais e 50 centavos!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma09_tf1",
+      "bncc": "EF04MA09",
+      "topic": "fracoes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "1/2 = 3/6.",
+      "answer": true,
+      "explain_boy": "Sim! Multiplica cima e baixo por 3.",
+      "explain_girl": "Sim! Multiplica cima e baixo por 3.",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma10_002",
+      "bncc": "EF04MA10",
+      "topic": "decimais",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "0,5 é igual a:",
+      "options": [
+        "1/5",
+        "1/2",
+        "5/1",
+        "1/50"
+      ],
+      "answer": "1/2",
+      "explain_boy": "0,5 = 5/10 = 1/2. Mandou!",
+      "explain_girl": "0,5 = 5/10 = 1/2. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma05_002",
+      "bncc": "EF04MA05",
+      "topic": "multiplicacao",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Quanto é {a} × {b}?",
+      "a_min": 11,
+      "a_max": 25,
+      "b_min": 3,
+      "b_max": 8,
+      "op": "mul",
+      "explain_template_boy": "Fechou: {a} × {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} × {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef04ma01_002",
+      "bncc": "EF04MA01",
+      "topic": "numeros_grandes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Arredondando 4 780 para a centena mais próxima:",
+      "options": [
+        "4 700",
+        "4 800",
+        "5 000",
+        "4 000"
+      ],
+      "answer": "4 800",
+      "explain_boy": "780 ≥ 500 → sobe pra 4 800!",
+      "explain_girl": "780 ≥ 500 → sobe pra 4 800!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma10_tf1",
+      "bncc": "EF04MA10",
+      "topic": "decimais",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "0,25 = 1/4.",
+      "answer": true,
+      "explain_boy": "Sim! 0,25 = 25/100 = 1/4.",
+      "explain_girl": "Sim! 0,25 = 25/100 = 1/4.",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma09_002",
+      "bncc": "EF04MA09",
+      "topic": "fracoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3/4 + 1/4 = ?",
+      "options": [
+        "4/8",
+        "1",
+        "3/8",
+        "4/4"
+      ],
+      "answer": "1",
+      "explain_boy": "3/4 + 1/4 = 4/4 = 1. Fechou!",
+      "explain_girl": "3/4 + 1/4 = 4/4 = 1. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma05_tf1",
+      "bncc": "EF04MA05",
+      "topic": "multiplicacao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "12 × 3 = 36.",
+      "answer": true,
+      "explain_boy": "Sim! 12 × 3 = 36.",
+      "explain_girl": "Sim! 12 × 3 = 36.",
+      "xp": 10
+    }
+  ]
+}

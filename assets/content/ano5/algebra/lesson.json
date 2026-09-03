@@ -1,0 +1,44 @@
+{
+  "unit": "algebra",
+  "grade": 5,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Propriedade distributiva",
+      "title_girl": "Propriedade distributiva",
+      "body_boy": "3 × (4 + 5) = 3×4 + 3×5 = 12 + 15 = 27. Distributiva economiza tempo!",
+      "body_girl": "3 × (4 + 5) = 3×4 + 3×5 = 12 + 15 = 27. Distributiva economiza tempo!"
+    },
+    {
+      "title_boy": "Equações simples",
+      "title_girl": "Equações simples",
+      "body_boy": "x + 7 = 15 → x = 8. Isolar a letra é o jogo. Álgebra de verdade!",
+      "body_girl": "x + 7 = 15 → x = 8. Isolar a letra é o jogo. Álgebra de verdade!"
+    },
+    {
+      "title_boy": "Padrões e fórmulas",
+      "title_girl": "Padrões e fórmulas",
+      "body_boy": "Perímetro do quadrado: P = 4 × lado. Fórmulas são padrões escritos com letras!",
+      "body_girl": "Perímetro do quadrado: P = 4 × lado. Fórmulas são padrões escritos com letras!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "distributiva",
+      "name": "Distributiva",
+      "bncc": "EF05MA10"
+    },
+    {
+      "id": "equacoes",
+      "name": "Equações",
+      "bncc": "EF05MA11"
+    },
+    {
+      "id": "formulas",
+      "name": "Fórmulas",
+      "bncc": "EF05MA12"
+    }
+  ]
+}

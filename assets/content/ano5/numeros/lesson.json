@@ -1,0 +1,55 @@
+{
+  "unit": "numeros",
+  "grade": 5,
+  "title": "Números",
+  "title_boy": "Missão Números",
+  "title_girl": "Estrela dos Números",
+  "slides": [
+    {
+      "title_boy": "Sistema decimal completo",
+      "title_girl": "Sistema decimal completo",
+      "body_boy": "Valor posicional até milhões e milésimos. 3,14: 3 unidades, 1 décimo, 4 centésimos. Domina!",
+      "body_girl": "Valor posicional até milhões e milésimos. 3,14: 3 unidades, 1 décimo, 4 centésimos. Domina!"
+    },
+    {
+      "title_boy": "Operações com frações",
+      "title_girl": "Operações com frações",
+      "body_boy": "1/4 + 2/4 = 3/4. Mesmo denominador: soma os numeradores. Frações em ação!",
+      "body_girl": "1/4 + 2/4 = 3/4. Mesmo denominador: soma os numeradores. Frações em ação!"
+    },
+    {
+      "title_boy": "Porcentagem",
+      "title_girl": "Porcentagem",
+      "body_boy": "50% = metade = 1/2. 25% = 1/4. Porcentagem aparece em descontos e notas!",
+      "body_girl": "50% = metade = 1/2. 25% = 1/4. Porcentagem aparece em descontos e notas!"
+    },
+    {
+      "title_boy": "Problemas multi-etapas",
+      "title_girl": "Problemas multi-etapas",
+      "body_boy": "Problemas com várias operações. Lê com calma, planeja os passos e resolve. Campeão!",
+      "body_girl": "Problemas com várias operações. Lê com calma, planeja os passos e resolve. Campeã!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "decimais",
+      "name": "Decimais",
+      "bncc": "EF05MA02"
+    },
+    {
+      "id": "fracoes",
+      "name": "Frações",
+      "bncc": "EF05MA03"
+    },
+    {
+      "id": "porcentagem",
+      "name": "Porcentagem",
+      "bncc": "EF05MA06"
+    },
+    {
+      "id": "problemas",
+      "name": "Problemas",
+      "bncc": "EF05MA07"
+    }
+  ]
+}

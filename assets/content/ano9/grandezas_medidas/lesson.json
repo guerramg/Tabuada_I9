@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 9,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Volume de pirâmides e cones",
+      "title_girl": "Volume de pirâmides e cones",
+      "body_boy": "V = (1/3) × área da base × altura. Pirâmide e cone: um terço do prisma/cilindro!",
+      "body_girl": "V = (1/3) × área da base × altura. Pirâmide e cone: um terço do prisma/cilindro!"
+    },
+    {
+      "title_boy": "Esfera",
+      "title_girl": "Esfera",
+      "body_boy": "V = (4/3)πr³. A = 4πr². Bola de futebol: matemática esférica!",
+      "body_girl": "V = (4/3)πr³. A = 4πr². Bola de futebol: matemática esférica!"
+    },
+    {
+      "title_boy": "Unidades e conversões avançadas",
+      "title_girl": "Unidades e conversões avançadas",
+      "body_boy": "m³ ↔ L, km/h ↔ m/s. Conversões compostas pro dia a dia científico!",
+      "body_girl": "m³ ↔ L, km/h ↔ m/s. Conversões compostas pro dia a dia científico!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "volume_piramide",
+      "name": "Volume pirâmide/cone",
+      "bncc": "EF09MA16"
+    },
+    {
+      "id": "esfera",
+      "name": "Esfera",
+      "bncc": "EF09MA17"
+    },
+    {
+      "id": "conversoes",
+      "name": "Conversões",
+      "bncc": "EF09MA18"
+    }
+  ]
+}

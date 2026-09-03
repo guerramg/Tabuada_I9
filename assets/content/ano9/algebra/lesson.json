@@ -1,0 +1,44 @@
+{
+  "unit": "algebra",
+  "grade": 9,
+  "title": "Álgebra",
+  "title_boy": "Missão Padrões",
+  "title_girl": "Estrela dos Padrões",
+  "slides": [
+    {
+      "title_boy": "Equação do 2º grau",
+      "title_girl": "Equação do 2º grau",
+      "body_boy": "ax² + bx + c = 0. Bhaskara: x = (−b ± √Δ)/(2a). Δ = b² − 4ac. Épico!",
+      "body_girl": "ax² + bx + c = 0. Bhaskara: x = (−b ± √Δ)/(2a). Δ = b² − 4ac. Épico!"
+    },
+    {
+      "title_boy": "Funções",
+      "title_girl": "Funções",
+      "body_boy": "f(x) = 2x + 1. Entrada x, saída f(x). Função afim: reta no gráfico!",
+      "body_girl": "f(x) = 2x + 1. Entrada x, saída f(x). Função afim: reta no gráfico!"
+    },
+    {
+      "title_boy": "Função quadrática",
+      "title_girl": "Função quadrática",
+      "body_boy": "f(x) = x² − 4x + 3. Parábola, vértice, raízes. Gráfico em U!",
+      "body_girl": "f(x) = x² − 4x + 3. Parábola, vértice, raízes. Gráfico em U!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "equacao_2grau",
+      "name": "Equação do 2º grau",
+      "bncc": "EF09MA09"
+    },
+    {
+      "id": "funcoes",
+      "name": "Funções",
+      "bncc": "EF09MA06"
+    },
+    {
+      "id": "quadratica",
+      "name": "Função quadrática",
+      "bncc": "EF09MA07"
+    }
+  ]
+}

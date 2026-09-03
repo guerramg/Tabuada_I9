@@ -1,0 +1,175 @@
+{
+  "unit": "algebra",
+  "grade": 1,
+  "exercises": [
+    {
+      "id": "ef01ma09_001",
+      "bncc": "EF01MA09",
+      "topic": "padroes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Complete: ● ■ ● ■ ● ___",
+      "options": [
+        "●",
+        "■",
+        "▲",
+        "◆"
+      ],
+      "answer": "■",
+      "explain_boy": "O padrão é ● ■ ● ■… Depois de ● vem ■. Mandou!",
+      "explain_girl": "O padrão é ● ■ ● ■… Depois de ● vem ■. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma09_002",
+      "bncc": "EF01MA09",
+      "topic": "padroes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Complete a sequência: A B A B A ___",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": "B",
+      "explain_boy": "A, B, A, B, A, B. Próximo é B!",
+      "explain_girl": "A, B, A, B, A, B. Próximo é B!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma10_001",
+      "bncc": "EF01MA10",
+      "topic": "sequencias",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual vem depois: 2, 4, 6, ___?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "5"
+      ],
+      "answer": "8",
+      "explain_boy": "Pula de 2 em 2: 2, 4, 6, 8. Fechou!",
+      "explain_girl": "Pula de 2 em 2: 2, 4, 6, 8. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma10_002",
+      "bncc": "EF01MA10",
+      "topic": "sequencias",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual falta: 1, 2, ___, 4, 5?",
+      "options": [
+        "0",
+        "3",
+        "6",
+        "7"
+      ],
+      "answer": "3",
+      "explain_boy": "Sequência natural: 1, 2, 3, 4, 5!",
+      "explain_girl": "Sequência natural: 1, 2, 3, 4, 5!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma09_tf1",
+      "bncc": "EF01MA09",
+      "topic": "padroes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Em vermelho, azul, vermelho, azul… o próximo é vermelho.",
+      "answer": true,
+      "explain_boy": "Sim! O padrão se repete: vermelho de novo!",
+      "explain_girl": "Sim! O padrão se repete: vermelho de novo!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma10_003",
+      "bncc": "EF01MA10",
+      "topic": "sequencias",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Complete: 5, 10, 15, ___",
+      "options": [
+        "16",
+        "20",
+        "25",
+        "18"
+      ],
+      "answer": "20",
+      "explain_boy": "De 5 em 5: 5, 10, 15, 20. Mandou a real!",
+      "explain_girl": "De 5 em 5: 5, 10, 15, 20. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma09_003",
+      "bncc": "EF01MA09",
+      "topic": "padroes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "□ ○ □ ○ □ ___",
+      "options": [
+        "□",
+        "○",
+        "△",
+        "◇"
+      ],
+      "answer": "○",
+      "explain_boy": "Padrão □ ○… Depois de □ vem ○!",
+      "explain_girl": "Padrão □ ○… Depois de □ vem ○!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma10_tf1",
+      "bncc": "EF01MA10",
+      "topic": "sequencias",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Na sequência 1, 3, 5, 7 o próximo é 9.",
+      "answer": true,
+      "explain_boy": "Sim! Ímpares: 1, 3, 5, 7, 9!",
+      "explain_girl": "Sim! Ímpares: 1, 3, 5, 7, 9!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma10_004",
+      "bncc": "EF01MA10",
+      "topic": "sequencias",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se 4 + □ = 7, quanto vale □?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "3",
+      "explain_boy": "4 + 3 = 7. A lacuna é 3. Fechou!",
+      "explain_girl": "4 + 3 = 7. A lacuna é 3. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma09_tf2",
+      "bncc": "EF01MA09",
+      "topic": "padroes",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "O padrão 1, 2, 1, 2, 1 continua com 2.",
+      "answer": true,
+      "explain_boy": "Isso! Alterna 1 e 2. Próximo é 2!",
+      "explain_girl": "Isso! Alterna 1 e 2. Próximo é 2!",
+      "xp": 10
+    }
+  ]
+}

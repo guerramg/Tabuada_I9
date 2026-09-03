@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 5,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Volume",
+      "title_girl": "Volume",
+      "body_boy": "Volume do paralelepípedo = comprimento × largura × altura. Quantos cubinhos cabem dentro?",
+      "body_girl": "Volume do paralelepípedo = comprimento × largura × altura. Quantos cubinhos cabem dentro?"
+    },
+    {
+      "title_boy": "Escala e mapas",
+      "title_girl": "Escala e mapas",
+      "body_boy": "Escala 1:100 significa 1 cm no mapa = 100 cm na realidade. Mapas usam escala!",
+      "body_girl": "Escala 1:100 significa 1 cm no mapa = 100 cm na realidade. Mapas usam escala!"
+    },
+    {
+      "title_boy": "Tempo decorrido",
+      "title_girl": "Tempo decorrido",
+      "body_boy": "Das 14:20 às 15:05 = 45 minutos. Calcular intervalos de tempo é útil demais!",
+      "body_girl": "Das 14:20 às 15:05 = 45 minutos. Calcular intervalos de tempo é útil demais!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "volume",
+      "name": "Volume",
+      "bncc": "EF05MA21"
+    },
+    {
+      "id": "escala",
+      "name": "Escala",
+      "bncc": "EF05MA22"
+    },
+    {
+      "id": "tempo",
+      "name": "Tempo",
+      "bncc": "EF05MA23"
+    }
+  ]
+}

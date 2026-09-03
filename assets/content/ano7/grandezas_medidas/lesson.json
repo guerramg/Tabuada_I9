@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 7,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Área de figuras compostas",
+      "title_girl": "Área de figuras compostas",
+      "body_boy": "Soma e subtrai áreas de retângulos e triângulos pra achar área de figuras irregulares!",
+      "body_girl": "Soma e subtrai áreas de retângulos e triângulos pra achar área de figuras irregulares!"
+    },
+    {
+      "title_boy": "Volume de prismas",
+      "title_girl": "Volume de prismas",
+      "body_boy": "V = área da base × altura. Prisma triangular, retangular… mesma lógica!",
+      "body_girl": "V = área da base × altura. Prisma triangular, retangular… mesma lógica!"
+    },
+    {
+      "title_boy": "Medidas de comprimento",
+      "title_girl": "Medidas de comprimento",
+      "body_boy": "Converter km ↔ m ↔ cm com precisão. Problemas de percurso e mapas!",
+      "body_girl": "Converter km ↔ m ↔ cm com precisão. Problemas de percurso e mapas!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "area_composta",
+      "name": "Área composta",
+      "bncc": "EF07MA29"
+    },
+    {
+      "id": "volume",
+      "name": "Volume",
+      "bncc": "EF07MA30"
+    },
+    {
+      "id": "comprimento",
+      "name": "Comprimento",
+      "bncc": "EF07MA28"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "unit": "algebra",
+  "grade": 6,
+  "exercises": [
+    {
+      "id": "ef06ma13_001",
+      "bncc": "EF06MA13",
+      "topic": "expressoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "O dobro de um número x é:",
+      "options": [
+        "x+2",
+        "2x",
+        "x/2",
+        "x−2"
+      ],
+      "answer": "2x",
+      "explain_boy": "Dobro = 2x. Linguagem algébrica!",
+      "explain_girl": "Dobro = 2x. Linguagem algébrica!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma14a_001",
+      "bncc": "EF06MA14",
+      "topic": "equacoes",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "2x + 3 = 11. x = ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "answer": "4",
+      "explain_boy": "2x=8 → x=4. Fechou!",
+      "explain_girl": "2x=8 → x=4. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma15_001",
+      "bncc": "EF06MA15",
+      "topic": "sequencias",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Sequência 2, 5, 8, 11… regra do termo geral aproximada:",
+      "options": [
+        "n+1",
+        "3n−1",
+        "2n",
+        "n²"
+      ],
+      "answer": "3n−1",
+      "explain_boy": "Para n=1: 2; n=2: 5… 3n−1!",
+      "explain_girl": "Para n=1: 2; n=2: 5… 3n−1!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma13_tf1",
+      "bncc": "EF06MA13",
+      "topic": "expressoes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "x+5 representa um número mais cinco.",
+      "answer": true,
+      "explain_boy": "Tradução correta!",
+      "explain_girl": "Tradução correta!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma14a_002",
+      "bncc": "EF06MA14",
+      "topic": "equacoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3x = 21. x = ?",
+      "options": [
+        "6",
+        "7",
+        "18",
+        "24"
+      ],
+      "answer": "7",
+      "explain_boy": "x = 21÷3 = 7!",
+      "explain_girl": "x = 21÷3 = 7!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma13_002",
+      "bncc": "EF06MA13",
+      "topic": "expressoes",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "A metade de x mais 3:",
+      "options": [
+        "2x+3",
+        "x/2+3",
+        "x+3/2",
+        "3x/2"
+      ],
+      "answer": "x/2+3",
+      "explain_boy": "Metade de x = x/2, mais 3!",
+      "explain_girl": "Metade de x = x/2, mais 3!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma14a_tf1",
+      "bncc": "EF06MA14",
+      "topic": "equacoes",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Em 2x+3=11, isolamos x passo a passo.",
+      "answer": true,
+      "explain_boy": "Método correto de resolução!",
+      "explain_girl": "Método correto de resolução!",
+      "xp": 10
+    },
+    {
+      "id": "ef06ma15_002",
+      "bncc": "EF06MA15",
+      "topic": "sequencias",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Próximo termo: 4, 7, 10, 13, ___",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "answer": "16",
+      "explain_boy": "Soma 3: 13+3=16!",
+      "explain_girl": "Soma 3: 13+3=16!",
+      "xp": 10
+    }
+  ]
+}

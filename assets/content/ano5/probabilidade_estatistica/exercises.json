@@ -1,0 +1,175 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 5,
+  "exercises": [
+    {
+      "id": "ef05ma22p_001",
+      "bncc": "EF05MA22",
+      "topic": "espaco_amostral",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Dado de 6 faces: P(sair 3) =",
+      "options": [
+        "1/3",
+        "1/6",
+        "1/2",
+        "3/6"
+      ],
+      "answer": "1/6",
+      "explain_boy": "1 favorável em 6 possíveis = 1/6!",
+      "explain_girl": "1 favorável em 6 possíveis = 1/6!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma24_001",
+      "bncc": "EF05MA24",
+      "topic": "medidas_tendencia",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Na lista 2, 3, 3, 5, 7 a moda é:",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "answer": "3",
+      "explain_boy": "3 aparece duas vezes. Moda = 3!",
+      "explain_girl": "3 aparece duas vezes. Moda = 3!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma24_002",
+      "bncc": "EF05MA24",
+      "topic": "medidas_tendencia",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Mediana de 1, 3, 5, 7, 9:",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "answer": "5",
+      "explain_boy": "Valor do meio = 5!",
+      "explain_girl": "Valor do meio = 5!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma22p_tf1",
+      "bncc": "EF05MA22",
+      "topic": "espaco_amostral",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Espaço amostral do dado = {1,2,3,4,5,6}.",
+      "answer": true,
+      "explain_boy": "Todos os resultados possíveis!",
+      "explain_girl": "Todos os resultados possíveis!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma24_003",
+      "bncc": "EF05MA24",
+      "topic": "medidas_tendencia",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Média de 4, 6, 8:",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "18"
+      ],
+      "answer": "6",
+      "explain_boy": "(4+6+8)÷3=18÷3=6!",
+      "explain_girl": "(4+6+8)÷3=18÷3=6!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma25_001",
+      "bncc": "EF05MA25",
+      "topic": "graficos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Gráfico de linha é bom para mostrar:",
+      "options": [
+        "só categorias fixas",
+        "evolução no tempo",
+        "cores",
+        "músicas"
+      ],
+      "answer": "evolução no tempo",
+      "explain_boy": "Linha mostra mudança ao longo do tempo!",
+      "explain_girl": "Linha mostra mudança ao longo do tempo!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma24_tf1",
+      "bncc": "EF05MA24",
+      "topic": "medidas_tendencia",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Moda é o valor que mais se repete.",
+      "answer": true,
+      "explain_boy": "Definição de moda!",
+      "explain_girl": "Definição de moda!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma22p_002",
+      "bncc": "EF05MA22",
+      "topic": "espaco_amostral",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Moeda: espaço amostral tem quantos resultados?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": "2",
+      "explain_boy": "Cara e coroa = 2 resultados!",
+      "explain_girl": "Cara e coroa = 2 resultados!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma25_002",
+      "bncc": "EF05MA25",
+      "topic": "graficos",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Temperatura ao longo da semana: melhor gráfico:",
+      "options": [
+        "pizza",
+        "linha",
+        "só tabela sem gráfico",
+        "pictograma de frutas"
+      ],
+      "answer": "linha",
+      "explain_boy": "Evolução temporal → gráfico de linha!",
+      "explain_girl": "Evolução temporal → gráfico de linha!",
+      "xp": 10
+    },
+    {
+      "id": "ef05ma25_tf1",
+      "bncc": "EF05MA25",
+      "topic": "graficos",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "Escolher o tipo de gráfico certo facilita a leitura.",
+      "answer": true,
+      "explain_boy": "Sim! Gráfico adequado = clareza.",
+      "explain_girl": "Sim! Gráfico adequado = clareza.",
+      "xp": 10
+    }
+  ]
+}

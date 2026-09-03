@@ -1,0 +1,44 @@
+{
+  "unit": "probabilidade_estatistica",
+  "grade": 9,
+  "title": "Probabilidade e Estatística",
+  "title_boy": "Missão Dados",
+  "title_girl": "Estrela dos Dados",
+  "slides": [
+    {
+      "title_boy": "Análise combinatória",
+      "title_girl": "Análise combinatória",
+      "body_boy": "Permutação, arranjo, combinação. Contar sem listar tudo: poder combinatório!",
+      "body_girl": "Permutação, arranjo, combinação. Contar sem listar tudo: poder combinatório!"
+    },
+    {
+      "title_boy": "Probabilidade condicional",
+      "title_girl": "Probabilidade condicional",
+      "body_boy": "P(A|B): probabilidade de A sabendo que B ocorreu. Atualiza as chances!",
+      "body_girl": "P(A|B): probabilidade de A sabendo que B ocorreu. Atualiza as chances!"
+    },
+    {
+      "title_boy": "Estatística e gráficos",
+      "title_girl": "Estatística e gráficos",
+      "body_boy": "Interpretar pesquisas, identificar vieses, ler gráficos da mídia com olhar crítico!",
+      "body_girl": "Interpretar pesquisas, identificar vieses, ler gráficos da mídia com olhar crítico!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "combinatoria",
+      "name": "Combinatória",
+      "bncc": "EF09MA19"
+    },
+    {
+      "id": "probabilidade",
+      "name": "Probabilidade",
+      "bncc": "EF09MA20"
+    },
+    {
+      "id": "estatistica",
+      "name": "Estatística",
+      "bncc": "EF09MA21"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "unit": "geometria",
+  "grade": 1,
+  "exercises": [
+    {
+      "id": "ef01ma11_001",
+      "bncc": "EF01MA11",
+      "topic": "localizacao",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "O teto fica ___ da sala.",
+      "options": [
+        "embaixo",
+        "em cima",
+        "ao lado",
+        "dentro"
+      ],
+      "answer": "em cima",
+      "explain_boy": "O teto fica em cima! Localização na veia.",
+      "explain_girl": "O teto fica em cima! Localização na veia.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma13_001",
+      "bncc": "EF01MA13",
+      "topic": "figuras_planas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Qual figura não tem cantos?",
+      "options": [
+        "quadrado",
+        "triângulo",
+        "círculo",
+        "retângulo"
+      ],
+      "answer": "círculo",
+      "explain_boy": "Círculo é redondo, sem cantos. Mandou!",
+      "explain_girl": "Círculo é redondo, sem cantos. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma13_002",
+      "bncc": "EF01MA13",
+      "topic": "figuras_planas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Quantos lados tem um triângulo?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "3",
+      "explain_boy": "Tri = três. Triângulo tem 3 lados!",
+      "explain_girl": "Tri = três. Triângulo tem 3 lados!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma14_001",
+      "bncc": "EF01MA14",
+      "topic": "solidos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Uma bola de futebol parece qual sólido?",
+      "options": [
+        "cubo",
+        "cilindro",
+        "esfera",
+        "cone"
+      ],
+      "answer": "esfera",
+      "explain_boy": "Bola = esfera! Redondinha pra todos os lados.",
+      "explain_girl": "Bola = esfera! Redondinha pra todos os lados.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma11_tf1",
+      "bncc": "EF01MA11",
+      "topic": "localizacao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "A esquerda e a direita são posições opostas.",
+      "answer": true,
+      "explain_boy": "Sim! Esquerda e direita são opostas. Fechou!",
+      "explain_girl": "Sim! Esquerda e direita são opostas. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma13_003",
+      "bncc": "EF01MA13",
+      "topic": "figuras_planas",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Um quadrado tem quantos lados iguais?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "4",
+      "explain_boy": "Quadrado: 4 lados iguais. Clássico!",
+      "explain_girl": "Quadrado: 4 lados iguais. Clássico!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma14_002",
+      "bncc": "EF01MA14",
+      "topic": "solidos",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Uma latinha de refrigerante parece um:",
+      "options": [
+        "cubo",
+        "cilindro",
+        "pirâmide",
+        "cone"
+      ],
+      "answer": "cilindro",
+      "explain_boy": "Latinha = cilindro. Base redonda!",
+      "explain_girl": "Latinha = cilindro. Base redonda!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma13_tf1",
+      "bncc": "EF01MA13",
+      "topic": "figuras_planas",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Um retângulo tem 4 lados.",
+      "answer": true,
+      "explain_boy": "Verdade! Retângulo tem 4 lados.",
+      "explain_girl": "Verdade! Retângulo tem 4 lados.",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma11_002",
+      "bncc": "EF01MA11",
+      "topic": "localizacao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Se o livro está em cima da mesa, a mesa está ___ do livro.",
+      "options": [
+        "em cima",
+        "embaixo",
+        "dentro",
+        "longe"
+      ],
+      "answer": "embaixo",
+      "explain_boy": "Mesa embaixo, livro em cima. Relação espacial!",
+      "explain_girl": "Mesa embaixo, livro em cima. Relação espacial!",
+      "xp": 10
+    },
+    {
+      "id": "ef01ma14_tf1",
+      "bncc": "EF01MA14",
+      "topic": "solidos",
+      "difficulty": 2,
+      "type": "true_false",
+      "question": "Um cubo tem a forma de um dado.",
+      "answer": true,
+      "explain_boy": "Sim! Dado é um cubo. 6 faces quadradas!",
+      "explain_girl": "Sim! Dado é um cubo. 6 faces quadradas!",
+      "xp": 10
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 8,
+  "title": "Grandezas e Medidas",
+  "title_boy": "Missão Medidas",
+  "title_girl": "Estrela das Medidas",
+  "slides": [
+    {
+      "title_boy": "Área de círculos",
+      "title_girl": "Área de círculos",
+      "body_boy": "A = πr². Setor circular é fatia de pizza: proporção do ângulo sobre 360°!",
+      "body_girl": "A = πr². Setor circular é fatia de pizza: proporção do ângulo sobre 360°!"
+    },
+    {
+      "title_boy": "Volume de cilindros",
+      "title_girl": "Volume de cilindros",
+      "body_boy": "V = πr²h. Lata de refrigerante: base circular × altura!",
+      "body_girl": "V = πr²h. Lata de refrigerante: base circular × altura!"
+    },
+    {
+      "title_boy": "Medidas compostas",
+      "title_girl": "Medidas compostas",
+      "body_boy": "Velocidade = distância ÷ tempo (km/h). Densidade, vazão… unidades compostas!",
+      "body_girl": "Velocidade = distância ÷ tempo (km/h). Densidade, vazão… unidades compostas!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "area_circulo",
+      "name": "Área do círculo",
+      "bncc": "EF08MA19"
+    },
+    {
+      "id": "volume_cilindro",
+      "name": "Volume do cilindro",
+      "bncc": "EF08MA20"
+    },
+    {
+      "id": "medidas_compostas",
+      "name": "Medidas compostas",
+      "bncc": "EF08MA18"
+    }
+  ]
+}

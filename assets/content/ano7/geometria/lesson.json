@@ -1,0 +1,44 @@
+{
+  "unit": "geometria",
+  "grade": 7,
+  "title": "Geometria",
+  "title_boy": "Missão Formas",
+  "title_girl": "Estrela das Formas",
+  "slides": [
+    {
+      "title_boy": "Ângulos e retas",
+      "title_girl": "Ângulos e retas",
+      "body_boy": "Retas paralelas cortadas por transversal: ângulos correspondentes são iguais. Teorema clássico!",
+      "body_girl": "Retas paralelas cortadas por transversal: ângulos correspondentes são iguais. Teorema clássico!"
+    },
+    {
+      "title_boy": "Triângulos",
+      "title_girl": "Triângulos",
+      "body_boy": "Classificar por lados (equilátero, isósceles, escaleno) e por ângulos. Condição de existência!",
+      "body_girl": "Classificar por lados (equilátero, isósceles, escaleno) e por ângulos. Condição de existência!"
+    },
+    {
+      "title_boy": "Círculo e circunferência",
+      "title_girl": "Círculo e circunferência",
+      "body_boy": "C = 2πr. A = πr². π ≈ 3,14. Círculo manda no 7º ano!",
+      "body_girl": "C = 2πr. A = πr². π ≈ 3,14. Círculo manda no 7º ano!"
+    }
+  ],
+  "topics": [
+    {
+      "id": "angulos_retas",
+      "name": "Ângulos e retas",
+      "bncc": "EF07MA22"
+    },
+    {
+      "id": "triangulos",
+      "name": "Triângulos",
+      "bncc": "EF07MA24"
+    },
+    {
+      "id": "circulo",
+      "name": "Círculo",
+      "bncc": "EF07MA27"
+    }
+  ]
+}

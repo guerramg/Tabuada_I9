@@ -1,0 +1,173 @@
+{
+  "unit": "grandezas_medidas",
+  "grade": 4,
+  "exercises": [
+    {
+      "id": "ef04ma20g_001",
+      "bncc": "EF04MA20",
+      "topic": "conversao",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "1 kg = quantos gramas?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "answer": "1000",
+      "explain_boy": "1 kg = 1000 g!",
+      "explain_girl": "1 kg = 1000 g!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma21_001",
+      "bncc": "EF04MA21",
+      "topic": "perimetro",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Cerca de um jardim 10 m × 5 m. Perímetro:",
+      "options": [
+        "15 m",
+        "30 m",
+        "50 m",
+        "25 m"
+      ],
+      "answer": "30 m",
+      "explain_boy": "2×(10+5)=30 m. Fechou!",
+      "explain_girl": "2×(10+5)=30 m. Arrasou!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma23_001",
+      "bncc": "EF04MA23",
+      "topic": "temperatura",
+      "difficulty": 1,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Água congela a quantos °C?",
+      "options": [
+        "100",
+        "50",
+        "0",
+        "−10"
+      ],
+      "answer": "0",
+      "explain_boy": "0°C: água congela!",
+      "explain_girl": "0°C: água congela!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma20g_tf1",
+      "bncc": "EF04MA20",
+      "topic": "conversao",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "1 L = 1000 mL.",
+      "answer": true,
+      "explain_boy": "Sim! 1 litro = 1000 mililitros.",
+      "explain_girl": "Sim! 1 litro = 1000 mililitros.",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma20g_002",
+      "bncc": "EF04MA20",
+      "topic": "conversao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "3 m = quantos cm?",
+      "options": [
+        "30",
+        "300",
+        "3000",
+        "3"
+      ],
+      "answer": "300",
+      "explain_boy": "3 × 100 = 300 cm!",
+      "explain_girl": "3 × 100 = 300 cm!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma23_002",
+      "bncc": "EF04MA23",
+      "topic": "temperatura",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "Água ferve a:",
+      "options": [
+        "0°C",
+        "50°C",
+        "100°C",
+        "200°C"
+      ],
+      "answer": "100°C",
+      "explain_boy": "100°C: água ferve ao nível do mar!",
+      "explain_girl": "100°C: água ferve ao nível do mar!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma21_002",
+      "bncc": "EF04MA21",
+      "topic": "perimetro",
+      "difficulty": 2,
+      "type": "numeric",
+      "template": true,
+      "question_template": "Lado a={a} e b={b}. Perímetro do retângulo = 2×(a+b). Calcule a+b primeiro: {a}+{b}=?",
+      "a_min": 5,
+      "a_max": 20,
+      "b_min": 3,
+      "b_max": 15,
+      "op": "add",
+      "explain_template_boy": "Fechou: {a} + {b} = {answer}. Mandou a real!",
+      "explain_template_girl": "Olha só: {a} + {b} = {answer}. Arrasou!",
+      "xp": 15
+    },
+    {
+      "id": "ef04ma23_tf1",
+      "bncc": "EF04MA23",
+      "topic": "temperatura",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "30°C é mais quente que 20°C.",
+      "answer": true,
+      "explain_boy": "Sim! 30 > 20. Mais quente!",
+      "explain_girl": "Sim! 30 > 20. Mais quente!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma20g_003",
+      "bncc": "EF04MA20",
+      "topic": "conversao",
+      "difficulty": 2,
+      "type": "multiple_choice",
+      "template": false,
+      "question": "5000 g = quantos kg?",
+      "options": [
+        "0,5",
+        "5",
+        "50",
+        "500"
+      ],
+      "answer": "5",
+      "explain_boy": "5000 ÷ 1000 = 5 kg!",
+      "explain_girl": "5000 ÷ 1000 = 5 kg!",
+      "xp": 10
+    },
+    {
+      "id": "ef04ma21_tf1",
+      "bncc": "EF04MA21",
+      "topic": "perimetro",
+      "difficulty": 1,
+      "type": "true_false",
+      "question": "Para cercar um terreno usamos o perímetro.",
+      "answer": true,
+      "explain_boy": "Sim! Cerca = contorno = perímetro.",
+      "explain_girl": "Sim! Cerca = contorno = perímetro.",
+      "xp": 10
+    }
+  ]
+}
