@@ -43,8 +43,10 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
   }
 
   Future<void> _openMode(SessionMode mode, String title) async {
+    final profile = context.read<AppState>().profile;
     final exercises = await ContentService.instance.buildSession(
-      grade: widget.grade,
+      focusGrade: profile?.clampedFocusGrade ?? widget.grade,
+      maxGrade: profile?.maxGrade ?? widget.grade,
       unit: widget.subject.id,
       mode: mode,
     );

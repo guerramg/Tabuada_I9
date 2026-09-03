@@ -30,7 +30,8 @@ class SubjectMapScreen extends StatelessWidget {
             ),
             const SizedBox(height: 6),
             Text(
-              'Liberado até o $maxGradeº ano (BNCC). Ano em foco: $currentGradeº.',
+              'Liberado até o $maxGradeº ano (BNCC). '
+              'Questões: 75% no ${state.profile?.clampedFocusGrade ?? currentGrade}º (ano foco).',
               style: GoogleFonts.exo2(color: AppColors.grey),
             ),
             const SizedBox(height: 12),

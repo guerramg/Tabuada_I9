@@ -5,6 +5,7 @@ class Profile {
   final String gender; // boy | girl
   final int currentGrade;
   final int maxGrade;
+  final int focusGrade;
   final String parentPin;
   final DateTime createdAt;
 
@@ -15,9 +16,15 @@ class Profile {
     required this.gender,
     required this.currentGrade,
     required this.maxGrade,
+    required this.focusGrade,
     required this.parentPin,
     required this.createdAt,
   });
+
+  int get clampedFocusGrade {
+    final g = focusGrade.clamp(1, maxGrade).toInt();
+    return g;
+  }
 
   bool get isBoy => gender == 'boy';
 
@@ -27,15 +34,19 @@ class Profile {
     String? gender,
     int? currentGrade,
     int? maxGrade,
+    int? focusGrade,
     String? parentPin,
   }) {
+    final nextMax = maxGrade ?? this.maxGrade;
+    final nextFocus = (focusGrade ?? this.focusGrade).clamp(1, nextMax).toInt();
     return Profile(
       id: id,
       name: name ?? this.name,
       avatarIndex: avatarIndex ?? this.avatarIndex,
       gender: gender ?? this.gender,
       currentGrade: currentGrade ?? this.currentGrade,
-      maxGrade: maxGrade ?? this.maxGrade,
+      maxGrade: nextMax,
+      focusGrade: nextFocus,
       parentPin: parentPin ?? this.parentPin,
       createdAt: createdAt,
     );
@@ -48,6 +59,7 @@ class Profile {
         'gender': gender,
         'current_grade': currentGrade,
         'max_grade': maxGrade,
+        'focus_grade': focusGrade,
         'parent_pin': parentPin,
         'created_at': createdAt.toIso8601String(),
       };
@@ -59,6 +71,10 @@ class Profile {
         gender: map['gender'] as String? ?? 'boy',
         currentGrade: map['current_grade'] as int? ?? 1,
         maxGrade: map['max_grade'] as int? ?? 5,
+        focusGrade: map['focus_grade'] as int? ??
+            map['current_grade'] as int? ??
+            map['max_grade'] as int? ??
+            5,
         parentPin: map['parent_pin'] as String? ?? '1234',
         createdAt: DateTime.tryParse(map['created_at'] as String? ?? '') ??
             DateTime.now(),

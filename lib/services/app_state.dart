@@ -79,8 +79,9 @@ class AppState extends ChangeNotifier {
       'name': name.trim(),
       'avatar_index': gender == 'boy' ? 0 : 1,
       'gender': gender,
-      'current_grade': 1,
+      'current_grade': maxGrade,
       'max_grade': maxGrade,
+      'focus_grade': maxGrade,
       'parent_pin': pin,
       'created_at': DateTime.now().toIso8601String(),
     });
@@ -97,7 +98,10 @@ class AppState extends ChangeNotifier {
 
   Future<void> updateProfile(Profile updated) async {
     final db = await DatabaseService.instance.database;
-    await db.update('profile', updated.toMap(), where: 'id = ?', whereArgs: [updated.id]);
+    final nextMax = updated.maxGrade.clamp(1, 9).toInt();
+    final nextFocus = updated.focusGrade.clamp(1, nextMax).toInt();
+    final safe = updated.copyWith(maxGrade: nextMax, focusGrade: nextFocus);
+    await db.update('profile', safe.toMap(), where: 'id = ?', whereArgs: [safe.id]);
     await _reloadAll();
     notifyListeners();
   }

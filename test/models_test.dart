@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:tabuadai9/models/exercise.dart';
 import 'package:tabuadai9/models/profile.dart';
+import 'package:tabuadai9/services/session_mix.dart';
 
 void main() {
   test('numeric template generates consistent answer', () {
@@ -51,5 +52,53 @@ void main() {
     expect(ex.check(true), isTrue);
     expect(ex.check('verdadeiro'), isTrue);
     expect(ex.check(false), isFalse);
+  });
+
+  test('session mix 75/25 and ops preference from 5th grade', () {
+    ExerciseTemplate tpl(String id, {String? op, String topic = 'x'}) =>
+        ExerciseTemplate(
+          id: id,
+          bncc: 'EF05MA01',
+          topic: topic,
+          difficulty: 1,
+          type: op == null ? ExerciseType.multipleChoice : ExerciseType.numeric,
+          template: false,
+          question: op == null ? 'Qual figura?' : 'Calcule 2+2',
+          op: op,
+          answer: '1',
+          explainBoy: 'ok',
+          explainGirl: 'ok',
+        );
+
+    final focusPool = [
+      tpl('geo1', topic: 'geometria'),
+      tpl('mul1', op: 'mul', topic: 'problemas'),
+      tpl('add1', op: 'add', topic: 'problemas'),
+      tpl('div1', op: 'div', topic: 'problemas'),
+    ];
+    final belowPool = [
+      tpl('below1', op: 'add', topic: 'contagem'),
+      tpl('below2', op: 'sub', topic: 'contagem'),
+    ];
+
+    expect(SessionMix.focusCount(8, 5), 6);
+    expect(SessionMix.focusCount(5, 1), 5);
+    expect(SessionMix.isOpsProblem(tpl('a', op: 'mul')), isTrue);
+    expect(SessionMix.isOpsProblem(tpl('g', topic: 'geometria')), isFalse);
+
+    final picked = SessionMix.pick(
+      focusPool: focusPool,
+      belowPool: belowPool,
+      take: 4,
+      focusGrade: 5,
+    );
+    expect(picked.length, 4);
+    final focusIds = {'geo1', 'mul1', 'add1', 'div1'};
+    final fromFocus = picked.where((t) => focusIds.contains(t.id)).length;
+    expect(fromFocus, 3);
+    final opsFromFocus = picked
+        .where((t) => focusIds.contains(t.id) && SessionMix.isOpsProblem(t))
+        .length;
+    expect(opsFromFocus, 3);
   });
 }

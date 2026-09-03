@@ -213,6 +213,37 @@ class _ControlTab extends StatelessWidget {
             textAlign: TextAlign.center,
             style: GoogleFonts.exo2(fontWeight: FontWeight.w800, fontSize: 18)),
         const SizedBox(height: 20),
+        Text('Ano foco (questões do aluno)',
+            style: GoogleFonts.exo2(fontWeight: FontWeight.w700)),
+        const SizedBox(height: 6),
+        Text(
+          '75% das perguntas vêm deste ano. Os outros 25% vêm de anos abaixo. '
+          'Do 5º ao 9º, o bloco de 75% prioriza contas e problemas (+ − × ÷).',
+          style: GoogleFonts.exo2(color: AppColors.grey, fontSize: 13, height: 1.35),
+        ),
+        const SizedBox(height: 8),
+        if (profile.maxGrade <= 1)
+          Text(
+            'Só o 1º ano está liberado — 100% das questões deste ano.',
+            style: GoogleFonts.exo2(color: AppColors.grey, fontSize: 13),
+          )
+        else
+          Slider(
+            value: profile.clampedFocusGrade.toDouble(),
+            min: 1,
+            max: profile.maxGrade.toDouble(),
+            divisions: profile.maxGrade - 1,
+            label: '${profile.clampedFocusGrade}º ano',
+            onChanged: (v) async {
+              await state.updateProfile(
+                profile.copyWith(focusGrade: v.round()),
+              );
+            },
+          ),
+        Text('${profile.clampedFocusGrade}º ano',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.exo2(fontWeight: FontWeight.w800, fontSize: 18)),
+        const SizedBox(height: 20),
         Text('Modo Foco',
             style: GoogleFonts.exo2(fontWeight: FontWeight.w700)),
         SwitchListTile(

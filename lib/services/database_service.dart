@@ -31,7 +31,7 @@ class DatabaseService {
 
     return openDatabase(
       path,
-      version: 1,
+      version: 2,
       onCreate: (db, version) async {
         await db.execute('''
           CREATE TABLE profile (
@@ -41,6 +41,7 @@ class DatabaseService {
             gender TEXT NOT NULL DEFAULT 'boy',
             current_grade INTEGER NOT NULL DEFAULT 1,
             max_grade INTEGER NOT NULL DEFAULT 5,
+            focus_grade INTEGER NOT NULL DEFAULT 5,
             parent_pin TEXT NOT NULL,
             created_at TEXT NOT NULL
           )
@@ -153,6 +154,22 @@ class DatabaseService {
           'best_streak': 0,
           'last_study_date': null,
         });
+      },
+      onUpgrade: (db, oldVersion, newVersion) async {
+        if (oldVersion < 2) {
+          await db.execute(
+            'ALTER TABLE profile ADD COLUMN focus_grade INTEGER NOT NULL DEFAULT 5',
+          );
+          await db.execute(
+            '''
+            UPDATE profile
+            SET focus_grade = CASE
+              WHEN current_grade >= 1 AND current_grade <= max_grade THEN current_grade
+              ELSE max_grade
+            END
+            ''',
+          );
+        }
       },
     );
   }

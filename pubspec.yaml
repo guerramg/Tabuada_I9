@@ -1,7 +1,7 @@
 name: tabuadai9
 description: "Mathi9 Kids — matemática divertida para o Ensino Fundamental (BNCC). Um app i9."
 publish_to: "none"
-version: 2.0.0+1
+version: 2.0.1+2
 
 environment:
   sdk: ^3.9.0

@@ -13,11 +13,11 @@ class HomeTab extends StatelessWidget {
 
   Future<void> _startDaily(BuildContext context) async {
     final state = context.read<AppState>();
-    final grade = state.profile?.currentGrade ?? 1;
-    final unit = subjects.first.id;
+    final profile = state.profile;
+    final focus = profile?.clampedFocusGrade ?? 1;
     final exercises = await ContentService.instance.buildSession(
-      grade: grade,
-      unit: unit,
+      focusGrade: focus,
+      maxGrade: profile?.maxGrade ?? focus,
       mode: SessionMode.daily,
     );
     if (!context.mounted) return;
@@ -31,8 +31,8 @@ class HomeTab extends StatelessWidget {
       MaterialPageRoute(
         builder: (_) => QuizScreen(
           mode: SessionMode.daily,
-          grade: grade,
-          unit: unit,
+          grade: focus,
+          unit: 'misto',
           exercises: exercises,
           title: 'Tarefa do Dia',
         ),
@@ -69,6 +69,14 @@ class HomeTab extends StatelessWidget {
                         style: GoogleFonts.exo2(
                           fontSize: 28,
                           fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                      Text(
+                        'Ano foco: ${profile?.clampedFocusGrade ?? '-'}º  ·  '
+                        '75% deste ano, 25% dos anteriores',
+                        style: GoogleFonts.exo2(
+                          color: AppColors.grey,
+                          fontSize: 12,
                         ),
                       ),
                     ],
@@ -173,8 +181,8 @@ class HomeTab extends StatelessWidget {
                         MaterialPageRoute(
                           builder: (_) => QuizScreen.loader(
                             mode: SessionMode.challenge,
-                            grade: profile?.currentGrade ?? 1,
-                            unit: 'numeros',
+                            focusGrade: profile?.clampedFocusGrade ?? 1,
+                            maxGrade: profile?.maxGrade ?? 5,
                             title: 'Desafio Relâmpago',
                           ),
                         ),
@@ -197,6 +205,7 @@ class HomeTab extends StatelessWidget {
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (_) => QuizScreen.reviewLoader(
+                            focusGrade: profile?.clampedFocusGrade ?? 1,
                             maxGrade: profile?.maxGrade ?? 5,
                           ),
                         ),

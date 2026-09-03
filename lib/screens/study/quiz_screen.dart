@@ -30,20 +30,25 @@ class QuizScreen extends StatefulWidget {
 
   static Widget loader({
     required SessionMode mode,
-    required int grade,
-    required String unit,
+    required int focusGrade,
+    int? maxGrade,
+    String? unit,
     required String title,
   }) {
     return _QuizLoader(
       mode: mode,
-      grade: grade,
+      focusGrade: focusGrade,
+      maxGrade: maxGrade,
       unit: unit,
       title: title,
     );
   }
 
-  static Widget reviewLoader({required int maxGrade}) {
-    return _ReviewLoader(maxGrade: maxGrade);
+  static Widget reviewLoader({
+    required int focusGrade,
+    required int maxGrade,
+  }) {
+    return _ReviewLoader(focusGrade: focusGrade, maxGrade: maxGrade);
   }
 
   @override
@@ -52,14 +57,16 @@ class QuizScreen extends StatefulWidget {
 
 class _QuizLoader extends StatefulWidget {
   final SessionMode mode;
-  final int grade;
-  final String unit;
+  final int focusGrade;
+  final int? maxGrade;
+  final String? unit;
   final String title;
 
   const _QuizLoader({
     required this.mode,
-    required this.grade,
-    required this.unit,
+    required this.focusGrade,
+    this.maxGrade,
+    this.unit,
     required this.title,
   });
 
@@ -76,7 +83,8 @@ class _QuizLoaderState extends State<_QuizLoader> {
 
   Future<void> _go() async {
     final exercises = await ContentService.instance.buildSession(
-      grade: widget.grade,
+      focusGrade: widget.focusGrade,
+      maxGrade: widget.maxGrade,
       unit: widget.unit,
       mode: widget.mode,
     );
@@ -85,8 +93,8 @@ class _QuizLoaderState extends State<_QuizLoader> {
       MaterialPageRoute(
         builder: (_) => QuizScreen(
           mode: widget.mode,
-          grade: widget.grade,
-          unit: widget.unit,
+          grade: widget.focusGrade,
+          unit: widget.unit ?? 'misto',
           exercises: exercises,
           title: widget.title,
         ),
@@ -101,8 +109,9 @@ class _QuizLoaderState extends State<_QuizLoader> {
 }
 
 class _ReviewLoader extends StatefulWidget {
+  final int focusGrade;
   final int maxGrade;
-  const _ReviewLoader({required this.maxGrade});
+  const _ReviewLoader({required this.focusGrade, required this.maxGrade});
 
   @override
   State<_ReviewLoader> createState() => _ReviewLoaderState();
@@ -116,14 +125,16 @@ class _ReviewLoaderState extends State<_ReviewLoader> {
   }
 
   Future<void> _go() async {
-    final exercises = await ContentService.instance
-        .buildReviewSession(maxGrade: widget.maxGrade);
+    final exercises = await ContentService.instance.buildReviewSession(
+      focusGrade: widget.focusGrade,
+      maxGrade: widget.maxGrade,
+    );
     if (!mounted) return;
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
         builder: (_) => QuizScreen(
           mode: SessionMode.review,
-          grade: 1,
+          grade: widget.focusGrade,
           unit: 'revisao',
           exercises: exercises,
           title: 'Modo Revisão',

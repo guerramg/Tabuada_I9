@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:tabuadai9/models/exercise.dart';
+import 'package:tabuadai9/services/session_mix.dart';
 
 class ContentService {
   ContentService._();
@@ -45,39 +46,69 @@ class ContentService {
     }
   }
 
-  Future<List<GeneratedExercise>> buildSession({
-    required int grade,
-    required String unit,
-    required SessionMode mode,
-    int count = 5,
+  Future<List<ExerciseTemplate>> _poolForGrade(
+    int grade, {
+    String? unit,
   }) async {
-    final templates = await loadExercises(grade, unit);
-    if (templates.isEmpty) return [];
+    if (unit != null && unit != 'revisao') {
+      return loadExercises(grade, unit);
+    }
+    final all = <ExerciseTemplate>[];
+    for (final s in subjects) {
+      all.addAll(await loadExercises(grade, s.id));
+    }
+    return all;
+  }
 
-    final shuffled = List<ExerciseTemplate>.from(templates)..shuffle();
-    final take = mode == SessionMode.test
+  int _sessionSize(SessionMode mode, int count) {
+    return mode == SessionMode.test
         ? (count.clamp(8, 12))
         : mode == SessionMode.challenge
             ? (count.clamp(6, 10))
             : mode == SessionMode.daily
                 ? (count.clamp(4, 6))
                 : count;
+  }
 
-    return shuffled.take(take).map((t) => t.generate()).toList();
+  Future<List<GeneratedExercise>> buildSession({
+    required int focusGrade,
+    int? maxGrade,
+    String? unit,
+    required SessionMode mode,
+    int count = 5,
+    @Deprecated('Use focusGrade') int? grade,
+  }) async {
+    final focus = (grade ?? focusGrade).clamp(1, 9).toInt();
+    final ceiling = (maxGrade ?? focus).clamp(1, 9).toInt();
+    final year = focus > ceiling ? ceiling : focus;
+    final take = _sessionSize(mode, count);
+
+    final focusPool = await _poolForGrade(year, unit: unit);
+    final belowPool = <ExerciseTemplate>[];
+    for (var g = 1; g < year; g++) {
+      belowPool.addAll(await _poolForGrade(g, unit: unit));
+    }
+
+    final picked = SessionMix.pick(
+      focusPool: focusPool,
+      belowPool: belowPool,
+      take: take,
+      focusGrade: year,
+    );
+    if (picked.isEmpty) return [];
+    return picked.map((t) => t.generate()).toList();
   }
 
   Future<List<GeneratedExercise>> buildReviewSession({
+    required int focusGrade,
     required int maxGrade,
     int count = 6,
-  }) async {
-    final all = <ExerciseTemplate>[];
-    for (var g = 1; g <= maxGrade; g++) {
-      for (final s in subjects) {
-        all.addAll(await loadExercises(g, s.id));
-      }
-    }
-    if (all.isEmpty) return [];
-    all.shuffle();
-    return all.take(count).map((t) => t.generate()).toList();
+  }) {
+    return buildSession(
+      focusGrade: focusGrade,
+      maxGrade: maxGrade,
+      mode: SessionMode.review,
+      count: count,
+    );
   }
 }
