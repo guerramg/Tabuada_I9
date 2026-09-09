@@ -44,3 +44,11 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 dist/
+
+# Release signing secrets (keep out of git)
+/android/key.properties
+/android/keystore/
+*.jks
+*.keystore
+*.apk
+!assets/**/*.apk
