@@ -5,7 +5,7 @@ Documento de produto: o que foi feito, o que a aplicação é hoje e como as ver
 - **Produto:** Mathi9 Kids  
 - **Marca / desenvolvedora:** i9 Soluções Inteligentes  
 - **Slogan:** Cérebro no 9. Matemática que dá play.  
-- **Versão atual:** 2.1.0+3 (`pubspec.yaml`)  
+- **Versão atual:** 2.1.1+4 (`pubspec.yaml`)  
 - **Público:** infanto-juvenil, Ensino Fundamental 1 e 2 (Brasil, BNCC)  
 - **Modelo:** app familiar, 100% local, recompensa em I9$ trocada em dinheiro físico com o responsável  
 
@@ -51,7 +51,7 @@ Atualização sobre a v2 (mesmo pacote Android, progresso local preservado):
 - Sessões reforçadas com multiplicação, divisão e problemas de raciocínio
 - Aba **Estudar** abre um menu com **Treino de Tabuada** exclusivo (ver, ×, ÷, quiz, relógio)
 - Kit menina: layout rosa; kit menino: azul i9 padrão
-- APK de atualização `2.1.0+3`, `minSdk` 29 (Android 10+)
+- APK de atualização `2.1.1+4`, `minSdk` 24 (Android 7+, o piso do Flutter)
 
 ---
 
@@ -117,9 +117,9 @@ Aba **Troca**
 | Stack | Flutter / Dart 3.9+, Provider, sqflite (+ ffi no desktop) |
 | Persistência | SQLite local `mathi9_kids.db` (schema v2 — **não** apagar na atualização) |
 | Pacote Android | `br.com.i9ja.tabuadai9` (mesmo id = atualiza sem perder dados) |
-| versionName / versionCode | `2.1.0` / `3` |
-| minSdk | 29 (Android 10+) |
-| Assinatura APK | chave **debug** (sideload; não é Play Store) |
+| versionName / versionCode | `2.1.1` / `4` |
+| minSdk | 24 (Android 7.0+; piso do Flutter 3.47) |
+| Assinatura APK | keystore sideload `i9-release.jks` (v1+v2+v3) |
 | Sem backend | login, sync e loja online **não existem** |
 
 ---

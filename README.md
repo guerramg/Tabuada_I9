@@ -26,7 +26,7 @@ Essa linha é a **v1-beta**: válida como estudo de tabuada, mas sem a plataform
 
 ### v2 — Mathi9 Kids
 
-Versão **2.1.0+3**. Plataforma familiar de matemática:
+Versão **2.1.1+4**. Plataforma familiar de matemática:
 
 - Conteúdo BNCC do 1º ao 9º ano (5 unidades temáticas)
 - Lição + tarefa do dia + quiz + desafio + prova + revisão
@@ -36,7 +36,7 @@ Versão **2.1.0+3**. Plataforma familiar de matemática:
 - Aba Estudar com **menu exclusivo de Treino de Tabuada**
 - Kit Aventura (menino, azul i9) / Kit Estrela (menina, layout rosa)
 - Conta 100% local (SQLite), sem backend — atualizar o APK **não** zera o progresso
-- Android 10+ (API 29) e desktop (Windows / Linux). iOS não é alvo de publicação
+- Android 7+ (API 24, piso do Flutter) e desktop (Windows / Linux). iOS não é alvo de publicação
 
 ---
 
@@ -44,7 +44,7 @@ Versão **2.1.0+3**. Plataforma familiar de matemática:
 
 | Alvo | Status |
 |---|---|
-| Android | APK release de atualização (`Mathi9Kids-v2.1.0.apk`), minSdk 29 |
+| Android | APK release (`Mathi9Kids-v2.1.1.apk`), minSdk 24, assinatura v1+v2 |
 | Windows / Linux | Desktop Flutter |
 | iOS | Pasta no repo, **não** é alvo |
 
