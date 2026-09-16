@@ -24,18 +24,19 @@ Primeira versão do projeto (`1.0.0`). App Flutter simples de tabuada:
 
 Essa linha é a **v1-beta**: válida como estudo de tabuada, mas sem a plataforma completa.
 
-### v2 — Mathi9 Kids (atual)
+### v2 — Mathi9 Kids
 
-Versão **2.0.1+2**. Reescrita como plataforma familiar de matemática:
+Versão **2.1.1+4**. Plataforma familiar de matemática:
 
 - Conteúdo BNCC do 1º ao 9º ano (5 unidades temáticas)
 - Lição + tarefa do dia + quiz + desafio + prova + revisão
 - Moeda **I9$** (1 I9$ = R$ 0,01), teto mensal e troca física com o responsável
 - Painel do responsável (PIN): gênero, série máxima, **ano foco**, orçamento, modo foco, relatório, resgate
-- Ano foco: **75%** das questões da série escolhida, **25%** das anteriores; do 5º ao 9º o bloco de 75% prioriza contas e problemas (+ − × ÷)
-- Kits visuais Aventura (menino) / Estrela (menina) sobre a identidade i9
-- Conta 100% local (SQLite), sem backend
-- Android e desktop (Windows / Linux). iOS não é alvo de publicação
+- Ano foco **é o teto**: se o foco é 5º, o aluno estuda 5º e abaixo (nunca 6º–9º); 75% / 25% com ênfase em × ÷ e problemas
+- Aba Estudar com **menu exclusivo de Treino de Tabuada**
+- Kit Aventura (menino, azul i9) / Kit Estrela (menina, layout rosa)
+- Conta 100% local (SQLite), sem backend — atualizar o APK **não** zera o progresso
+- Android 7+ (API 24, piso do Flutter) e desktop (Windows / Linux). iOS não é alvo de publicação
 
 ---
 
@@ -43,7 +44,7 @@ Versão **2.0.1+2**. Reescrita como plataforma familiar de matemática:
 
 | Alvo | Status |
 |---|---|
-| Android | APK release (`Mathi9Kids-v2.0.1.apk`) |
+| Android | APK release (`Mathi9Kids-v2.1.1.apk`), minSdk 24, assinatura v1+v2 |
 | Windows / Linux | Desktop Flutter |
 | iOS | Pasta no repo, **não** é alvo |
 
@@ -62,6 +63,10 @@ APK Android:
 flutter build apk --release
 # saída: build/app/outputs/flutter-apk/app-release.apk
 ```
+
+Se o celular mostrar **“Aplicativo não instalado”** ao atualizar: o Android bloqueia APK com assinatura diferente da versão já no aparelho. Desinstale o Mathi9 Kids antigo e instale este (`2.1.1`). Depois, as próximas atualizações com o mesmo keystore entram por cima.
+
+O app roda em **Android 7 ou superior**, 32 e 64 bits (qualquer celular comum).
 
 ## Licença
 

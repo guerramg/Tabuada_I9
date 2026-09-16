@@ -4,35 +4,146 @@ import 'package:tabuadai9/theme/app_colors.dart';
 
 enum GenderKit { boy, girl }
 
+/// Runtime colors that swap the whole chrome: i9 blue (boy) vs pink (girl).
+class AppPalette extends ThemeExtension<AppPalette> {
+  final Color scaffold;
+  final Color surface;
+  final Color card;
+  final Color cardAlt;
+  final Color border;
+  final Color circuit;
+  final Color primary;
+  final Color secondary;
+  final Color accent;
+  final Color inputFill;
+  final Color navBar;
+
+  const AppPalette({
+    required this.scaffold,
+    required this.surface,
+    required this.card,
+    required this.cardAlt,
+    required this.border,
+    required this.circuit,
+    required this.primary,
+    required this.secondary,
+    required this.accent,
+    required this.inputFill,
+    required this.navBar,
+  });
+
+  factory AppPalette.boy() => AppPalette(
+        scaffold: AppColors.navy,
+        surface: const Color(0xFF0A1A2E),
+        card: const Color(0xFF0F2035),
+        cardAlt: const Color(0xFF0A1A2E),
+        border: AppColors.blue.withValues(alpha: 0.25),
+        circuit: AppColors.cyan.withValues(alpha: 0.12),
+        primary: AppColors.blue,
+        secondary: AppColors.cyan,
+        accent: AppColors.adventureOrange,
+        inputFill: const Color(0xFF12253A),
+        navBar: const Color(0xFF0A1A2E),
+      );
+
+  factory AppPalette.girl() => AppPalette(
+        scaffold: AppColors.starNavy,
+        surface: AppColors.starSurface,
+        card: AppColors.starCard,
+        cardAlt: AppColors.starCardAlt,
+        border: AppColors.starPink.withValues(alpha: 0.4),
+        circuit: AppColors.starPink.withValues(alpha: 0.22),
+        primary: AppColors.starPrimary,
+        secondary: AppColors.starSecondary,
+        accent: AppColors.starPink,
+        inputFill: const Color(0xFF3A1528),
+        navBar: AppColors.starSurface,
+      );
+
+  static AppPalette of(BuildContext context) =>
+      Theme.of(context).extension<AppPalette>() ?? AppPalette.boy();
+
+  @override
+  AppPalette copyWith({
+    Color? scaffold,
+    Color? surface,
+    Color? card,
+    Color? cardAlt,
+    Color? border,
+    Color? circuit,
+    Color? primary,
+    Color? secondary,
+    Color? accent,
+    Color? inputFill,
+    Color? navBar,
+  }) =>
+      AppPalette(
+        scaffold: scaffold ?? this.scaffold,
+        surface: surface ?? this.surface,
+        card: card ?? this.card,
+        cardAlt: cardAlt ?? this.cardAlt,
+        border: border ?? this.border,
+        circuit: circuit ?? this.circuit,
+        primary: primary ?? this.primary,
+        secondary: secondary ?? this.secondary,
+        accent: accent ?? this.accent,
+        inputFill: inputFill ?? this.inputFill,
+        navBar: navBar ?? this.navBar,
+      );
+
+  @override
+  AppPalette lerp(ThemeExtension<AppPalette>? other, double t) {
+    if (other is! AppPalette) return this;
+    return AppPalette(
+      scaffold: Color.lerp(scaffold, other.scaffold, t)!,
+      surface: Color.lerp(surface, other.surface, t)!,
+      card: Color.lerp(card, other.card, t)!,
+      cardAlt: Color.lerp(cardAlt, other.cardAlt, t)!,
+      border: Color.lerp(border, other.border, t)!,
+      circuit: Color.lerp(circuit, other.circuit, t)!,
+      primary: Color.lerp(primary, other.primary, t)!,
+      secondary: Color.lerp(secondary, other.secondary, t)!,
+      accent: Color.lerp(accent, other.accent, t)!,
+      inputFill: Color.lerp(inputFill, other.inputFill, t)!,
+      navBar: Color.lerp(navBar, other.navBar, t)!,
+    );
+  }
+}
+
 class AppTheme {
   final GenderKit kit;
 
   const AppTheme({this.kit = GenderKit.boy});
 
+  bool get isGirl => kit == GenderKit.girl;
+
+  AppPalette get palette => isGirl ? AppPalette.girl() : AppPalette.boy();
+
   Color get accent =>
-      kit == GenderKit.boy ? AppColors.adventureOrange : AppColors.starPink;
+      isGirl ? AppColors.starPink : AppColors.adventureOrange;
 
   Color get accentAlt =>
-      kit == GenderKit.boy ? AppColors.adventureGreen : AppColors.starLilac;
+      isGirl ? AppColors.starLilac : AppColors.adventureGreen;
 
-  Color get accentSoft =>
-      kit == GenderKit.boy ? AppColors.cyan : AppColors.starGold;
+  Color get accentSoft => isGirl ? AppColors.starGold : AppColors.cyan;
 
   ThemeData get material {
+    final p = palette;
     final base = ThemeData(
       useMaterial3: true,
       brightness: Brightness.dark,
-      scaffoldBackgroundColor: AppColors.navy,
+      scaffoldBackgroundColor: p.scaffold,
       colorScheme: ColorScheme.dark(
-        primary: AppColors.blue,
-        secondary: AppColors.cyan,
+        primary: p.primary,
+        secondary: p.secondary,
         tertiary: accent,
-        surface: const Color(0xFF0A1A2E),
+        surface: p.surface,
         error: AppColors.danger,
         onPrimary: AppColors.white,
-        onSecondary: AppColors.navy,
+        onSecondary: p.scaffold,
         onSurface: AppColors.offWhite,
       ),
+      extensions: [p],
     );
 
     return base.copyWith(
@@ -41,7 +152,7 @@ class AppTheme {
         displayColor: AppColors.offWhite,
       ),
       appBarTheme: AppBarTheme(
-        backgroundColor: AppColors.navy,
+        backgroundColor: p.scaffold,
         foregroundColor: AppColors.offWhite,
         elevation: 0,
         centerTitle: true,
@@ -52,23 +163,33 @@ class AppTheme {
         ),
       ),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
-        backgroundColor: const Color(0xFF0A1A2E),
+        backgroundColor: p.navBar,
         selectedItemColor: accent,
         unselectedItemColor: AppColors.grey,
         type: BottomNavigationBarType.fixed,
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          backgroundColor: AppColors.blue,
+          backgroundColor: p.primary,
           foregroundColor: AppColors.white,
           textStyle: GoogleFonts.exo2(fontWeight: FontWeight.w700),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
           padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 14),
         ),
       ),
+      sliderTheme: SliderThemeData(
+        activeTrackColor: p.secondary,
+        thumbColor: p.accent,
+        inactiveTrackColor: AppColors.grey.withValues(alpha: 0.4),
+      ),
+      chipTheme: ChipThemeData(
+        selectedColor: p.accent,
+        backgroundColor: p.inputFill,
+        labelStyle: GoogleFonts.exo2(color: AppColors.offWhite),
+      ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
-        fillColor: const Color(0xFF12253A),
+        fillColor: p.inputFill,
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(14),
           borderSide: const BorderSide(color: AppColors.grey),
@@ -79,12 +200,12 @@ class AppTheme {
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(14),
-          borderSide: BorderSide(color: accent, width: 2),
+          borderSide: BorderSide(color: p.accent, width: 2),
         ),
         labelStyle: const TextStyle(color: AppColors.grey),
       ),
       cardTheme: CardThemeData(
-        color: const Color(0xFF0F2035),
+        color: p.card,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
         elevation: 0,
       ),

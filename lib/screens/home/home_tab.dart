@@ -6,6 +6,7 @@ import 'package:tabuadai9/screens/study/quiz_screen.dart';
 import 'package:tabuadai9/services/app_state.dart';
 import 'package:tabuadai9/services/content_service.dart';
 import 'package:tabuadai9/theme/app_colors.dart';
+import 'package:tabuadai9/theme/app_theme.dart';
 import 'package:tabuadai9/widgets/common_widgets.dart';
 
 class HomeTab extends StatelessWidget {
@@ -60,7 +61,7 @@ class HomeTab extends StatelessWidget {
                       Text(
                         state.copy.hello,
                         style: GoogleFonts.exo2(
-                          color: AppColors.cyan,
+                        color: AppPalette.of(context).secondary,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
@@ -72,8 +73,8 @@ class HomeTab extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        'Ano foco: ${profile?.clampedFocusGrade ?? '-'}º  ·  '
-                        '75% deste ano, 25% dos anteriores',
+                        'Ano foco: ${profile?.studyCeiling ?? '-'}º  ·  '
+                        'só este ano e abaixo · 75% / 25%',
                         style: GoogleFonts.exo2(
                           color: AppColors.grey,
                           fontSize: 12,
@@ -158,7 +159,7 @@ class HomeTab extends StatelessWidget {
                             .clamp(0, 1),
                     minHeight: 10,
                     borderRadius: BorderRadius.circular(8),
-                    color: AppColors.cyan,
+                    color: accent,
                     backgroundColor: AppColors.grey.withValues(alpha: 0.3),
                   ),
                   const SizedBox(height: 8),

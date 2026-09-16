@@ -10,6 +10,7 @@ import 'package:tabuadai9/screens/study/result_screen.dart';
 import 'package:tabuadai9/services/app_state.dart';
 import 'package:tabuadai9/services/content_service.dart';
 import 'package:tabuadai9/theme/app_colors.dart';
+import 'package:tabuadai9/theme/app_theme.dart';
 import 'package:tabuadai9/widgets/common_widgets.dart';
 
 class QuizScreen extends StatefulWidget {
@@ -419,7 +420,7 @@ class _QuizScreenState extends State<QuizScreen> with WidgetsBindingObserver {
                     style: GoogleFonts.exo2(
                       color: secondsLeft <= 10
                           ? AppColors.danger
-                          : AppColors.cyan,
+                          : AppPalette.of(context).secondary,
                       fontWeight: FontWeight.w800,
                     ),
                   ),

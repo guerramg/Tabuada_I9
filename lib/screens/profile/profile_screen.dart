@@ -82,7 +82,7 @@ class ProfileScreen extends StatelessWidget {
                           fontSize: 22, fontWeight: FontWeight.w800)),
                   Text(
                     'Kit ${p?.isBoy == false ? 'Estrela' : 'Aventura'} · '
-                    'foco ${p?.clampedFocusGrade ?? '-'}º · até ${p?.maxGrade ?? '-'}º ano',
+                    'estuda até o ${p?.studyCeiling ?? '-'}º ano',
                     style: GoogleFonts.exo2(color: AppColors.grey),
                   ),
                 ],
