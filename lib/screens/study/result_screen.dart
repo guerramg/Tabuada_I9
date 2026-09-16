@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:tabuadai9/models/exercise.dart';
 import 'package:tabuadai9/services/app_state.dart';
 import 'package:tabuadai9/theme/app_colors.dart';
+import 'package:tabuadai9/theme/app_theme.dart';
 import 'package:tabuadai9/widgets/common_widgets.dart';
 
 class ReviewItem {
@@ -69,7 +70,7 @@ class ResultScreen extends StatelessWidget {
                     '$correct / $total acertos',
                     style: GoogleFonts.exo2(
                       fontSize: 20,
-                      color: AppColors.cyan,
+                      color: AppPalette.of(context).secondary,
                       fontWeight: FontWeight.w700,
                     ),
                   ),

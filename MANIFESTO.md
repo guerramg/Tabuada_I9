@@ -5,7 +5,7 @@ Documento de produto: o que foi feito, o que a aplicação é hoje e como as ver
 - **Produto:** Mathi9 Kids  
 - **Marca / desenvolvedora:** i9 Soluções Inteligentes  
 - **Slogan:** Cérebro no 9. Matemática que dá play.  
-- **Versão atual:** 2.0.1+2 (`pubspec.yaml`)  
+- **Versão atual:** 2.1.0+3 (`pubspec.yaml`)  
 - **Público:** infanto-juvenil, Ensino Fundamental 1 e 2 (Brasil, BNCC)  
 - **Modelo:** app familiar, 100% local, recompensa em I9$ trocada em dinheiro físico com o responsável  
 
@@ -43,6 +43,16 @@ Entregas principais, nesta ordem:
 9. APK Android
 10. **Ano foco** (75% / 25% + prioridade de contas do 5º ao 9º)
 
+### v2.1 — teto do ano foco, tabuada e tema por gênero
+
+Atualização sobre a v2 (mesmo pacote Android, progresso local preservado):
+
+- Ano foco **é o teto de estudo**: se o foco é 5º, o aluno só vê 1º–5º (nunca 6º–9º)
+- Sessões reforçadas com multiplicação, divisão e problemas de raciocínio
+- Aba **Estudar** abre um menu com **Treino de Tabuada** exclusivo (ver, ×, ÷, quiz, relógio)
+- Kit menina: layout rosa; kit menino: azul i9 padrão
+- APK de atualização `2.1.0+3`, `minSdk` 29 (Android 10+)
+
 ---
 
 ## 2. Estado atual da aplicação
@@ -54,7 +64,7 @@ Entregas principais, nesta ordem:
 | Splash | Logo i9, título Mathi9 Kids, slogan, crédito “um app i9” |
 | Onboarding | Primeiro acesso: perfil + PIN + teto + série máxima |
 | Home | Saudação do kit, saldo I9$, tarefa do dia, calendário do mês, orçamento, desafio, revisão |
-| Estudar | Mapa das 5 unidades; chips de ano até a série máxima (lições) |
+| Estudar | Menu: Treino de Tabuada + mapa BNCC; chips só até o **ano foco** |
 | Tópico | Lição + tarefa + quiz + desafio + prova |
 | Quiz / prova | Questões, explicação descolada (rotina a cada item; prova só no fim) |
 | Resultado | Acertos, I9$, conquistas |
@@ -66,9 +76,9 @@ Entregas principais, nesta ordem:
 
 Aba **Controle**
 
-- Gênero (Menino / Menina) → kit visual e tom das falas
+- Gênero (Menino / Menina) → kit visual **inteiro** (azul i9 / rosa) e tom das falas
 - Série máxima (1º–9º) → teto de conteúdo liberado
-- **Ano foco** → 75% das questões deste ano, 25% dos anos abaixo; do 5º ao 9º o bloco de 75% prioriza contas e problemas (+ − × ÷)
+- **Ano foco** → teto do que o aluno estuda (série foco e abaixo). 75% das questões deste ano, 25% dos anos abaixo; prioriza × ÷ e problemas de raciocínio
 - Modo Foco: prova (padrão ligado), desafio, opção de zerar a prova se sair
 
 Aba **Orçamento**
@@ -104,9 +114,11 @@ Aba **Troca**
 
 | Item | Valor |
 |---|---|
-| Stack | Flutter / Dart 3.9, Provider, sqflite (+ ffi no desktop) |
-| Persistência | SQLite local `mathi9_kids.db` (schema v2, coluna `focus_grade`) |
-| Pacote Android | `br.com.i9ja.tabuadai9` |
+| Stack | Flutter / Dart 3.9+, Provider, sqflite (+ ffi no desktop) |
+| Persistência | SQLite local `mathi9_kids.db` (schema v2 — **não** apagar na atualização) |
+| Pacote Android | `br.com.i9ja.tabuadai9` (mesmo id = atualiza sem perder dados) |
+| versionName / versionCode | `2.1.0` / `3` |
+| minSdk | 29 (Android 10+) |
 | Assinatura APK | chave **debug** (sideload; não é Play Store) |
 | Sem backend | login, sync e loja online **não existem** |
 

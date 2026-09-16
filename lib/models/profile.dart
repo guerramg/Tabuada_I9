@@ -21,10 +21,22 @@ class Profile {
     required this.createdAt,
   });
 
+  /// Highest year the student may study: the focus year, never above max.
   int get clampedFocusGrade {
     final g = focusGrade.clamp(1, maxGrade).toInt();
     return g;
   }
+
+  /// Content ceiling: focus year and below. Years above the focus stay locked.
+  int get studyCeiling => clampedFocusGrade;
+
+  /// Year selected on the study map, always within 1..studyCeiling.
+  int get studyGrade {
+    final g = currentGrade.clamp(1, studyCeiling).toInt();
+    return g;
+  }
+
+  bool isGradeUnlocked(int grade) => grade >= 1 && grade <= studyCeiling;
 
   bool get isBoy => gender == 'boy';
 
@@ -37,14 +49,16 @@ class Profile {
     int? focusGrade,
     String? parentPin,
   }) {
-    final nextMax = maxGrade ?? this.maxGrade;
+    final nextMax = (maxGrade ?? this.maxGrade).clamp(1, 9).toInt();
     final nextFocus = (focusGrade ?? this.focusGrade).clamp(1, nextMax).toInt();
+    final nextCurrent =
+        (currentGrade ?? this.currentGrade).clamp(1, nextFocus).toInt();
     return Profile(
       id: id,
       name: name ?? this.name,
       avatarIndex: avatarIndex ?? this.avatarIndex,
       gender: gender ?? this.gender,
-      currentGrade: currentGrade ?? this.currentGrade,
+      currentGrade: nextCurrent,
       maxGrade: nextMax,
       focusGrade: nextFocus,
       parentPin: parentPin ?? this.parentPin,

@@ -5,6 +5,7 @@ import 'package:tabuadai9/models/exercise.dart';
 import 'package:tabuadai9/screens/study/topic_hub_screen.dart';
 import 'package:tabuadai9/services/app_state.dart';
 import 'package:tabuadai9/theme/app_colors.dart';
+import 'package:tabuadai9/theme/app_theme.dart';
 import 'package:tabuadai9/widgets/common_widgets.dart';
 
 class SubjectMapScreen extends StatelessWidget {
@@ -13,11 +14,13 @@ class SubjectMapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppState>();
-    final maxGrade = state.profile?.maxGrade ?? 5;
-    final currentGrade = state.profile?.currentGrade ?? 1;
+    final ceiling = state.profile?.studyCeiling ?? 1;
+    final currentGrade = state.profile?.studyGrade ?? 1;
+    final palette = AppPalette.of(context);
 
-    return CircuitBackground(
-      child: SafeArea(
+    return Scaffold(
+      appBar: AppBar(title: const Text('Matérias BNCC')),
+      body: CircuitBackground(
         child: ListView(
           padding: const EdgeInsets.all(20),
           children: [
@@ -30,14 +33,15 @@ class SubjectMapScreen extends StatelessWidget {
             ),
             const SizedBox(height: 6),
             Text(
-              'Liberado até o $maxGradeº ano (BNCC). '
-              'Questões: 75% no ${state.profile?.clampedFocusGrade ?? currentGrade}º (ano foco).',
+              'Só até o $ceilingº ano (ano foco). '
+              '75% das questões deste ano, 25% dos anteriores. '
+              'Nada de série acima do foco.',
               style: GoogleFonts.exo2(color: AppColors.grey),
             ),
             const SizedBox(height: 12),
             Wrap(
               spacing: 8,
-              children: List.generate(maxGrade, (i) {
+              children: List.generate(ceiling, (i) {
                 final grade = i + 1;
                 final selected = grade == currentGrade;
                 return ChoiceChip(
@@ -48,7 +52,7 @@ class SubjectMapScreen extends StatelessWidget {
                     if (p == null) return;
                     await state.updateProfile(p.copyWith(currentGrade: grade));
                   },
-                  selectedColor: state.theme.accent,
+                  selectedColor: palette.accent,
                   labelStyle: GoogleFonts.exo2(
                     color: selected ? AppColors.navy : AppColors.offWhite,
                     fontWeight: FontWeight.w700,
@@ -89,7 +93,7 @@ class SubjectMapScreen extends StatelessWidget {
                               ),
                             ),
                             Text(
-                              'Lição + tarefa + quiz + prova',
+                              '$currentGradeº ano · lição + tarefa + quiz + prova',
                               style: GoogleFonts.exo2(
                                 color: AppColors.grey,
                                 fontSize: 13,
@@ -98,7 +102,7 @@ class SubjectMapScreen extends StatelessWidget {
                           ],
                         ),
                       ),
-                      const Icon(Icons.chevron_right, color: AppColors.cyan),
+                      Icon(Icons.chevron_right, color: palette.secondary),
                     ],
                   ),
                 ),

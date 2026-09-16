@@ -13,12 +13,18 @@ class AppColors {
   static const Color warning = Color(0xFFF59E0B);
   static const Color coin = Color(0xFFFFD54F);
 
-  // Adventure (boy) accents
+  // Adventure (boy) accents — default i9 blue kit
   static const Color adventureGreen = Color(0xFF34D399);
   static const Color adventureOrange = Color(0xFFFF8A3D);
 
-  // Star (girl) accents
+  // Star (girl) kit — pink layout
   static const Color starPink = Color(0xFFFF6BB5);
   static const Color starLilac = Color(0xFFB794F6);
   static const Color starGold = Color(0xFFFFD166);
+  static const Color starNavy = Color(0xFF1C0814);
+  static const Color starSurface = Color(0xFF2C1020);
+  static const Color starCard = Color(0xFF3A1528);
+  static const Color starCardAlt = Color(0xFF24101C);
+  static const Color starPrimary = Color(0xFFE84A8A);
+  static const Color starSecondary = Color(0xFFFF8DC7);
 }

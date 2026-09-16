@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:tabuadai9/models/exercise.dart';
+import 'package:tabuadai9/services/ops_bank.dart';
 import 'package:tabuadai9/services/session_mix.dart';
 
 class ContentService {
@@ -12,6 +13,12 @@ class ContentService {
   final Map<String, List<ExerciseTemplate>> _exerciseCache = {};
 
   String _key(int grade, String unit) => 'ano$grade/$unit';
+
+  /// Study year is the focus year, capped by série máxima. Never above focus.
+  static int resolveStudyYear(int focusGrade, int? maxGrade) {
+    final cap = (maxGrade ?? focusGrade).clamp(1, 9).toInt();
+    return focusGrade.clamp(1, cap).toInt();
+  }
 
   Future<LessonContent?> loadLesson(int grade, String unit) async {
     final key = _key(grade, unit);
@@ -50,10 +57,11 @@ class ContentService {
     int grade, {
     String? unit,
   }) async {
-    if (unit != null && unit != 'revisao') {
-      return loadExercises(grade, unit);
+    final bank = OpsBank.forGrade(grade, unit: unit);
+    if (unit != null && unit != 'revisao' && unit != 'misto') {
+      return [...await loadExercises(grade, unit), ...bank];
     }
-    final all = <ExerciseTemplate>[];
+    final all = <ExerciseTemplate>[...bank];
     for (final s in subjects) {
       all.addAll(await loadExercises(grade, s.id));
     }
@@ -78,9 +86,8 @@ class ContentService {
     int count = 5,
     @Deprecated('Use focusGrade') int? grade,
   }) async {
-    final focus = (grade ?? focusGrade).clamp(1, 9).toInt();
-    final ceiling = (maxGrade ?? focus).clamp(1, 9).toInt();
-    final year = focus > ceiling ? ceiling : focus;
+    final requested = grade ?? focusGrade;
+    final year = resolveStudyYear(requested, maxGrade);
     final take = _sessionSize(mode, count);
 
     final focusPool = await _poolForGrade(year, unit: unit);

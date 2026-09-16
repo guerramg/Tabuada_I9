@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:tabuadai9/screens/achievements/achievements_screen.dart';
 import 'package:tabuadai9/screens/home/home_tab.dart';
 import 'package:tabuadai9/screens/profile/profile_screen.dart';
-import 'package:tabuadai9/screens/study/subject_map_screen.dart';
+import 'package:tabuadai9/screens/study/study_menu_screen.dart';
 import 'package:tabuadai9/screens/wallet/wallet_screen.dart';
 import 'package:tabuadai9/services/app_state.dart';
 
@@ -22,7 +22,7 @@ class _HomeShellState extends State<HomeShell> {
     final state = context.watch<AppState>();
     final pages = [
       const HomeTab(),
-      const SubjectMapScreen(),
+      const StudyMenuScreen(),
       const WalletScreen(),
       const ProfileScreen(),
     ];

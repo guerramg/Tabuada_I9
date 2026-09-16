@@ -38,7 +38,7 @@ class _LessonScreenState extends State<LessonScreen> {
                 value: slides.isEmpty ? 0 : (index + 1) / slides.length,
                 minHeight: 8,
                 borderRadius: BorderRadius.circular(8),
-                color: AppColors.cyan,
+                color: context.watch<AppState>().theme.accent,
                 backgroundColor: AppColors.grey.withValues(alpha: 0.3),
               ),
               const SizedBox(height: 20),
@@ -60,7 +60,7 @@ class _LessonScreenState extends State<LessonScreen> {
                               style: GoogleFonts.exo2(
                                 fontSize: 24,
                                 fontWeight: FontWeight.w800,
-                                color: AppColors.cyan,
+                                color: context.watch<AppState>().theme.accentSoft,
                               ),
                             ),
                             const SizedBox(height: 16),

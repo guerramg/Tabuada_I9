@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tabuadai9/theme/app_colors.dart';
+import 'package:tabuadai9/theme/app_theme.dart';
 
 class CoinCounter extends StatelessWidget {
   final int balance;
@@ -10,13 +11,14 @@ class CoinCounter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final palette = AppPalette.of(context);
     return Container(
       padding: EdgeInsets.symmetric(
         horizontal: compact ? 10 : 14,
         vertical: compact ? 6 : 8,
       ),
       decoration: BoxDecoration(
-        color: const Color(0xFF12253A),
+        color: palette.inputFill,
         borderRadius: BorderRadius.circular(999),
         border: Border.all(color: AppColors.coin.withValues(alpha: 0.5)),
       ),
@@ -45,10 +47,11 @@ class StreakBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final palette = AppPalette.of(context);
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
       decoration: BoxDecoration(
-        color: const Color(0xFF12253A),
+        color: palette.inputFill,
         borderRadius: BorderRadius.circular(999),
       ),
       child: Row(
@@ -81,6 +84,7 @@ class MonthDayDots extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final palette = AppPalette.of(context);
     final now = DateTime.now();
     final days = DateTime(now.year, now.month + 1, 0).day;
     return Wrap(
@@ -98,7 +102,7 @@ class MonthDayDots extends StatelessWidget {
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             color: done ? accent : AppColors.grey.withValues(alpha: 0.35),
-            border: isToday ? Border.all(color: AppColors.cyan, width: 1.5) : null,
+            border: isToday ? Border.all(color: palette.secondary, width: 1.5) : null,
           ),
         );
       }),
@@ -122,6 +126,7 @@ class GradientCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final palette = AppPalette.of(context);
     final card = Container(
       width: double.infinity,
       padding: padding,
@@ -131,11 +136,11 @@ class GradientCard extends StatelessWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            color ?? const Color(0xFF0F2035),
-            const Color(0xFF0A1A2E),
+            color ?? palette.card,
+            palette.cardAlt,
           ],
         ),
-        border: Border.all(color: AppColors.blue.withValues(alpha: 0.25)),
+        border: Border.all(color: palette.border),
       ),
       child: child,
     );
@@ -172,18 +177,26 @@ class CircuitBackground extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final palette = AppPalette.of(context);
     return CustomPaint(
-      painter: _CircuitPainter(),
+      painter: _CircuitPainter(
+        line: palette.circuit,
+        node: palette.secondary.withValues(alpha: 0.4),
+      ),
       child: child,
     );
   }
 }
 
 class _CircuitPainter extends CustomPainter {
+  final Color line;
+  final Color node;
+  const _CircuitPainter({required this.line, required this.node});
+
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..color = AppColors.cyan.withValues(alpha: 0.12)
+      ..color = line
       ..strokeWidth = 1.2
       ..style = PaintingStyle.stroke;
 
@@ -208,8 +221,8 @@ class _CircuitPainter extends CustomPainter {
       canvas.drawPath(path, paint);
     }
 
-    final node = Paint()
-      ..color = AppColors.cyan.withValues(alpha: 0.35)
+    final nodePaint = Paint()
+      ..color = node
       ..style = PaintingStyle.fill;
     for (final offset in [
       Offset(size.width * 0.25, size.height * 0.2),
@@ -217,10 +230,11 @@ class _CircuitPainter extends CustomPainter {
       Offset(size.width * 0.7, size.height * 0.7),
       Offset(size.width * 0.1, size.height * 0.6),
     ]) {
-      canvas.drawCircle(offset, 3.5, node);
+      canvas.drawCircle(offset, 3.5, nodePaint);
     }
   }
 
   @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
+  bool shouldRepaint(covariant _CircuitPainter oldDelegate) =>
+      oldDelegate.line != line || oldDelegate.node != node;
 }

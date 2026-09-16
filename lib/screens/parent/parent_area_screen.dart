@@ -197,8 +197,13 @@ class _ControlTab extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 20),
-        Text('Série máxima (ensino e questões)',
+        Text('Série máxima (teto que o responsável pode liberar)',
             style: GoogleFonts.exo2(fontWeight: FontWeight.w700)),
+        Text(
+          'Não mostra matérias acima do ano foco. Use este teto só para poder '
+          'subir o foco depois.',
+          style: GoogleFonts.exo2(color: AppColors.grey, fontSize: 13),
+        ),
         Slider(
           value: profile.maxGrade.toDouble(),
           min: 1,
@@ -213,12 +218,14 @@ class _ControlTab extends StatelessWidget {
             textAlign: TextAlign.center,
             style: GoogleFonts.exo2(fontWeight: FontWeight.w800, fontSize: 18)),
         const SizedBox(height: 20),
-        Text('Ano foco (questões do aluno)',
+        Text('Ano foco (o que o aluno estuda agora)',
             style: GoogleFonts.exo2(fontWeight: FontWeight.w700)),
         const SizedBox(height: 6),
         Text(
-          '75% das perguntas vêm deste ano. Os outros 25% vêm de anos abaixo. '
-          'Do 5º ao 9º, o bloco de 75% prioriza contas e problemas (+ − × ÷).',
+          'O aluno estuda SOMENTE este ano e os anteriores. '
+          'Se o foco é 5º, não aparece 6º, 7º, 8º nem 9º. '
+          '75% das perguntas vêm do ano foco e 25% dos anos abaixo, '
+          'com ênfase em multiplicação, divisão e problemas de raciocínio.',
           style: GoogleFonts.exo2(color: AppColors.grey, fontSize: 13, height: 1.35),
         ),
         const SizedBox(height: 8),
@@ -347,7 +354,7 @@ class _BudgetTab extends StatelessWidget {
         const SizedBox(height: 12),
         Text(
           'Distribuídos: ${state.earnedThisMonth}/${b.monthlyCapI9} I9\$',
-          style: GoogleFonts.exo2(color: AppColors.cyan),
+          style: GoogleFonts.exo2(color: state.theme.accentSoft),
         ),
       ],
     );
@@ -454,13 +461,13 @@ class _ReportTab extends StatelessWidget {
                 BarChartGroupData(x: 0, barRods: [
                   BarChartRodData(
                     toY: state.budget.pctDaily.toDouble(),
-                    color: AppColors.cyan,
+                    color: state.theme.accentSoft,
                   ),
                 ]),
                 BarChartGroupData(x: 1, barRods: [
                   BarChartRodData(
                     toY: state.budget.pctExtras.toDouble(),
-                    color: AppColors.blue,
+                    color: state.theme.accent,
                   ),
                 ]),
                 BarChartGroupData(x: 2, barRods: [

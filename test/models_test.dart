@@ -1,7 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:tabuadai9/models/exercise.dart';
 import 'package:tabuadai9/models/profile.dart';
+import 'package:tabuadai9/services/content_service.dart';
+import 'package:tabuadai9/services/ops_bank.dart';
 import 'package:tabuadai9/services/session_mix.dart';
+import 'package:tabuadai9/services/tabuada_service.dart';
 
 void main() {
   test('numeric template generates consistent answer', () {
@@ -100,5 +103,103 @@ void main() {
         .where((t) => focusIds.contains(t.id) && SessionMix.isOpsProblem(t))
         .length;
     expect(opsFromFocus, 3);
+  });
+
+  test('ano foco 5 never unlocks years 6-9', () {
+    final p = Profile(
+      id: 1,
+      name: 'Rafa',
+      avatarIndex: 0,
+      gender: 'boy',
+      currentGrade: 9,
+      maxGrade: 9,
+      focusGrade: 5,
+      parentPin: '1234',
+      createdAt: DateTime(2026, 1, 1),
+    );
+    expect(p.studyCeiling, 5);
+    expect(p.studyGrade, 5);
+    expect(p.isGradeUnlocked(5), isTrue);
+    expect(p.isGradeUnlocked(4), isTrue);
+    expect(p.isGradeUnlocked(6), isFalse);
+    expect(p.isGradeUnlocked(9), isFalse);
+    final lowered = p.copyWith(focusGrade: 5);
+    expect(lowered.currentGrade, 5);
+    expect(lowered.maxGrade, 9);
+  });
+
+  test('study year is focus, never maxGrade above focus', () {
+    expect(ContentService.resolveStudyYear(5, 9), 5);
+    expect(ContentService.resolveStudyYear(5, 5), 5);
+    expect(ContentService.resolveStudyYear(8, 5), 5);
+    expect(ContentService.resolveStudyYear(1, 9), 1);
+  });
+
+  test('session mix prefers mul/div over geometry', () {
+    ExerciseTemplate tpl(String id, {String? op, String topic = 'x'}) =>
+        ExerciseTemplate(
+          id: id,
+          bncc: 'EF05MA01',
+          topic: topic,
+          difficulty: 1,
+          type: op == null ? ExerciseType.multipleChoice : ExerciseType.numeric,
+          template: false,
+          question: op == null ? 'Qual figura?' : 'Calcule',
+          op: op,
+          answer: '1',
+          explainBoy: 'ok',
+          explainGirl: 'ok',
+        );
+    expect(SessionMix.isCoreSkill(tpl('m', op: 'mul')), isTrue);
+    expect(SessionMix.isCoreSkill(tpl('d', op: 'div')), isTrue);
+    expect(SessionMix.isCoreSkill(tpl('g', topic: 'geometria')), isFalse);
+
+    final picked = SessionMix.pick(
+      focusPool: [
+        tpl('geo1', topic: 'geometria'),
+        tpl('geo2', topic: 'geometria'),
+        tpl('mul1', op: 'mul'),
+        tpl('div1', op: 'div'),
+      ],
+      belowPool: [tpl('b1', op: 'add')],
+      take: 4,
+      focusGrade: 5,
+    );
+    final focusCore = picked
+        .where((t) => t.id == 'mul1' || t.id == 'div1')
+        .length;
+    expect(focusCore, 2);
+  });
+
+  test('tabuada bank respects focus year and answers', () {
+    expect(TabuadaService.maxTable(2), 5);
+    expect(TabuadaService.maxTable(3), 10);
+    expect(TabuadaService.maxTable(5), 12);
+    final quiz = TabuadaService.buildSession(
+      focusGrade: 5,
+      table: 7,
+      op: 'mul',
+      count: 8,
+      sequential: true,
+    );
+    expect(quiz.length, 8);
+    expect(quiz.first.question, 'Quanto é 7 × 1?');
+    expect(quiz.first.answer, 7);
+    expect(quiz.first.check(7), isTrue);
+    final div = TabuadaService.buildSession(
+      focusGrade: 5,
+      table: 8,
+      op: 'div',
+      count: 1,
+      sequential: true,
+    );
+    expect(div.single.answer, 1);
+    expect(div.single.check(1), isTrue);
+  });
+
+  test('ops bank for 5th grade is mul/div/problems heavy', () {
+    final bank = OpsBank.forGrade(5, unit: 'numeros');
+    expect(bank.length, greaterThan(6));
+    expect(bank.where(SessionMix.isCoreSkill).length, greaterThan(4));
   });
 }

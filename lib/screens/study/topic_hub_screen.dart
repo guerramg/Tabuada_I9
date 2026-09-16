@@ -7,6 +7,7 @@ import 'package:tabuadai9/screens/study/quiz_screen.dart';
 import 'package:tabuadai9/services/app_state.dart';
 import 'package:tabuadai9/services/content_service.dart';
 import 'package:tabuadai9/theme/app_colors.dart';
+import 'package:tabuadai9/theme/app_theme.dart';
 import 'package:tabuadai9/widgets/common_widgets.dart';
 
 class TopicHubScreen extends StatefulWidget {
@@ -30,12 +31,21 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
   @override
   void initState() {
     super.initState();
-    _load();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _load();
+    });
+  }
+
+  int _clampedGrade(AppState state) {
+    final ceiling = state.profile?.studyCeiling ?? widget.grade;
+    return widget.grade.clamp(1, ceiling).toInt();
   }
 
   Future<void> _load() async {
+    final state = context.read<AppState>();
+    final grade = _clampedGrade(state);
     final data = await ContentService.instance
-        .loadLesson(widget.grade, widget.subject.id);
+        .loadLesson(grade, widget.subject.id);
     setState(() {
       lesson = data;
       loading = false;
@@ -44,9 +54,10 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
 
   Future<void> _openMode(SessionMode mode, String title) async {
     final profile = context.read<AppState>().profile;
+    final grade = profile?.studyCeiling ?? widget.grade;
     final exercises = await ContentService.instance.buildSession(
-      focusGrade: profile?.clampedFocusGrade ?? widget.grade,
-      maxGrade: profile?.maxGrade ?? widget.grade,
+      focusGrade: grade,
+      maxGrade: profile?.maxGrade ?? grade,
       unit: widget.subject.id,
       mode: mode,
     );
@@ -61,7 +72,7 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
       MaterialPageRoute(
         builder: (_) => QuizScreen(
           mode: mode,
-          grade: widget.grade,
+          grade: grade,
           unit: widget.subject.id,
           exercises: exercises,
           title: title,
@@ -74,6 +85,8 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
   Widget build(BuildContext context) {
     final state = context.watch<AppState>();
     final isBoy = state.profile?.isBoy ?? true;
+    final grade = _clampedGrade(state);
+    final palette = AppPalette.of(context);
 
     return Scaffold(
       appBar: AppBar(
@@ -93,7 +106,7 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
                 ),
                 const SizedBox(height: 6),
                 Text(
-                  '${widget.grade}º ano · BNCC',
+                  '$gradeº ano · BNCC',
                   style: GoogleFonts.exo2(color: AppColors.grey),
                 ),
                 const SizedBox(height: 16),
@@ -117,7 +130,8 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
                           style: GoogleFonts.exo2(fontWeight: FontWeight.w700),
                         ),
                       ),
-                      const Icon(Icons.chevron_right, color: AppColors.cyan),
+                      Icon(Icons.chevron_right,
+                          color: AppPalette.of(context).secondary),
                     ],
                   ),
                 ),
@@ -165,7 +179,7 @@ class _TopicHubScreenState extends State<TopicHubScreen> {
                   ...lesson!.topics.map(
                     (t) => ListTile(
                       contentPadding: EdgeInsets.zero,
-                      leading: const Icon(Icons.bookmark, color: AppColors.cyan),
+                      leading: Icon(Icons.bookmark, color: palette.secondary),
                       title: Text(t.name,
                           style: GoogleFonts.exo2(fontWeight: FontWeight.w600)),
                       subtitle: Text(t.bncc,
@@ -214,7 +228,8 @@ class _ModeTile extends StatelessWidget {
                 ],
               ),
             ),
-            const Icon(Icons.play_arrow_rounded, color: AppColors.blue),
+            Icon(Icons.play_arrow_rounded,
+                color: AppPalette.of(context).primary),
           ],
         ),
       ),

@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:tabuadai9/services/app_state.dart';
 import 'package:tabuadai9/theme/app_colors.dart';
+import 'package:tabuadai9/theme/app_theme.dart';
 import 'package:tabuadai9/widgets/common_widgets.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -53,49 +54,54 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: CircuitBackground(
-        child: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Text(
-                  'Bora configurar o Mathi9 Kids',
-                  style: GoogleFonts.exo2(
-                    fontSize: 26,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  'Passo ${_step + 1} de 3',
-                  style: GoogleFonts.exo2(color: AppColors.cyan),
-                ),
-                const SizedBox(height: 24),
-                Expanded(child: _buildStep()),
-                Row(
-                  children: [
-                    if (_step > 0)
-                      TextButton(
-                        onPressed: () => setState(() => _step--),
-                        child: const Text('Voltar'),
-                      ),
-                    const Spacer(),
-                    ElevatedButton(
-                      onPressed: () {
-                        if (_step < 2) {
-                          setState(() => _step++);
-                        } else {
-                          _finish();
-                        }
-                      },
-                      child: Text(_step < 2 ? 'Continuar' : 'Começar!'),
+    final kit = _gender == 'girl' ? GenderKit.girl : GenderKit.boy;
+    final theme = AppTheme(kit: kit);
+    return Theme(
+      data: theme.material,
+      child: Scaffold(
+        body: CircuitBackground(
+          child: SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.all(20),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text(
+                    'Bora configurar o Mathi9 Kids',
+                    style: GoogleFonts.exo2(
+                      fontSize: 26,
+                      fontWeight: FontWeight.w800,
                     ),
-                  ],
-                ),
-              ],
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    'Passo ${_step + 1} de 3',
+                    style: GoogleFonts.exo2(color: theme.palette.secondary),
+                  ),
+                  const SizedBox(height: 24),
+                  Expanded(child: _buildStep()),
+                  Row(
+                    children: [
+                      if (_step > 0)
+                        TextButton(
+                          onPressed: () => setState(() => _step--),
+                          child: const Text('Voltar'),
+                        ),
+                      const Spacer(),
+                      ElevatedButton(
+                        onPressed: () {
+                          if (_step < 2) {
+                            setState(() => _step++);
+                          } else {
+                            _finish();
+                          }
+                        },
+                        child: Text(_step < 2 ? 'Continuar' : 'Começar!'),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ),
@@ -150,18 +156,23 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         return Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text('Até qual série liberar?',
+            Text('Em qual ano o aluno está?',
                 style: GoogleFonts.exo2(fontWeight: FontWeight.w700)),
             const SizedBox(height: 8),
-            Text('O app ensina do 1º até esta série (BNCC).',
-                style: GoogleFonts.exo2(color: AppColors.grey)),
+            Text(
+              'Esse é o ano foco: o app ensina deste ano para baixo. '
+              'Nada de matérias de séries acima.',
+              style: GoogleFonts.exo2(color: AppColors.grey),
+            ),
             Slider(
               value: _maxGrade.toDouble(),
               min: 1,
               max: 9,
               divisions: 8,
               label: '$_maxGradeº ano',
-              activeColor: AppColors.cyan,
+              activeColor: _gender == 'girl'
+                  ? AppColors.starSecondary
+                  : AppColors.cyan,
               onChanged: (v) => setState(() => _maxGrade = v.round()),
             ),
             Text('$_maxGradeº ano',

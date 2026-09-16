@@ -2,11 +2,13 @@ import 'package:tabuadai9/models/exercise.dart';
 
 /// Mixes questions by parent "ano foco":
 /// 75% from the focus year, 25% from years below.
-/// From 5º to 9º, the 75% block prefers operations and word problems.
+/// Never includes years above the focus.
+/// From 2º onward, prefers multiplication, division and logic problems.
 class SessionMix {
   static const double focusShare = 0.75;
 
   static const ops = {'add', 'sub', 'mul', 'div'};
+  static const coreOps = {'mul', 'div'};
 
   static bool isOpsProblem(ExerciseTemplate t) {
     if (t.op != null && ops.contains(t.op)) return true;
@@ -16,7 +18,9 @@ class SessionMix {
         topic.contains('oper') ||
         topic.contains('conta') ||
         topic.contains('calculo') ||
-        topic.contains('cálculo')) {
+        topic.contains('cálculo') ||
+        topic.contains('tabuada') ||
+        topic.contains('racioc')) {
       return true;
     }
     final q = '${t.question ?? ''} ${t.questionTemplate ?? ''}'.toLowerCase();
@@ -37,6 +41,30 @@ class SessionMix {
     return hints.any(q.contains);
   }
 
+  static bool isCoreSkill(ExerciseTemplate t) {
+    if (t.op != null && coreOps.contains(t.op)) return true;
+    final topic = t.topic.toLowerCase();
+    if (topic.contains('tabuada') ||
+        topic.contains('problema') ||
+        topic.contains('racioc') ||
+        topic.contains('multiplic') ||
+        topic.contains('divis')) {
+      return true;
+    }
+    final q = '${t.question ?? ''} ${t.questionTemplate ?? ''}'.toLowerCase();
+    if (q.contains('×') ||
+        q.contains('÷') ||
+        q.contains('vezes') ||
+        q.contains('divid') ||
+        q.contains('produto') ||
+        q.contains('metade') ||
+        q.contains('dobro') ||
+        q.contains('triplo')) {
+      return true;
+    }
+    return false;
+  }
+
   static int focusCount(int take, int focusGrade) {
     if (take <= 0) return 0;
     if (focusGrade <= 1) return take;
@@ -55,15 +83,14 @@ class SessionMix {
     final wantBelow = take - wantFocus;
 
     final orderedFocus = _orderFocusPool(focusPool, focusGrade);
-
-    final below = List<ExerciseTemplate>.from(belowPool)..shuffle();
+    final orderedBelow = _orderFocusPool(belowPool, focusGrade);
 
     final picked = <ExerciseTemplate>[];
     picked.addAll(_takeUnique(orderedFocus, wantFocus));
-    picked.addAll(_takeUnique(below, wantBelow, skip: picked));
+    picked.addAll(_takeUnique(orderedBelow, wantBelow, skip: picked));
 
     if (picked.length < take) {
-      final fallback = [...orderedFocus, ...below];
+      final fallback = [...orderedFocus, ...orderedBelow];
       picked.addAll(_takeUnique(fallback, take - picked.length, skip: picked));
     }
     picked.shuffle();
@@ -74,12 +101,20 @@ class SessionMix {
     List<ExerciseTemplate> focusPool,
     int focusGrade,
   ) {
-    if (focusGrade < 5) {
-      return List<ExerciseTemplate>.from(focusPool)..shuffle();
+    final all = List<ExerciseTemplate>.from(focusPool);
+    if (focusGrade < 2) {
+      final logic = all.where(isOpsProblem).toList()..shuffle();
+      final other = all.where((t) => !isOpsProblem(t)).toList()..shuffle();
+      return [...logic, ...other];
     }
-    final preferred = focusPool.where(isOpsProblem).toList()..shuffle();
-    final other = focusPool.where((t) => !isOpsProblem(t)).toList()..shuffle();
-    return [...preferred, ...other];
+    final core = all.where(isCoreSkill).toList()..shuffle();
+    final otherOps =
+        all.where((t) => !isCoreSkill(t) && isOpsProblem(t)).toList()
+          ..shuffle();
+    final rest =
+        all.where((t) => !isCoreSkill(t) && !isOpsProblem(t)).toList()
+          ..shuffle();
+    return [...core, ...otherOps, ...rest];
   }
 
   static List<ExerciseTemplate> _takeUnique(
