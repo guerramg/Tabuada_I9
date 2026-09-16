@@ -64,6 +64,10 @@ flutter build apk --release
 # saída: build/app/outputs/flutter-apk/app-release.apk
 ```
 
+Se o celular mostrar **“Aplicativo não instalado”** ao atualizar: o Android bloqueia APK com assinatura diferente da versão já no aparelho. Desinstale o Mathi9 Kids antigo e instale este (`2.1.1`). Depois, as próximas atualizações com o mesmo keystore entram por cima.
+
+O app roda em **Android 7 ou superior**, 32 e 64 bits (qualquer celular comum).
+
 ## Licença
 
 MIT — criado por [Raphael Guerra](https://github.com/guerramg).

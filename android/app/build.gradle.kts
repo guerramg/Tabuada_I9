@@ -40,7 +40,8 @@ android {
         applicationId = "br.com.i9ja.tabuadai9"
         // Flutter 3.47 floor is API 24 (Android 7). Do not raise this.
         minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        // 34 (Android 14): sideload em Xiaomi/OPPO/Samsung falha menos que target 35/36
+        targetSdk = 34
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         ndk {
