@@ -8,7 +8,7 @@ Documento de produto: o que foi feito, o que a aplicação é hoje, como as vers
 - **Versão atual:** 2.1.1+4 (`pubspec.yaml` → `versionName` 2.1.1, `versionCode` 4)
 - **Público:** infanto-juvenil, Ensino Fundamental 1 e 2 (Brasil, BNCC)
 - **Modelo:** app familiar, 100% local, recompensa em I9$ trocada em dinheiro físico com o responsável
-- **APK vigente:** [`apk/Mathi9Kids-v2.1.1.apk`](https://github.com/guerramg/Tabuada_I9/raw/cursor/tabuada-foco-tema-1a25/apk/Mathi9Kids-v2.1.1.apk)
+- **APK vigente:** [`apk/Mathi9Kids-v2.1.1.apk`](https://github.com/guerramg/Tabuada_I9/raw/main/apk/Mathi9Kids-v2.1.1.apk)
 
 ---
 
@@ -172,8 +172,8 @@ Implementação: `AppPalette` em `lib/theme/app_theme.dart`; `CircuitBackground`
 
 - **Nome:** `Mathi9Kids-v2.1.1.apk`
 - **Caminho no repo:** `apk/Mathi9Kids-v2.1.1.apk`
-- **Download direto:** https://github.com/guerramg/Tabuada_I9/raw/cursor/tabuada-foco-tema-1a25/apk/Mathi9Kids-v2.1.1.apk
-- **Página (botão Download):** https://github.com/guerramg/Tabuada_I9/blob/cursor/tabuada-foco-tema-1a25/apk/Mathi9Kids-v2.1.1.apk
+- **Download direto:** https://github.com/guerramg/Tabuada_I9/raw/main/apk/Mathi9Kids-v2.1.1.apk
+- **Página (botão Download):** https://github.com/guerramg/Tabuada_I9/blob/main/apk/Mathi9Kids-v2.1.1.apk
 - **Build local:** `flutter build apk --release` → `build/app/outputs/flutter-apk/app-release.apk` (a pasta `build/` **não** vai ao GitHub; por isso o APK de distribuição vive em `apk/`)
 
 **Não usar** `Mathi9Kids-v2.1.0.apk` (minSdk 29, assinatura debug da VM).
@@ -221,7 +221,7 @@ O app roda em **qualquer celular Android 7 ou superior**, 32 ou 64 bits.
 | `cursor/bncc-math-content-4523` | JSON BNCC 1º–9º (incorporado na v2) |
 | `cursor/tabuada-foco-tema-1a25` | v2.1: teto do foco, tabuada, tema rosa/azul, APK 2.1.1 |
 
-v1-beta e v2 estão unificadas em `main`. A v2.1 ainda vive na branch `cursor/tabuada-foco-tema-1a25` até o merge. PR: https://github.com/guerramg/Tabuada_I9/pull/2
+v1-beta, v2 e **v2.1.1** estão unificadas em `main` (merge da PR [#2](https://github.com/guerramg/Tabuada_I9/pull/2) em 16/09/2026). A branch `cursor/tabuada-foco-tema-1a25` permanece só como histórico.
 
 ---
 
